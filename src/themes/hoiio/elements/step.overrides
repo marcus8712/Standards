@@ -1,0 +1,9 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.steps .step.completed > .icon:before,
+.ui.ordered.steps .step.completed:before {
+  font-family: 'Icons';
+  content: '\e842'; /* '' */
+}

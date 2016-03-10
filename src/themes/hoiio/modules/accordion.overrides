@@ -1,0 +1,19 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+/* Dropdown Icon */
+.ui.accordion .title .dropdown.icon,
+.ui.accordion .accordion .title .dropdown.icon {
+  font-family: 'Icons';
+  line-height: 1;
+  backface-visibility: hidden;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+.ui.accordion .title .dropdown.icon:before,
+.ui.accordion .accordion .title .dropdown.icon:before {
+  content: '\e803';
+}

@@ -1,0 +1,138 @@
+/*******************************
+            Button
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@verticalPadding      : @buttonVerticalPadding;
+@horizontalPadding    : @buttonHorizontalPadding;
+@padding              : @verticalPadding @horizontalPadding;
+
+@verticalMargin: @buttonVerticalMargin;
+@horizontalMargin: @buttonHorizontalMargin;
+@margin: @verticalMargin @horizontalMargin;
+
+@transition:
+  opacity @defaultDuration @defaultEasing,
+  background-color @defaultDuration @defaultEasing,
+  color @defaultDuration @defaultEasing,
+  background @defaultDuration @defaultEasing
+;
+
+/* Icon */
+@iconHeight: @relativeTiny;
+@iconOpacity: 0.8;
+@iconDistance: @relative6px;
+@iconColor: '';
+@iconTransition: opacity @defaultDuration @defaultEasing;
+@iconVerticalAlign: '';
+
+@iconMargin: 0em @iconDistance 0em -(@iconDistance / 2);
+@rightIconMargin: 0em -(@iconDistance / 2) 0em @iconDistance;
+
+/* Loader */
+@invertedLoaderFillColor: rgba(0, 0, 0, 0.15);
+
+
+
+/*-------------------
+        Group
+--------------------*/
+
+@groupButtonOffset: 0px 0px 0px 0px;
+@verticalGroupOffset: 0px 0px 0px 0px;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hovered */
+@hoverBackgroundColor: @defaultHoverColor;  /*#CACBCD*/;
+@iconHoverOpacity: 0.85;
+
+/* Focused */
+@focusBackgroundColor: @defaultActiveColor;
+@iconFocusOpacity: 0.85;
+
+/* Pressed Down */
+@downBackgroundColor: @defaultActiveColor;
+
+/* Active */
+@activeBackgroundColor: @defaultActiveColor;
+
+/* Active + Hovered */
+@activeHoverBackgroundColor: @defaultActiveColor;
+
+
+/* Loading */
+@loadingOpacity: 1;
+@loadingPointerEvents: auto;
+@loadingTransition:
+  all 0s linear,
+  opacity @defaultDuration @defaultEasing
+;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Icon */
+@iconButtonOpacity: 0.9;
+
+/* Labeled */
+@labeledLabelFontSize: @medium;
+@labeledLabelAlign: center;
+@labeledLabelPadding: '';
+@labeledLabelFontSize: @relativeMedium;
+@labeledLabelBorderColor: @borderColor;
+@labeledTagLabelSize: 1.85em; /* hypotenuse of triangle */
+@labeledIconMargin: 0em;
+@labeledLabelBackgroundColor: @secondary;
+@labeledLabelBorderOffset: -1px;
+
+/* Labeled Icon */
+@labeledIconWidth: 1em + (@buttonVerticalPadding * 2);
+@labeledIconBackgroundColor: rgba(0, 0, 0, 0.1);
+@labeledIconPadding: (@buttonHorizontalPadding + @labeledIconWidth);
+@labeledIconBorder: transparent;
+@labeledIconColor: '';
+
+@labeledIconLeftShadow: -1px 0px 0px 0px @labeledIconBorder inset;
+@labeledIconRightShadow: 1px 0px 0px 0px @labeledIconBorder inset;
+
+
+/* Inverted */
+@invertedBorderSize: 2px;
+@invertedGroupButtonOffset: 0px 0px 0px -(@invertedBorderSize);
+@invertedVerticalGroupButtonOffset: 0px 0px -(@invertedBorderSize) 0px;
+
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Colors */
+@coloredBackgroundImage: none;
+
+
+/* Compact */
+@compactVerticalPadding: (@buttonVerticalPadding * 0.75);
+@compactHorizontalPadding: (@buttonHorizontalPadding * 0.75);
+
+/* Attached */
+@attachedOffset: -1px;
+@attachedHorizontalPadding: 0.75em;
+@attachedZIndex: 2;
+
+/* Floated */
+@floatedMargin: 0.25em;
+
+/* Animated */
+@animatedVerticalAlign: middle;
+@animatedZIndex: 1;
+@animationDuration: 0.3s;
+@animationEasing: ease;
+@fadeScaleHigh: 1.5;
+@fadeScaleLow: 0.75;

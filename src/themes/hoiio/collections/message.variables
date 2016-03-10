@@ -1,0 +1,75 @@
+/*******************************
+            Message
+*******************************/
+
+// @textColor
+
+/*-------------------
+       Elements
+--------------------*/
+
+@verticalMargin: 1.429em;
+@verticalPadding: 1em;
+@horizontalPadding: 1.5em;
+@background: #F8F8F9;
+@lineHeightOffset: ((@lineHeight - 1em) / 2);
+
+@borderRadius: @defaultBorderRadius;
+@borderWidth: 1px;
+@border: @borderWidth solid @strongBorderColor;
+
+@transition:
+  opacity @defaultDuration @defaultEasing,
+  color @defaultDuration @defaultEasing,
+  background @defaultDuration @defaultEasing,
+  box-shadow @defaultDuration @defaultEasing
+;
+
+/* Header */
+@headerFontSize: @relativeLarge;
+@headerFontWeight: bold;
+@headerDisplay: block;
+@headerDistance: 0rem;
+@headerMargin: 0.2em 0 0 0;
+@headerParagraphDistance: 0.25em;
+
+/* Paragraph */
+@messageTextOpacity: 1;
+@messageParagraphMargin: 0.75em;
+
+/* List */
+@listOpacity: 0.85;
+@listStylePosition: inside;
+@listMargin: 0.5em;
+@listItemIndent: 1em;
+@listItemMargin: 0.3em;
+
+/* Icon */
+@iconDistance: 0.6em;
+
+/* Close Icon */
+@closeTopDistance: 1.37em;
+@closeRightDistance: 1.15em;
+@closeOpacity: 0.7;
+@closeTransition: opacity @defaultDuration @defaultEasing;
+
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Icon Message */
+@iconSize: 3em;
+@iconOpacity: 0.8;
+@iconContentDistance: 0rem;
+@iconVerticalAlign: middle;
+
+/* Attached */
+@attachedXOffset: -1px;
+@attachedYOffset: -1px;
+@attachedBoxShadow: @borderWidth solid @borderColor;
+@attachedBottomBoxShadow:
+  @attachedBoxShadow,
+  @subtleShadow
+;
+
