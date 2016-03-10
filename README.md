@@ -1,1 +1,1 @@
-v1.0
+Design Standards v1.2
