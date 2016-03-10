@@ -147,40 +147,10 @@ p {
         width:100%;
         margin:0 8px !important;
     }
-}
+    
+    .column {
+        margin-top:50px;
+       
+    }
 
-/* Icon: */
-background: #008BD9;
-/* Remember me: */
-font-family: Poppins-Regular;
-font-size: 14px;
-color: #414141;
-line-height: 22px;
-/* BG: */
-background: #008BD9;
-border-radius: 100px;
-/* 8:20:8:20: */
-font-family: Poppins-Medium;
-font-size: 14px;
-color: #FFFFFF;
-line-height: 19px;
-/* Cancel: */
-font-family: Raleway-Medium;
-font-size: 14px;
-color: #333333;
-line-height: 19px;
-/* Don’t have an accoun: */
-font-family: Poppins-Regular;
-font-size: 14px;
-color: #414141;
-line-height: 22px;
-/* Create new account.: */
-font-family: Poppins-Medium;
-font-size: 14px;
-color: #008BD9;
-line-height: 22px;
-/* Log in: */
-font-family: Poppins-Medium;
-font-size: 26px;
-color: #333333;
-line-height: 31px;
+}
