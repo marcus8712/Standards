@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hoiio Design Standards 2016">
+    <meta name="keywords" content="design, ux, standard, hoiio, framework, html, css, interface, component, semantic">
+    <meta name="author" content="Marcus">
+    <link rel="icon" href="source/favicon.ico">
+
+    <title>Log in</title>
+    <!-- jQuery --->
+    <script src="source/js/jquery-2.1.4.min.js"></script>
+    <script src="source/js/modernizr-custom.js"></script>
+
+    <!-- Main styles -->
+	<link rel="stylesheet" type="text/css" href="../dist/semantic.min.css" />
+    
+	<!-- Custom styles -->
+	<link rel="stylesheet" type="text/css" href="source/css/login.css" />
+
+	
+</head>
+<body>
+    <div class="hoiio loading"></div>
+    <div class="ui container">
+        <div class="ui center aligned grid">
+           <div class="left aligned column">
+               <h2 class="ui header">Log in</h2>
+               <form class="ui form">
+                   <div class="ui segment">
+                       <div class="minimal field">
+                           <label>Phone number</label>
+                           <div class="ui input">
+                               <input type="text" value="+84 " name="phone">
+                            </div>
+                        </div>
+                        <div class="minimal field">
+                           <label>Password</label>
+                           <div class="ui input">
+                               <input type="password" name="password" placeholder="Enter password">
+                               
+                               <a href="#" class="forgot-pass">
+                                  <span class="show">Forgot password?</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="minimal inline fields">
+                            <div class="field">
+                                <div class="ui checkbox">
+                                  <input type="checkbox" id="checks" class="hidden">
+                                  <label for="checks">Remember me</label>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui primary minimal button">Log in</div>
+                            </div>    
+                        </div>
+                    </div>
+               </form>
+               <p>Don't have an account? <a href="#">Create new account.</a></p>
+            </div>
+             
+        </div>
+    </div>
+ 
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../dist/semantic.min.js"></script>
+    <script src="source/js/data-sample.js"></script>
+    
+</body>
+</html>
