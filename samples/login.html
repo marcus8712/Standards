@@ -24,44 +24,45 @@
 </head>
 <body>
     <div class="hoiio loading"></div>
-    <div class="ui container">
+    <div class="ui fluid container">
         <div class="ui center aligned grid">
            <div class="left aligned column">
-               <h2 class="ui header">Log in</h2>
-               <form class="ui form">
+               <div id="signout-card">
+                   <img class="svg-image" width="12%" alt="Hoiio" src="./source/img/hoiio.svg" />
+                   <h4 class="ui header">Don't have an account?</h4>
+                   <p>Sign up now! It's free!</p>
+                   <button class="ui inverted button">Create new account</button>
+               </div>
+               <div id="login">
+                   <h2 class="ui header">Log in</h2>
+                   <form class="ui form">
                    <div class="ui segment">
-                       <div class="minimal field">
-                           <label>Phone number</label>
+                       <div class="field">
+                           <label>Phone Number</label>
                            <div class="ui input">
                                <input type="text" value="+84 " name="phone">
                             </div>
                         </div>
-                        <div class="minimal field">
+                        <div class="field">
                            <label>Password</label>
                            <div class="ui input">
                                <input type="password" name="password" placeholder="Enter password">
-                               
-                               <a href="#" class="forgot-pass">
-                                  <span class="show">Forgot password?</span>
-                                </a>
+                           </div>
+                        </div>
+                       <div class="field">
+                            <div class="ui checkbox">
+                                <input type="checkbox" id="checks" class="hidden">
+                                <label for="checks">Remember me</label>
                             </div>
                         </div>
-                        <div class="minimal inline fields">
-                            <div class="field">
-                                <div class="ui checkbox">
-                                  <input type="checkbox" id="checks" class="hidden">
-                                  <label for="checks">Remember me</label>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <div class="ui primary minimal button">Log in</div>
-                            </div>    
-                        </div>
+                        <div class="field">
+                            <button class="ui fluid primary minimal button">Log in</button>
+                        </div>    
                     </div>
                </form>
-               <p>Don't have an account? <a href="#">Create new account.</a></p>
+                   <p><a href="#">Forgot password?</a></p>
+               </div>
             </div>
-             
         </div>
     </div>
  

@@ -16,7 +16,18 @@
 
 /*======= Main Styles =======*/
 
+body{
 
+     background: url(../img/1.jpg)no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.ui.container{
+    min-width: 1000px;
+}
 
 /*-----------------------------
     Form
@@ -24,99 +35,130 @@
 
 .column {
     margin-top: 100px;
-    max-width: 450px;
+    width: 760px !important;
+  
 }
 
-p { 
-    padding: 0 8px !important;
-    margin-top: 100px;
+/* SIGN OUT */
+#signout-card {
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+    margin-top: 50px;
+    width:100%;
+    height: 390px;
+    background-color: rgba(0, 155, 242, 0.74);
+    border-radius: 15px;
+    padding: 40px 50px;
+    color: white; 
+    -webkit-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
+box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
 }
 
-.ui.header{
-    margin-bottom:50px;
-    padding: 0 8px !important;
-}
-
-.minimal.field label{
-    padding:0 8px !important;
-    text-transform: uppercase!important;
-    font-weight: 600 !important;
-    font-size: 0.929em !important;
-    color: #B0B0B0 !important;
-    margin-bottom: 0px !important;
+/* Header */
+#signout-card .ui.header{
+    margin-top:30px;
+    margin-bottom: 0;
+    color: white; 
+    font-size: 20px;
+    font-weight: 600;
     
 }
 
-.minimal.field .ui.input input{
-    border-radius: 0;
-    padding:.78571429em 8px !important;
-    letter-spacing: 0px;
+#signout-card p {
+    margin: 5px 0 40px 0;
 }
 
-.ui.minimal.input input:focus{
-    border-radius: 0;
+
+/* LOGIN */
+#login{
+    position: absolute;
+    right: 40px;
+    width: 380px;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+    background-color: white;
 }
 
+/* Header */
+#login .ui.header{
+    margin-bottom:50px;
+    padding: 0 8px !important;
+    text-align: center !important;
+}
+
+
+/* Segment */
 .ui.segment{
     border: none;
     margin: 0;
     padding: 0;
 }
 
-.forgot-pass{
-  position:absolute;
-  top:0px;
-  right:0px;
-  margin:0;
-  height:100%;
-  padding:6px 8px;
-  
-  &:hover {
-    color:red;
-  }
+
+/* Lable Input */
+.field > label{
+    padding:0 21px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #999 !important;
+    margin-bottom: 0px !important;
+    
 }
+
+/* Input */
+.field .ui.input input{
+    border-radius: 20px;
+    padding:.78571429em 20px !important;
+    letter-spacing: 0px;
+}
+
+.field .ui.input input:focus{
+    border-radius: 20px;
+}
+
+
+/* Checkbox */
+.ui.checkbox .box, .ui.checkbox label{
+   padding-left: 1.8em;
+}
+
+.ui.checkbox .box:before, .ui.checkbox label:before,
+.ui.checkbox .box:after, .ui.checkbox label:after{
+    top: -1px;
+}
+
+/* Button */
+.ui.button{
+    border-radius: 20px;
+    padding:12px 20px; 
+}
+
+.ui.inverted.button{
+    border-width: 1px;
+}
+
+
+/* Forgot Pass */
+
+#login p { 
+    padding: 0 8px !important;
+    margin-top: 20px;
+    text-align: center !important;
+}
+
 .show {
   display:block;
 }
 
 
-.ui.minimal.button{
-    border-radius: 24px;
-    padding:14px 20px;
-    margin-left: 10px !important;
-}
 
-.minimal.fields{
-    margin-top: 30px !important;
-}
-
-.minimal.fields > .field > .ui.checkbox{
-    padding: 0 8px !important;
-}
-
-.minimal.fields > .field > .ui.checkbox label{
-    padding-left: 1.8em;
-}
-
-.minimal.fields > .field > .ui.checkbox label:before,
-.minimal.fields > .field > .ui.checkbox label:after
-{
-    top: -1px;
-    left: -2px;
-        font-size: 22px;
-    font-weight: 400;
-    width: 22px;
-    height: 22px;
-}
-
-.minimal.fields > .field:first-child{
-    width:75%;
-}
-
-.minimal.fields > .field:last-child{
-    float:right;
-    width:25%;
-}
 
 @media only screen and (max-width: 767px){
     .ui.container {
@@ -127,21 +169,21 @@ p {
 }
 
 @media only screen and (max-width: 454px){
-    .minimal.fields > .field{
+    .fields > .field{
         padding: 0 !important;
         margin: 0 !important;
     }
-    .minimal.fields > .field:first-child{
+    .fields > .field:first-child{
         width:100%;
         margin-bottom: 20px !important;
     }
 
-    .minimal.fields > .field:last-child{
+    .fields > .field:last-child{
         float:right;
         width:96%;
        
     }
-    .minimal.fields > .field:last-child > .button{
+    .fields > .field:last-child > .button{
         width:100%;
         margin:0 8px !important;
     }
