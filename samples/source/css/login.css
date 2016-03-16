@@ -39,26 +39,79 @@ background-size: cover;
   
 }
 
-/* SIGN OUT */
-#signout-card {
-    position: absolute;
-    left:0;
-    top:0;
-    z-index: 1;
-    margin-top: 50px;
+#form-card {
     width:100%;
-    height: 390px;
+    height: 360px;
+    
+    position: absolute;
+    left: 0;
+    top:0;
+    margin-top: 50px;
+    padding: 40px 50px;
+    
+    z-index: 1;
     background-color: rgba(0, 155, 242, 0.74);
     border-radius: 15px;
-    padding: 40px 50px;
     color: white; 
     -webkit-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
 -moz-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
 box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
 }
 
+#form-content{
+    width: 380px;
+    
+    position: absolute;
+    right:40px;
+    top:0;
+    padding: 40px;
+    
+    
+    z-index: 2;
+    background-color: white;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+    
+}
+
+
+/*-----------------------------
+    Create New Account
+-------------------------------*/
+#create-new-card {
+    left:0;
+    text-align: left;
+    
+}
 /* Header */
-#signout-card .ui.header{
+#create-new-card .ui.header{
+    margin-top:30px;
+    margin-bottom: 0;
+    color: white; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Description */
+#create-new-card p {
+    margin: 5px 0 40px 0;
+}
+
+/*-----------------------------
+    Sign In Card
+-------------------------------*/
+#login-card{
+    text-align: left;
+    float: right;
+    display: none;  
+     width:40%;
+    padding-left: 30px;
+}
+
+/* Header */
+#login-card .ui.header{
     margin-top:30px;
     margin-bottom: 0;
     color: white; 
@@ -67,32 +120,60 @@ box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.23);
     
 }
 
-#signout-card p {
+/* Description */
+#login-card  p {
     margin: 5px 0 40px 0;
 }
 
 
-/* LOGIN */
-#login{
-    position: absolute;
-    right: 40px;
-    width: 380px;
-    z-index: 2;
-    padding: 40px;
-    border-radius: 12px;
-    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
--moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
-    background-color: white;
+/*-----------------------------
+    Create New
+-------------------------------*/
+#create-new{
+    display: none;
 }
 
 /* Header */
-#login .ui.header{
-    margin-bottom:50px;
+#create-new .ui.header{
+    margin-bottom:35px;
     padding: 0 8px !important;
     text-align: center !important;
+     font-size: 24px;
 }
 
+/* Buttons */
+#create-new .ui.buttons {
+    width: 100%;
+   
+}
+#create-new .ui.buttons .button{
+    padding:20px;
+    
+}
+#create-new .ui.buttons .button:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+}
+#create-new .ui.buttons .button:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+#create-new .ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
+    vertical-align: middle;
+}
+
+/*-----------------------------
+    Log In
+-------------------------------*/
+
+/* Header */
+#login .ui.header{
+    margin-bottom:35px;
+    padding: 0 8px !important;
+    text-align: center !important;
+    font-size: 24px;
+}
 
 /* Segment */
 .ui.segment{
@@ -108,7 +189,7 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
     font-weight: 600 !important;
     font-size: 14px !important;
     color: #999 !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 4px !important;
     
 }
 
@@ -144,6 +225,9 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
     border-width: 1px;
 }
 
+#continue{
+    margin-top: 30px;
+}
 
 /* Forgot Pass */
 
