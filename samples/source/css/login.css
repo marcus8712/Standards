@@ -48,8 +48,6 @@ p {
 }
 
 .minimal.field .ui.input input{
-    border: none;
-    border-bottom: 1px solid #ccc;
     border-radius: 0;
     padding:.78571429em 8px !important;
     letter-spacing: 0px;
