@@ -1,0 +1,63 @@
+
+/*======= Loading =======*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/loading.svg) center no-repeat #fff;
+}
+
+/*======= Main Styles =======*/
+
+body{
+    background-color: #f8f8f8;
+}
+
+.ui.container{
+    min-width: 1000px;
+}
+
+/*-----------------------------
+    Form
+-------------------------------*/
+
+.row:first-child {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.standards-title{
+    text-align: center;
+    width: 100%;
+}
+
+
+/*-----------------------------
+    Button
+-------------------------------*/
+.ui.button{
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .ui.container {
+        width: auto!important;
+        margin-left: 2em!important;
+        margin-right: 2em!important;
+    }
+}
+
+@media only screen and (max-width: 454px){
+
+}
