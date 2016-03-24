@@ -18,7 +18,7 @@
 /* Standard */
 .ui.header {
   border: none;
-  margin: calc(2rem -  0.14285em ) 0em 1rem;
+  margin: 0 0em 15px;
   padding: 0em 0em;
   font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -132,19 +132,19 @@
 ---------------*/
 
 h1.ui.header {
-  font-size: 2.5rem;
+  font-size: 50px;
 }
 h2.ui.header {
-  font-size: 2.143rem;
+  font-size: 42px;
 }
 h3.ui.header {
-  font-size: 1.714rem;
+  font-size: 36px;
 }
 h4.ui.header {
-  font-size: 1.2rem;
+  font-size: 30px;
 }
 h5.ui.header {
-  font-size: 0.929rem;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -173,19 +173,19 @@ h5.ui.header .sub.header {
 
 .ui.huge.header {
   min-height: 1em;
-  font-size: 2.5em;
+  font-size: 50em;
 }
 .ui.large.header {
-  font-size: 2.143em;
+  font-size: 42em;
 }
 .ui.medium.header {
-  font-size: 1.714em;
+  font-size: 36em;
 }
 .ui.small.header {
-  font-size: 1.2em;
+  font-size: 30em;
 }
 .ui.tiny.header {
-  font-size: 0.929em;
+  font-size: 25em;
 }
 
 /* Sub Header */
@@ -238,7 +238,7 @@ h5.ui.header .sub.header {
 .ui.icon.header {
   display: inline-block;
   text-align: center;
-  margin: 2rem 0em 1rem;
+  margin: 2rem 0em 15px;
 }
 .ui.icon.header:after {
   content: '';
@@ -501,7 +501,7 @@ a.ui.warning.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.714em;
+  font-size: 36em;
 }
 
 

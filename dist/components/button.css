@@ -15,25 +15,23 @@
 *******************************/
 
 .ui.button {
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1rem;
-  outline: none;
-  color: #555555;
   font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  margin: 0em 0em;
-  padding: 0.85714286em 1.14285714em;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 0.15px;
-  text-transform: none;
   text-align: center;
   text-decoration: none;
+  line-height: 1.2;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  margin: 0em 0em;
+  padding: 11px 20px;
+  vertical-align: baseline;
+  color: #555555;
   border-width: 1px;
   border-style: solid;
   border-color: #cccccc;
   border-radius: 0.28571429rem;
-  vertical-align: baseline;
   background: #ffffff;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -61,23 +59,18 @@
 }
 
 /*--------------
-      Focus
+      Active
 ---------------*/
 
 .ui.button:focus {
   background-color: #cccccc;
 }
-.ui.button:focus .icon {
-  opacity: 0.85;
-}
-
-/*--------------
-      Down
----------------*/
-
 .ui.button:active,
 .ui.active.button:active {
   background-color: #cccccc;
+}
+.ui.button:focus .icon {
+  opacity: 0.85;
 }
 
 /*--------------
@@ -216,15 +209,15 @@
 
 .ui.compact.buttons .button,
 .ui.compact.button {
-  padding: 0.64285714em 0.85714286em 0.64285714em;
+  padding: 8.25px 15px 8.25px;
 }
 .ui.compact.icon.buttons .button,
 .ui.compact.icon.button {
-  padding: 0.64285714em 0.64285714em 0.64285714em;
+  padding: 8.25px 8.25px 8.25px;
 }
 .ui.compact.labeled.icon.buttons .button,
 .ui.compact.labeled.icon.button {
-  padding: 0.64285714em 3.57142857em 0.64285714em;
+  padding: 8.25px 38px 8.25px;
 }
 
 /*-------------------
@@ -234,42 +227,42 @@
 .ui.mini.buttons .button,
 .ui.mini.buttons .or,
 .ui.mini.button {
-  font-size: 0.71428571rem;
+  font-size: 8px;
 }
 .ui.tiny.buttons .button,
 .ui.tiny.buttons .or,
 .ui.tiny.button {
-  font-size: 0.85714286rem;
+  font-size: 10px;
 }
 .ui.small.buttons .button,
 .ui.small.buttons .or,
 .ui.small.button {
-  font-size: 0.92857143rem;
+  font-size: 12px;
 }
 .ui.buttons .button,
 .ui.buttons .or,
 .ui.button {
-  font-size: 1rem;
+  font-size: 14px;
 }
 .ui.large.buttons .button,
 .ui.large.buttons .or,
 .ui.large.button {
-  font-size: 1.14285714rem;
+  font-size: 16px;
 }
 .ui.big.buttons .button,
 .ui.big.buttons .or,
 .ui.big.button {
-  font-size: 1.28571429rem;
+  font-size: 18px;
 }
 .ui.huge.buttons .button,
 .ui.huge.buttons .or,
 .ui.huge.button {
-  font-size: 1.42857143rem;
+  font-size: 20px;
 }
 .ui.massive.buttons .button,
 .ui.massive.buttons .or,
 .ui.massive.button {
-  font-size: 1.71428571rem;
+  font-size: 24px;
 }
 
 /*--------------
@@ -279,8 +272,8 @@
 .ui.labeled.icon.buttons .button,
 .ui.labeled.icon.button {
   position: relative;
-  padding-left: 3.85714286em !important;
-  padding-right: 1.14285714em !important;
+  padding-left: 43px !important;
+  padding-right: 20px !important;
 }
 
 /* Left Labeled */
@@ -294,7 +287,7 @@
   border-bottom-left-radius: inherit;
   text-align: center;
   margin: 0em;
-  width: 2.71428571em;
+  width: 23em;
   background-color: rgba(0, 0, 0, 0.1);
   color: '';
 }
@@ -308,8 +301,8 @@
 
 /* Right Labeled */
 .ui[class*="right labeled"].icon.button {
-  padding-right: 3.85714286em !important;
-  padding-left: 1.14285714em !important;
+  padding-right: 43px !important;
+  padding-left: 20px !important;
 }
 .ui[class*="right labeled"].icon.button > .icon {
   left: auto;
@@ -353,8 +346,8 @@
 /* Fluid Labeled */
 .ui.fluid[class*="left labeled"].icon.button,
 .ui.fluid[class*="right labeled"].icon.button {
-  padding-left: 1.14285714em !important;
-  padding-right: 1.14285714em !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 /*--------------
@@ -629,7 +622,7 @@
 }
 .ui.animated.button .visible.content {
   position: relative;
-  margin-right: 1.14285714em;
+  margin-right: 20px;
 }
 .ui.animated.button .hidden.content {
   position: absolute;
@@ -916,7 +909,7 @@
 
 .ui.button > .icon:not(.button) {
   /*height: @iconHeight;*/
-  opacity: 0.8;
+  opacity: 0.85;
   margin: 0em 0.42857143em 0em -0.21428571em;
   -webkit-transition: opacity 0.05s ease;
   transition: opacity 0.05s ease;
@@ -933,7 +926,7 @@
 
 .ui.icon.buttons .button,
 .ui.icon.button {
-  padding: 0.85714286em 0.85714286em 0.85714286em;
+  padding: 11px 11px 11px;
 }
 .ui.icon.buttons .button > .icon,
 .ui.icon.button > .icon {
