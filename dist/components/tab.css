@@ -57,7 +57,7 @@
   width: 2.5em;
   height: 2.5em;
   border-radius: 500rem;
-  border: 0.2em solid rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(0, 0, 0, 0.1);
 }
 .ui.tab.loading:after,
 .ui.tab.loading.segment:after {
@@ -75,7 +75,7 @@
   border-radius: 500rem;
   border-color: #767676 transparent transparent;
   border-style: solid;
-  border-width: 0.2em;
+  border-width: 3px;
   box-shadow: 0px 0px 0px 1px transparent;
 }
 

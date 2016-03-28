@@ -29,7 +29,7 @@
 ---------------------*/
 
 .ui.form > p {
-  margin: 1.429em 0em;
+  margin: 20px 0em;
 }
 
 /*--------------------
@@ -38,15 +38,15 @@
 
 .ui.form .field {
   clear: both;
-  margin: 0em 0em 1.429em;
+  margin: 0em 0em 20px;
 }
 .ui.form .field:last-child,
 .ui.form .fields:last-child .field {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 .ui.form .fields .field {
   clear: both;
-  margin: 0em 0em 1.429em;
+  margin: 0em 0em 20px;
 }
 
 /*--------------------
@@ -54,7 +54,7 @@
 ---------------------*/
 
 .ui.form.nonlabel .field {
-  margin: 0em 0em 1.786em;
+  margin: 0em 0em 25px;
 }
 
 /*--------------------
@@ -63,11 +63,10 @@
 
 .ui.form .field > label {
   display: block;
-  margin: 0em 0em 0.42857143rem 0em;
-  color: #414141;
-  font-size: 1.07142857em;
-  font-weight: normal;
-  text-transform: none;
+  margin: 0em 0em 5px 0em;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /*--------------------
@@ -93,7 +92,7 @@
 /* Set max height on unusual input */
 .ui.form ::-webkit-datetime-edit,
 .ui.form ::-webkit-inner-spin-button {
-  height: 1.2rem;
+  height: 1.2;
 }
 .ui.form input:not([type]),
 .ui.form input[type="date"],
@@ -107,16 +106,16 @@
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
   font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  margin: 0em;
+  margin: 0;
   outline: none;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  line-height: 1.2rem;
-  padding: 0.78571429em 1.14285714em;
-  font-size: 1em;
+  line-height: 1.2;
+  padding: 11px 15px;
+  font-size: 14px;
   background: #ffffff;
   border: 1px solid #cccccc;
-  color: #555555;
+  color: #414141;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.05s ease, border-color 0.05s ease;
@@ -128,23 +127,23 @@
   margin: 0em;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571429em 1.14285714em;
+  padding: 11px 15px;
   background: #ffffff;
   border: 1px solid #cccccc;
   outline: none;
-  color: #555555;
+  color: #414141;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.05s ease, border-color 0.05s ease;
   transition: color 0.05s ease, border-color 0.05s ease;
-  font-size: 1em;
-  line-height: 1.2857;
+  font-size: 14px;
+  line-height: 1.8;
   resize: vertical;
 }
 .ui.form textarea:not([rows]) {
-  height: 12em;
-  min-height: 8em;
-  max-height: 24em;
+  height: 165px;
+  min-height: 110px;
+  max-height: 330px;
 }
 .ui.form textarea,
 .ui.form input[type="checkbox"] {
@@ -171,8 +170,8 @@
   border: 1px solid #cccccc;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
-  padding: 0.62em 1.14285714em;
-  color: #555555;
+  padding: 0.62em 15px;
+  color: #414141;
   -webkit-transition: color 0.05s ease, border-color 0.05s ease;
   transition: color 0.05s ease, border-color 0.05s ease;
 }
@@ -437,7 +436,7 @@
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: #414141;
+  color: #999999;
 }
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
@@ -625,7 +624,7 @@
   border-radius: 500rem;
   border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
   border-style: solid;
-  border-width: 0.2em;
+  border-width: 3px;
   box-shadow: 0px 0px 0px 1px transparent;
   visibility: visible;
   z-index: 101;
@@ -666,7 +665,8 @@
 .ui.form .required.field > label:after,
 .ui.form .required.fields:not(.grouped) > .field > .checkbox:after,
 .ui.form .required.field > .checkbox:after {
-  margin: -0.2em 0em 0em 0.2em;
+  font-size: 12px;
+  margin: 0 0em 0em 1px;
   content: '*';
   color: #e64333;
 }
@@ -716,7 +716,7 @@
 .ui.inverted.form input[type="url"] {
   background: #ffffff;
   border-color: rgba(255, 255, 255, 0.1);
-  color: #555555;
+  color: #414141;
   box-shadow: none;
 }
 .ui.inverted.form .ui.checkbox input:checked:focus ~ .box:before,
@@ -740,16 +740,16 @@
 /* Grouped Vertically */
 .ui.form .grouped.fields {
   display: block;
-  margin: 0em 0em 1.429em;
+  margin: 0em 0em 20px;
 }
 .ui.form .grouped.fields:last-child {
   margin-bottom: 0em;
 }
 .ui.form .grouped.fields > label {
-  margin: 0em 0em 0.42857143rem 0em;
-  color: #414141;
-  font-size: 1.07142857em;
-  font-weight: normal;
+  margin: 0em 0em 5px 0em;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 600;
   text-transform: none;
 }
 .ui.form .grouped.fields .field,
@@ -853,7 +853,7 @@
   .ui.form .ten.fields > .fields,
   .ui.form .ten.fields > .field {
     width: 100% !important;
-    margin: 0em 0em 1.429em;
+    margin: 0em 0em 20px;
     padding-left: 0%;
     padding-right: 0%;
   }
@@ -952,7 +952,7 @@
   .ui.form .fields > .fifteen.wide.field,
   .ui.form .fields > .sixteen.wide.field {
     width: 100% !important;
-    margin: 0em 0em 1.429em;
+    margin: 0em 0em 20px;
     padding-left: 0%;
     padding-right: 0%;
   }
@@ -976,7 +976,7 @@
 ---------------------*/
 
 .ui.form .inline.fields {
-  margin: 0em 0em 1.429em;
+  margin: 0em 0em 20px;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -999,9 +999,9 @@
   margin-top: 0em;
   margin-bottom: 0em;
   vertical-align: baseline;
-  font-size: 1.07142857em;
-  font-weight: normal;
-  color: #414141;
+  font-size: 14px;
+  font-weight: 600;
+  color: #999999;
   text-transform: none;
 }
 
@@ -1074,8 +1074,10 @@
   font-size: 1.42857143rem;
 }
 
+/*--------------------
+        Sign in Form
+---------------------*/
 
-/*******************************
-         Theme Overrides
-*******************************/
-
+.ui.signin.form > .field:first-child {
+  margin-top: 35px;
+}

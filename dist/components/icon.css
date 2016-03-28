@@ -1749,8 +1749,10 @@ i.icon.local.mall:before {
 i.icon.theaters:before {
   content: "\e8da";
 }
-i.icon.local.offer:before {
+i.icon.tag:before {
   content: "\e54e";
+  
+/* local.offer */
 }
 i.icon.local.parking:before {
   content: "\e54f";
