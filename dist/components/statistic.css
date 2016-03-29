@@ -316,7 +316,7 @@
 }
 .ui.horizontal.statistics .statistic > .value .icon,
 .ui.horizontal.statistic > .value .icon {
-  width: 16px;
+  width: 1.18em;
 }
 .ui.horizontal.statistics .statistic > .value,
 .ui.horizontal.statistic > .value {

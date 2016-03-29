@@ -39,23 +39,23 @@
 -----------------------*/
 
 .ui.grid {
-  margin-top: -15px;
-  margin-bottom: -15px;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 .ui.expand.grid {
-  margin-left: -25px;
-  margin-right: -25px;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
 }
 .ui[class*="very expand"].grid {
-  margin-left: -35px;
-  margin-right: -35px;
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
 }
 
 /* Preserve Rows Spacing on Consecutive Grids */
 .ui.grid + .grid {
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 
 /*-------------------
@@ -69,13 +69,13 @@
   position: relative;
   display: inline-block;
   width: 6.25%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   vertical-align: top;
 }
 .ui.grid > * {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*-------------------
@@ -106,8 +106,8 @@
           align-items: stretch;
   width: 100% !important;
   padding: 0rem;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /*-------------------
@@ -117,8 +117,8 @@
 
 /* Vertical padding when no rows */
 .ui.grid > .column:not(.row) {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .ui.grid > .row > .column {
   margin-top: 0em;
@@ -159,10 +159,10 @@
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 15px 15px;
+  margin: 1rem 1rem;
 }
 .ui.grid .column + .ui.vertical.divider {
-  height: calc(50% -  15px );
+  height: calc(50% -  1rem );
 }
 
 /* Remove Border on Last Horizontal Segment */
@@ -999,26 +999,26 @@
 .ui.expand.grid > .column:not(.row),
 .ui.expand.grid > .row > .column,
 .ui.grid > .expand.row > .column {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .ui[class*="very expand"].grid > .column:not(.row),
 .ui[class*="very expand"].grid > .row > .column,
 .ui.grid > [class*="very expand"].row > .column {
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 /* Coupling with UI Divider */
 .ui.expand.grid .row + .ui.divider,
 .ui.grid .expand.row + .ui.divider {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .ui[class*="very expand"].grid .row + .ui.divider,
 .ui.grid [class*="very expand"].row + .ui.divider {
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 /*----------------------
@@ -1060,8 +1060,8 @@
 /* Swap from padding to margin on columns to have dividers align */
 .ui[class*="vertically divided"].grid > .column:not(.row),
 .ui[class*="vertically divided"].grid > .row > .column {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
@@ -1093,9 +1093,9 @@
   content: "";
   top: 0em;
   left: 0px;
-  width: calc(100% -  30px );
+  width: calc(100% -  2rem );
   height: 1px;
-  margin: 0% 15px;
+  margin: 0% 1rem;
   box-shadow: 0px -1px 0px 0px #cccccc;
 }
 
@@ -1125,14 +1125,14 @@
 
 /* Relaxed */
 .ui.expand[class*="vertically divided"].grid > .row:before {
-  margin-left: 25px;
-  margin-right: 25px;
-  width: calc(100% -  50px );
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: calc(100% -  3rem );
 }
 .ui[class*="very expand"][class*="vertically divided"].grid > .row:before {
-  margin-left: 70px;
-  margin-right: 70px;
-  width: calc(100% -  70px );
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: calc(100% -  5rem );
 }
 
 /*----------------------
@@ -1141,7 +1141,7 @@
 
 .ui.celled.grid {
   width: 100%;
-  margin: 15px 0;
+  margin: 1em 0em;
   box-shadow: 0px 0px 0px 1px #D4D4D5;
 }
 .ui.celled.grid > .row {
@@ -1160,15 +1160,15 @@
 }
 .ui.celled.grid > .column:not(.row),
 .ui.celled.grid > .row > .column {
-  padding: 15px;
+  padding: 1em;
 }
 .ui.expand.celled.grid > .column:not(.row),
 .ui.expand.celled.grid > .row > .column {
-  padding: 20px;
+  padding: 1.5em;
 }
 .ui[class*="very expand"].celled.grid > .column:not(.row),
 .ui[class*="very expand"].celled.grid > .row > .column {
-  padding: 30px;
+  padding: 2em;
 }
 
 /* Internally Celled */
@@ -1339,10 +1339,10 @@
 .ui.grid > .row > .error.column,
 .ui.grid > .row > .grey.column,
 .ui.grid > .row > .black.column {
-  margin-top: -15px;
-  margin-bottom: -15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Primary */
@@ -1585,8 +1585,8 @@
   .ui.grid > .doubling.row > .column,
   .ui.doubling.grid > .row > .column {
     display: inline-block !important;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
     box-shadow: none !important;
     margin: 0em;
   }
@@ -1676,8 +1676,8 @@
   }
   .ui.grid > .doubling.row > .column,
   .ui.doubling.grid > .row > .column {
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
     margin: 0em !important;
     box-shadow: none !important;
   }
@@ -1778,7 +1778,7 @@
     width: 100% !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-    padding: 15px 15px !important;
+    padding: 1rem 1rem !important;
   }
   .ui.stackable.grid:not(.vertically) > .row {
     margin: 0em;
@@ -1795,8 +1795,8 @@
 /* Don't pad inside segment or nested grid */
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
   }
   
 /* Divided Stackable */
@@ -1818,8 +1818,8 @@
   .ui.stackable.divided:not(.vertically).grid > .row > .column {
     border-top: 1px solid #cccccc;
     box-shadow: none !important;
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
   }
   .ui.stackable.celled.grid > .row {
     box-shadow: none !important;

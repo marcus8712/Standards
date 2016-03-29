@@ -328,8 +328,8 @@ p{
     .ui.app.menu .item .button:hover {
         opacity: 0.6;}
     .ui.app.menu .item .app.name{
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: 600;
         margin-left: -20px;
         color: white;}
     .ui.app.menu .item{
@@ -547,9 +547,11 @@ p{
 -------------------------------*/
 
 .docs.example > .dropdown,
-.docs.example > .input{
-    margin-right: 15px;
-    margin-bottom: 15px;
+.docs.example > .input,
+.docs.example > .label,
+.docs.example > .menu{
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 .docs.example > .input{

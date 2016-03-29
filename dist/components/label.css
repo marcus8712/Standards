@@ -16,17 +16,18 @@
 
 .ui.label {
   display: inline-block;
+  line-height: 1.2;
   vertical-align: baseline;
+  margin: 0em 0.14285714em;
+  background-color: #e8e8e8;
+  padding: 0.6833em 0.833em 0.4833em;
+  color: #626262;
   text-transform: none;
+  font-weight: normal;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0.28571429rem;
   -webkit-transition: background 0.05s ease;
   transition: background 0.05s ease;
-  margin: 0 4px;
-  background-color: #e8e8e8;
-  padding: 4px 11px;
-  color: #414141;
-  font-weight: normal;
 }
 .ui.label:first-child {
   margin-left: 0em;
@@ -60,42 +61,41 @@ a.ui.label:hover {
 .ui.label > img {
   width: auto !important;
   vertical-align: middle;
-  height: 31px !important;
+  height: 2.3666em !important;
 }
 
 /* Icon */
 .ui.label > .icon {
   width: auto;
-  margin: 0em 10px 0em 0em;
-  vertical-align: middle;
-  margin-top: -1px;
+  margin: 0em 0.75em 0em 0em;
 }
 
 /* Detail */
 .ui.label > .detail {
   display: inline-block;
   vertical-align: top;
-  font-weight: 600;
-  margin-left: 14px;
-  margin-top: 1px;
+  font-weight: bold;
+  margin-left: 1em;
   opacity: 0.8;
 }
 .ui.label > .detail .icon {
-  margin: 0em 4px 0em 0em;
+  margin: 0em 0.25em 0em 0em;
 }
 
 /* Removable label */
 .ui.label > .close.icon,
 .ui.label > .remove.icon {
   cursor: pointer;
-  margin-right: 0;
-  margin-left: 7px;
-  margin-top: -1px;
-  font-size: 16px;
+  margin-right: 0em;
+  margin-left: 0.5em;
+  margin-top: -0.2em;
+  font-size: 1.2em;
   opacity: 0.5;
   -webkit-transition: background 0.05s ease;
   transition: background 0.05s ease;
+  vertical-align: middle;
 }
+.ui.label > .close.icon:hover,
 .ui.label > .remove.icon:hover {
   opacity: 1;
 }
@@ -105,7 +105,7 @@ a.ui.label:hover {
 --------------------*/
 
 .ui.labels > .label {
-  margin: 0em 7px 7px 0em;
+  margin: 0em 0.5em 0.5em 0em;
 }
 
 /*-------------------
@@ -113,7 +113,7 @@ a.ui.label:hover {
 --------------------*/
 
 .ui.header > .ui.label {
-  margin-top: -2px;
+  margin-top: -0.29165em;
 }
 
 /* Remove border radius on attached segment */
@@ -154,22 +154,22 @@ a.ui.label:hover {
   vertical-align: baseline;
   text-transform: none;
   background: #e8e8e8;
-  padding: 5px 11px 3px 7px;
-  border-radius: 4px;
+  padding: .6833em .833em .4833em .5em;
+  border-radius: 0.28571429rem;
   border-width: 0px !important;
 }
 .ui.image.label img {
   display: inline-block;
   vertical-align: top;
-  height: 31px;
-  margin: -5px 7px -3px -7px;
-  border-radius: 4px 0em 0em 4px;
+  height: 2.3666em;
+  margin: -0.6833em 0.5em -0.4833em -0.5em;
+  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
 }
 .ui.image.label .detail {
   background: rgba(0, 0, 0, 0.1);
-  margin: -4px -11px -4px 7px;
-  padding: 4px 11px;
-  border-radius: 0em 4px 4px 0em;
+  margin: -0.5833em -0.833em -0.3833em 0.5em;
+  padding: .5833em .833em .3833em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
 }
 
 /*-------------------
@@ -183,7 +183,7 @@ a.ui.label:hover {
   padding-left: 1.5em;
   padding-right: 1.5em;
   border-width: 0px;
-  border-radius: 0em 4px 4px 0em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
   -webkit-transition: none;
   transition: none;
 }
@@ -225,7 +225,7 @@ a.ui.label:hover {
   margin: 0em;
   padding: 0em;
   text-align: center;
-  border-color: #ffffff;
+  border-color: #e8e8e8;
   border-width: 0;
   width: 4em;
   height: 4em;
@@ -301,7 +301,7 @@ a.ui.label:hover {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-  border-radius: 0em 4px 4px 0em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
   border-color: rgba(0, 0, 0, 0.15);
   border: none;
 }
@@ -337,7 +337,7 @@ a.ui.label:hover {
   text-align: left;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  border-radius: 4px 0em 0em 4px;
+  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
 }
 .ui[class*="right ribbon"].label:after {
   left: auto;
@@ -361,7 +361,7 @@ a.ui.label:hover {
 .ui.card .image > .ui[class*="right ribbon"].label,
 .ui.image > .ui[class*="right ribbon"].label {
   left: calc(100% +  -0.05rem  +  1.2em );
-  padding-left: 11px;
+  padding-left: 0.833em;
 }
 
 /* Inside Table */
@@ -370,7 +370,7 @@ a.ui.label:hover {
 }
 .ui.table td > .ui[class*="right ribbon"].label {
   left: calc(100% +  0.71428571em  +  1.2em );
-  padding-left: 11px;
+  padding-left: 0.833em;
 }
 
 /*-------------------
@@ -395,19 +395,19 @@ a.ui.label:hover {
 .ui[class*="top left attached"].label {
   width: auto;
   margin-top: 0em !important;
-  border-radius: 0.21428571rem 0em 4px 0em;
+  border-radius: 0.21428571rem 0em 0.28571429rem 0em;
 }
 .ui[class*="top right attached"].label {
   width: auto;
   left: auto;
   right: 0em;
-  border-radius: 0em 0.21428571rem 0em 4px;
+  border-radius: 0em 0.21428571rem 0em 0.28571429rem;
 }
 .ui[class*="bottom left attached"].label {
   width: auto;
   top: auto;
   bottom: 0em;
-  border-radius: 0em 4px 0em 0.21428571rem;
+  border-radius: 0em 0.28571429rem 0em 0.21428571rem;
 }
 .ui[class*="bottom right attached"].label {
   top: auto;
@@ -415,7 +415,7 @@ a.ui.label:hover {
   left: auto;
   right: 0em;
   width: auto;
-  border-radius: 4px 0em 0.21428571rem 0em;
+  border-radius: 0.28571429rem 0em 0.21428571rem 0em;
 }
 
 
@@ -729,8 +729,8 @@ a.ui.basic.label:hover {
   border-color: #b3b3b3;
 }
 
-/* tooltip */
-.ui.basic.tooltip.label:before {
+/* pointing */
+.ui.basic.pointing.label:before {
   border-color: inherit;
 }
 
@@ -760,7 +760,7 @@ a.ui.basic.label:hover {
 .ui.horizontal.labels .label,
 .ui.horizontal.label {
   margin: 0em 0.5em 0em 0em;
-  padding: 0.4em 11px;
+  padding: 0.4em 0.833em;
   min-width: 3em;
   text-align: center;
 }
@@ -790,16 +790,16 @@ a.ui.basic.label:hover {
 }
 
 /*-------------------
-       tooltip
+       pointing
 --------------------*/
 
-.ui.tooltip.label {
+.ui.pointing.label {
   position: relative;
 }
-.ui.attached.tooltip.label {
+.ui.attached.pointing.label {
   position: absolute;
 }
-.ui.tooltip.label:before {
+.ui.pointing.label:before {
   background-color: inherit;
   background-image: inherit;
   border-width: none;
@@ -808,7 +808,7 @@ a.ui.basic.label:hover {
 }
 
 /* Arrow */
-.ui.tooltip.label:before {
+.ui.pointing.label:before {
   position: absolute;
   content: '';
   -webkit-transform: rotate(45deg);
@@ -823,12 +823,12 @@ a.ui.basic.label:hover {
 
 /*--- Above ---*/
 
-.ui.tooltip.label,
-.ui[class*="tooltip above"].label {
+.ui.pointing.label,
+.ui[class*="pointing above"].label {
   margin-top: 1em;
 }
-.ui.tooltip.label:before,
-.ui[class*="tooltip above"].label:before {
+.ui.pointing.label:before,
+.ui[class*="pointing above"].label:before {
   border-width: 1px 0px 0px 1px;
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
           transform: translateX(-50%) translateY(-50%) rotate(45deg);
@@ -838,13 +838,13 @@ a.ui.basic.label:hover {
 
 /*--- Below ---*/
 
-.ui[class*="bottom tooltip"].label,
-.ui[class*="tooltip below"].label {
+.ui[class*="bottom pointing"].label,
+.ui[class*="pointing below"].label {
   margin-top: 0em;
   margin-bottom: 1em;
 }
-.ui[class*="bottom tooltip"].label:before,
-.ui[class*="tooltip below"].label:before {
+.ui[class*="bottom pointing"].label:before,
+.ui[class*="pointing below"].label:before {
   border-width: 0px 1px 1px 0px;
   top: auto;
   right: auto;
@@ -856,11 +856,11 @@ a.ui.basic.label:hover {
 
 /*--- Left ---*/
 
-.ui[class*="left tooltip"].label {
+.ui[class*="left pointing"].label {
   margin-top: 0em;
   margin-left: 0.6666em;
 }
-.ui[class*="left tooltip"].label:before {
+.ui[class*="left pointing"].label:before {
   border-width: 0px 0px 1px 1px;
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
           transform: translateX(-50%) translateY(-50%) rotate(45deg);
@@ -872,11 +872,11 @@ a.ui.basic.label:hover {
 
 /*--- Right ---*/
 
-.ui[class*="right tooltip"].label {
+.ui[class*="right pointing"].label {
   margin-top: 0em;
   margin-right: 0.6666em;
 }
-.ui[class*="right tooltip"].label:before {
+.ui[class*="right pointing"].label:before {
   border-width: 1px 1px 0px 0px;
   -webkit-transform: translateX(50%) translateY(-50%) rotate(45deg);
           transform: translateX(50%) translateY(-50%) rotate(45deg);
@@ -886,19 +886,19 @@ a.ui.basic.label:hover {
   left: auto;
 }
 
-/* Basic tooltip */
+/* Basic pointing */
 
 /*--- Above ---*/
 
-.ui.basic.tooltip.label:before,
-.ui.basic[class*="tooltip above"].label:before {
+.ui.basic.pointing.label:before,
+.ui.basic[class*="pointing above"].label:before {
   margin-top: -1px;
 }
 
 /*--- Below ---*/
 
-.ui.basic[class*="bottom tooltip"].label:before,
-.ui.basic[class*="tooltip below"].label:before {
+.ui.basic[class*="bottom pointing"].label:before,
+.ui.basic[class*="pointing below"].label:before {
   bottom: auto;
   top: 100%;
   margin-top: 1px;
@@ -906,14 +906,14 @@ a.ui.basic.label:hover {
 
 /*--- Left ---*/
 
-.ui.basic[class*="left tooltip"].label:before {
+.ui.basic[class*="left pointing"].label:before {
   top: 50%;
   left: -1px;
 }
 
 /*--- Right ---*/
 
-.ui.basic[class*="right tooltip"].label:before {
+.ui.basic[class*="right pointing"].label:before {
   top: 50%;
   right: -1px;
 }
@@ -936,15 +936,19 @@ a.ui.basic.label:hover {
 
 .ui.mini.labels .label,
 .ui.mini.label {
-  font-size: 8px;
+  font-size: 0.64285714rem;
 }
 .ui.tiny.labels .label,
 .ui.tiny.label {
-  font-size: 10px;
+  font-size: 0.71428571rem;
+}
+.ui.small.labels .label,
+.ui.small.label {
+  font-size: 0.78571429rem;
 }
 .ui.labels .label,
 .ui.label {
-  font-size: 12px;
+  font-size: 0.85714286rem;
 }
 .ui.large.labels .label,
 .ui.large.label {
@@ -962,3 +966,9 @@ a.ui.basic.label:hover {
 .ui.massive.label {
   font-size: 1.71428571rem;
 }
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
