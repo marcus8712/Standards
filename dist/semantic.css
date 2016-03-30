@@ -8799,7 +8799,7 @@ img.ui.bordered.image {
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 1.2rem;
+  line-height: 25px !important;
   font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.78571429em 1.14285714em !important;
   background: #ffffff;
@@ -13817,7 +13817,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form ::-webkit-datetime-edit,
 .ui.form ::-webkit-inner-spin-button {
-  height: 1.2rem;
+  height: 1.2;
 }
 
 .ui.form input:not([type]),
@@ -13836,7 +13836,7 @@ ol.ui.horizontal.list li:before,
   outline: none;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  line-height: 1.2rem;
+  line-height: 1.2;
   padding: 0.78571429em 1.14285714em;
   font-size: 1em;
   background: #ffffff;
@@ -25107,7 +25107,7 @@ body.dimmable > .dimmer {
   -webkit-transform: rotateZ(0deg);
   transform: rotateZ(0deg);
   min-width: 14em;
-  min-height: 2.7rem;
+  min-height: 2.7em;
   background: #ffffff;
   display: inline-block;
   padding: 0.78571429em 2.74285714em 0.78571429em 1.14285714em;
@@ -25327,7 +25327,7 @@ select.ui.dropdown {
 /* Search Selection */
 
 .ui.search.selection.dropdown > input.search {
-  line-height: 1.2rem;
+  line-height: 1.2;
   padding: 0.68571429em 2.74285714em 0.68571429em 1.14285714em;
 }
 
@@ -25442,7 +25442,7 @@ select.ui.dropdown {
   padding: 0;
   max-width: 100%;
   margin: 0.45714286em 0em 0.45714286em 0.71428571em;
-  line-height: 1.2rem;
+  line-height: 1.2;
 }
 
 .ui.multiple.dropdown > .label ~ .text {
@@ -25462,7 +25462,7 @@ select.ui.dropdown {
   left: 0;
   padding: inherit;
   margin: 0.45714286em 0em 0.45714286em 0.71428571em;
-  line-height: 1.2rem;
+  line-height: 1.2;
 }
 
 .ui.multiple.search.dropdown > .label ~ .text {
@@ -25477,7 +25477,7 @@ select.ui.dropdown {
   max-width: 100%;
   margin: 0.45714286em 0em 0.45714286em 0.71428571em;
   width: 2.2em;
-  line-height: 1.2rem;
+  line-height: 1.2;
 }
 
 /*--------------
@@ -28303,7 +28303,7 @@ a.ui.nag {
   text-shadow: none;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.2rem;
+  line-height: 1.2;
   padding: 0.68571429em 1.14285714em;
   font-size: 1em;
   background: #ffffff;

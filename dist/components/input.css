@@ -40,7 +40,7 @@
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 1.2rem;
+  line-height: 25px !important;
   font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.78571429em 1.14285714em !important;
   background: #ffffff;
