@@ -8799,7 +8799,7 @@ img.ui.bordered.image {
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 29px !important;
+  line-height: 1.2 !important;
   font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.78571429em 1.14285714em !important;
   background: #ffffff;
@@ -8819,14 +8819,17 @@ img.ui.bordered.image {
 
 .ui.input input::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.4);
+  padding: 11px 0;
 }
 
 .ui.input input::-moz-placeholder {
   color: rgba(0, 0, 0, 0.4);
+  padding: 11px 0;
 }
 
 .ui.input input::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.4);
+  padding: 11px 0;
 }
 
 /*******************************
