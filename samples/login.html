@@ -24,6 +24,8 @@
 	
 </head>
 <body>
+    <div class="bg-blur"></div>
+    <div class="noise"></div>
     <div class="hoiio loading"></div>
     <div class="ui fluid container">
         <div class="ui center aligned grid">
@@ -112,7 +114,7 @@
   
     <!-- Latest compiled and minified JavaScript -->
     <script src="../dist/semantic.min.js"></script>
-    <script src="source/js/data-sample.js"></script>
+    <script src="source/js/background-blur.min.js"></script>
     <script>
         
          $("#create-new-btn").click(function() {
@@ -139,6 +141,14 @@
             });
 		});
    
+    </script>
+    <script>
+        $('body').backgroundBlur({
+            imageURL : 'source/img/1.jpg',
+            blurAmount : 30,
+            imageClass : 'bg-blur'
+        });
+        
     </script>
     <!--<script>
         
