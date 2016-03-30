@@ -10,10 +10,7 @@
     <link rel="icon" href="source/favicon.ico">
 
     <title>Log in</title>
-    <!-- jQuery --->
-    <script src="source/js/jquery-2.1.4.min.js"></script>
-    <script src="source/js/modernizr-custom.js"></script>
-
+    
     <!-- Main styles -->
 	<link rel="stylesheet" type="text/css" href="../dist/semantic.min.css" />
     
@@ -23,13 +20,13 @@
 
 	
 </head>
-<body>
-    <div class="bg-blur"></div>
+<body class="background">
+    <div class="dots"></div>
     <div class="noise"></div>
     <div class="hoiio loading"></div>
     <div class="ui fluid container">
         <div class="ui center aligned grid">
-           <div class="left aligned column">
+           <div class="fullpage left aligned column">
                <div id="form-card">
                    <div id="create-new-card">
                        <img class="svg-image" width="80px" alt="Hoiio" src="./source/img/hoiio.svg" />
@@ -44,7 +41,6 @@
                        <button class="ui inverted button" id="login-btn">Sign in</button>
                    </div>
                </div>
-              
                <div id="form-content">
                    <div id="login">
                        <h2 class="ui header">Sign in</h2>
@@ -107,14 +103,14 @@
                        
                    </div>
                </div>
-               
            </div>
         </div>
     </div>
   
     <!-- Latest compiled and minified JavaScript -->
+    <script src="source/js/jquery-2.1.4.min.js"></script>
+    <script src="source/js/modernizr-custom.js"></script>
     <script src="../dist/semantic.min.js"></script>
-    <script src="source/js/background-blur.min.js"></script>
     <script>
         
          $("#create-new-btn").click(function() {
@@ -142,15 +138,15 @@
 		});
    
     </script>
-    <script>
+    <!--<script>
         $('body').backgroundBlur({
-            imageURL : 'source/img/1.jpg',
-            blurAmount : 30,
+            imageURL : 'source/img/3.jpg',
+            blurAmount :10,
             imageClass : 'bg-blur'
         });
         
     </script>
-    <!--<script>
+    <script>
         
         
         var width = $("#showcase").width();
