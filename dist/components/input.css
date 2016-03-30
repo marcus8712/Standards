@@ -49,6 +49,7 @@
   border-radius: 0.28571429rem;
   -webkit-transition: box-shadow 0.05s ease, border-color 0.05s ease;
   transition: box-shadow 0.05s ease, border-color 0.05s ease;
+  height: 40px;
 }
 
 /*--------------------
