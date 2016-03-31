@@ -21,7 +21,7 @@
   top: 50%;
   left: 50%;
   text-align: left;
-  background: #ffffff;
+  background: #FFFFFF;
   border: none;
   box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: 50% 25%;
@@ -56,11 +56,12 @@
 .ui.modal > .close {
   cursor: pointer;
   position: absolute;
-  top: 0.95rem;
-  right: 1rem;
+  top: -2.5rem;
+  right: -2.5rem;
   z-index: 1;
   opacity: 0.8;
   font-size: 1.25em;
+  color: #FFFFFF;
   width: 2.25rem;
   height: 2.25rem;
   padding: 0.625rem 0rem 0rem 0rem;
@@ -75,13 +76,13 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #ffffff;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
   box-shadow: none;
   color: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.modal > .header:not(.ui) {
   font-size: 1.42857143rem;
@@ -177,9 +178,9 @@
 ---------------*/
 
 .ui.modal > .actions {
-  background: #F9F9F9;
-  padding: 1.25rem 1.5rem;
-  border-top: 1px solid #cccccc;
+  background: #F9FAFB;
+  padding: 1rem 1rem;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   text-align: right;
 }
 .ui.modal .actions > .button {
@@ -229,7 +230,7 @@
     padding-right: 2.25rem;
   }
   .ui.modal > .close {
-    top: 1.411rem;
+    top: 1.425rem;
     right: 1rem;
     color: #414141;
   }
@@ -305,7 +306,7 @@
   border: none;
   border-radius: 0em;
   box-shadow: none !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .ui.basic.modal > .header,
 .ui.basic.modal > .content,
@@ -313,7 +314,7 @@
   background-color: transparent;
 }
 .ui.basic.modal > .header {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .ui.basic.modal > .close {
   top: 1rem;
@@ -329,7 +330,7 @@
 /* Tablet and Mobile */
 @media only screen and (max-width: 991px) {
   .ui.basic.modal > .close {
-    color: #ffffff;
+    color: #FFFFFF;
   }
 }
 
@@ -410,7 +411,7 @@
   padding-right: 2.25rem;
 }
 .ui.fullscreen.modal > .close {
-  top: 1.411rem;
+  top: 1.425rem;
   right: 1rem;
   color: #414141;
 }

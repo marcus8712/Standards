@@ -57,9 +57,9 @@ blockquote {
     color: rgba(0,0,0,1);
     margin-left: 20px;
     padding: 15px 15px 7px;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+
+    
+    
 }
 
 .edit-color .hljs-attribute,
@@ -174,7 +174,7 @@ code {
     Heading
 ---------------------*/
 .hoiio-heading a {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
 	font-size: 14px;
     font-weight: bold;
     margin: 0 !important;
@@ -207,7 +207,7 @@ code {
 }
 
 .hoiio-sidebar .category >li {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
     margin-bottom: 4px;
 }
 
@@ -252,7 +252,7 @@ code {
 
 
 #header .poweredby{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
     font-size: 11px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -297,7 +297,7 @@ code {
 }
 
 #page-name > .category{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -307,7 +307,7 @@ code {
 }
 
 #page-name > .name{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
     margin-top: 0;
     
 }
@@ -316,7 +316,7 @@ code {
 #page-name > .name{
     letter-spacing: 1px;
     font-size: 48px;
-    font-weight: 300;
+    
     color: #008bd9; 
    
 }
@@ -333,25 +333,8 @@ code {
     padding-top:2rem;
 }
 
-p.description{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.8em;
-    margin: 20px 0 20px 0;
-    
-}
-
 .block + p.description{
     margin: 50px 0 10px 0;
-}
-
-p.description:first-child{
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.8em;
-    margin-top: 0;
- 
 }
 
 #content > div > h2{
@@ -409,7 +392,7 @@ h5.sub{
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 600;
-    padding-top:30px;
+    padding-top:50px;
 }
 
 .block:first-child h3.title,
@@ -457,9 +440,8 @@ h5.sub{
 
 .holder .grid {
     
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 15px;
+    
+    
     width: 100%;
     min-width: 660px;
     
@@ -479,13 +461,13 @@ h5.sub{
 
 .holder .grid th {
     text-align: left;
-    font-size: 15px;
+    
     font-weight: bold;
 }
 
 .holder .grid td {
-    font-weight: 300;
-    font-size: 15px;
+    
+    
 }
 
 .holder .grid tr td:first-child {
@@ -509,9 +491,9 @@ h5.sub{
 
 /* Usage */
 .block > p.usage{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+
+    
+    
     line-height: 1.8em;
     margin: 10px 0 10px 0;
    
@@ -585,7 +567,7 @@ h5.sub{
 }
 
 #sticky  .category >li {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
     margin-bottom: 4px;
 }
 
@@ -672,7 +654,7 @@ h5.sub{
 ---------------------*/
 
 .present > .menu{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .present > .menu > .item{
@@ -733,8 +715,8 @@ h5.sub{
     width: 90px;
     height: 150px;
     display: block;
-    font-size: 15px;
-    font-weight: 300;
+    
+    
     margin-top: 10px;
 }
 
@@ -892,10 +874,9 @@ h5.sub{
 }
 
 #system-icon .display .column span{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    
     margin-left: 5px; 
-    font-size: 15px;
+    
 }
 
 
@@ -909,9 +890,6 @@ h5.sub{
     min-width: auto !important;
 }
 #system-grid .bulleted .item{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 300;
     line-height: 1.8;
 
 }
@@ -1031,7 +1009,7 @@ td.type-info{
 ---------------------*/
 
 .demo-table .grid tr td:first-child {
-    font-weight: 300;
+    
 }
 
 /*------------------
@@ -1070,7 +1048,7 @@ td.type-info{
 ---------------------*/
 
 .options .holder .grid tr td:first-child {
-    font-weight: 300;
+    
 }
 
 .events .holder .grid tr td{
@@ -1229,7 +1207,7 @@ p.present{
 
 .body-content .list-present li{
     font-size: 16px;
-    font-weight: 300;
+    
     line-height: 1.8em;
     margin: 10px 0 10px 0;
     color: rgba(0,0,0,.8);

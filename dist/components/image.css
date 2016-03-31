@@ -89,14 +89,14 @@ img.ui.image {
 }
 
 /*--------------
-     radius
+     Rounded
 ---------------*/
 
-.ui.radius.images .image,
-.ui.radius.image,
-.ui.radius.images .image > *,
-.ui.radius.image > * {
-  border-radius: 0.5em;
+.ui.rounded.images .image,
+.ui.rounded.image,
+.ui.rounded.images .image > *,
+.ui.rounded.image > * {
+  border-radius: 0.3125em;
 }
 
 /*--------------
@@ -113,17 +113,17 @@ img.ui.bordered.image {
 }
 
 /*--------------
-    round
+    Circular
 ---------------*/
 
-.ui.round.images,
-.ui.round.image {
+.ui.circular.images,
+.ui.circular.image {
   overflow: hidden;
 }
-.ui.round.images .image,
-.ui.round.image,
-.ui.round.images .image > *,
-.ui.round.image > * {
+.ui.circular.images .image,
+.ui.circular.image,
+.ui.circular.images .image > *,
+.ui.circular.image > * {
   border-radius: 500rem;
 }
 
@@ -154,8 +154,8 @@ img.ui.bordered.image {
 .ui.avatar.image {
   margin-right: 0.25em;
   display: inline-block;
-  width: 2.286em;
-  height: 2.286em;
+  width: 2em;
+  height: 2em;
   border-radius: 500rem;
 }
 

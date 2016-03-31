@@ -25,15 +25,15 @@
   text-shadow: none;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.2;
-  padding: 0.68571429em 1.14285714em;
+  line-height: 1.2142em;
+  padding: 0.67861429em 1em;
   font-size: 1em;
-  background: #ffffff;
-  border: 1px solid #cccccc;
+  background: #FFFFFF;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   color: #414141;
   box-shadow: 0em 0em 0em 0em transparent inset;
-  -webkit-transition: background-color 0.05s ease, color 0.05s ease, box-shadow 0.05s ease, border-color 0.05s ease;
-  transition: background-color 0.05s ease, color 0.05s ease, box-shadow 0.05s ease, border-color 0.05s ease;
+  -webkit-transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+  transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
 }
 .ui.search .prompt {
   border-radius: 500rem;
@@ -115,7 +115,7 @@
 }
 .ui.search > .results .result .title {
   margin: -0.14285em 0em 0em;
-  font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -127,7 +127,7 @@
 }
 .ui.search > .results .result .price {
   float: right;
-  color: #19b37b;
+  color: #21BA45;
 }
 
 /*--------------
@@ -138,7 +138,7 @@
   padding: 1em 1em;
 }
 .ui.search > .results > .message .header {
-  font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: bold;
   color: #414141;
@@ -172,8 +172,8 @@
 
 .ui.search > .prompt:focus {
   border-color: rgba(34, 36, 38, 0.35);
-  background: #ffffff;
-  color: #414141;
+  background: #FFFFFF;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 /*--------------------
@@ -216,7 +216,7 @@
 
 .ui.search > .results .result:hover,
 .ui.category.search > .results .category .result:hover {
-  background: #F9F9F9;
+  background: #F9FAFB;
 }
 .ui.search .action:hover {
   background: #E0E0E0;
@@ -269,8 +269,8 @@
   color: '';
   top: 0em;
   right: 0em;
-  -webkit-transition: color 0.05s ease, opacity 0.05s ease;
-  transition: color 0.05s ease, opacity 0.05s ease;
+  -webkit-transition: color 0.1s ease, opacity 0.1s ease;
+  transition: color 0.1s ease, opacity 0.1s ease;
 }
 .ui.search.selection > .icon.input > .active.remove.icon {
   cursor: pointer;
@@ -282,7 +282,7 @@
 }
 .ui.search.selection > .icon.input > .remove.icon:hover {
   opacity: 1;
-  color: #e64333;
+  color: #DB2828;
 }
 
 /*--------------
@@ -298,8 +298,8 @@
   background: #F3F4F5;
   box-shadow: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
-  -webkit-transition: background 0.05s ease, border-color 0.05s ease;
-  transition: background 0.05s ease, border-color 0.05s ease;
+  -webkit-transition: background 0.1s ease, border-color 0.1s ease;
+  transition: background 0.1s ease, border-color 0.1s ease;
 }
 
 /* Last Category */
@@ -317,12 +317,12 @@
 
 /* Category Result */
 .ui.category.search > .results .category .result {
-  background: #ffffff;
+  background: #FFFFFF;
   margin-left: 100px;
-  border-left: 1px solid #cccccc;
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
-  -webkit-transition: background 0.05s ease, border-color 0.05s ease;
-  transition: background 0.05s ease, border-color 0.05s ease;
+  -webkit-transition: background 0.1s ease, border-color 0.1s ease;
+  transition: background 0.1s ease, border-color 0.1s ease;
   padding: 0.85714286em 1.14285714em;
 }
 .ui.category.search > .results .category:last-child .result:last-child {
@@ -333,7 +333,7 @@
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: transparent;
-  font-family: "Poppins", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   float: 1em;
   float: left;

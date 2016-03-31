@@ -3347,7 +3347,7 @@ $.fn.dropdown.settings = {
     input        : '> input[type="hidden"], > select',
     item         : '.item',
     label        : '> .label',
-    remove       : '> .label > .remove.icon',
+    remove       : '> .label > .delete.icon',
     siblingLabel : '.label',
     menu         : '.menu',
     message      : '.message',
@@ -3423,7 +3423,7 @@ $.fn.dropdown.settings.templates = {
 
   // generates label for multiselect
   label: function(value, text) {
-    return text + '<i class="remove icon"></i>';
+    return text + '<i class="delete icon"></i>';
   },
 
 
