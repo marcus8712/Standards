@@ -1,18 +1,9 @@
 $(document).ready(function() {
     
-     /*$('li').click(function(){
-        if( ! $( this ).hasClass( 'active' ) ){
-            $(this).parent(".menu").find("li.active").removeClass("active");
-            $(this).addClass("active");
-        }
-         else
-             {
-                 return false;
-             }
-        
+    $('li.active').click(function(){
+        return false;
     });
     
-    */
     
     // Generate
     var hoiio="";
