@@ -690,7 +690,7 @@ input::selection {
   padding: 0.78571429em 1.5em 0.78571429em;
   text-transform: none;
   text-shadow: none;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1em;
   font-style: normal;
   text-align: center;
@@ -2547,50 +2547,6 @@ input::selection {
   color: #D67C1C !important;
 }
 
-/*--- Blue ---*/
-
-.ui.blue.buttons .button,
-.ui.blue.button {
-  background-color: #2185D0;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-}
-
-.ui.blue.button {
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-
-.ui.blue.buttons .button:hover,
-.ui.blue.button:hover {
-  background-color: #1678c2;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.blue.buttons .button:focus,
-.ui.blue.button:focus {
-  background-color: #0d71bb;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.blue.buttons .button:active,
-.ui.blue.button:active {
-  background-color: #1a69a4;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-.ui.blue.buttons .active.button,
-.ui.blue.buttons .active.button:active,
-.ui.blue.active.button,
-.ui.blue.button .active.button:active {
-  background-color: #1279c6;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
 /* Basic */
 
 .ui.basic.blue.buttons .button,
@@ -2711,43 +2667,43 @@ input::selection {
 
 /*--- Green ---*/
 
-.ui.green.buttons .button,
-.ui.green.button {
+.ui.success.buttons .button,
+.ui.success.button {
   background-color: #21BA45;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
 
-.ui.green.button {
+.ui.success.button {
   box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
-.ui.green.buttons .button:hover,
-.ui.green.button:hover {
+.ui.success.buttons .button:hover,
+.ui.success.button:hover {
   background-color: #16ab39;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.green.buttons .button:focus,
-.ui.green.button:focus {
+.ui.success.buttons .button:focus,
+.ui.success.button:focus {
   background-color: #0ea432;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.green.buttons .button:active,
-.ui.green.button:active {
+.ui.success.buttons .button:active,
+.ui.success.button:active {
   background-color: #198f35;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.green.buttons .active.button,
-.ui.green.buttons .active.button:active,
-.ui.green.active.button,
-.ui.green.button .active.button:active {
+.ui.success.buttons .active.button,
+.ui.success.buttons .active.button:active,
+.ui.success.active.button,
+.ui.success.button .active.button:active {
   background-color: #13ae38;
   color: #FFFFFF;
   text-shadow: none;
@@ -2873,43 +2829,43 @@ input::selection {
 
 /*--- Orange ---*/
 
-.ui.orange.buttons .button,
-.ui.orange.button {
+.ui.warning.buttons .button,
+.ui.warning.button {
   background-color: #F2711C;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
 
-.ui.orange.button {
+.ui.warning.button {
   box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
-.ui.orange.buttons .button:hover,
-.ui.orange.button:hover {
+.ui.warning.buttons .button:hover,
+.ui.warning.button:hover {
   background-color: #f26202;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.orange.buttons .button:focus,
-.ui.orange.button:focus {
+.ui.warning.buttons .button:focus,
+.ui.warning.button:focus {
   background-color: #e55b00;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.orange.buttons .button:active,
-.ui.orange.button:active {
+.ui.warning.buttons .button:active,
+.ui.warning.button:active {
   background-color: #cf590c;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.orange.buttons .active.button,
-.ui.orange.buttons .active.button:active,
-.ui.orange.active.button,
-.ui.orange.button .active.button:active {
+.ui.warning.buttons .active.button,
+.ui.warning.buttons .active.button:active,
+.ui.warning.active.button,
+.ui.warning.button .active.button:active {
   background-color: #f56100;
   color: #FFFFFF;
   text-shadow: none;
@@ -3521,43 +3477,43 @@ input::selection {
 
 /*--- Red ---*/
 
-.ui.red.buttons .button,
-.ui.red.button {
+.ui.error.buttons .button,
+.ui.error.button {
   background-color: #DB2828;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
 
-.ui.red.button {
+.ui.error.button {
   box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
-.ui.red.buttons .button:hover,
-.ui.red.button:hover {
+.ui.error.buttons .button:hover,
+.ui.error.button:hover {
   background-color: #d01919;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.red.buttons .button:focus,
-.ui.red.button:focus {
+.ui.error.buttons .button:focus,
+.ui.error.button:focus {
   background-color: #ca1010;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.red.buttons .button:active,
-.ui.red.button:active {
+.ui.error.buttons .button:active,
+.ui.error.button:active {
   background-color: #b21e1e;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.red.buttons .active.button,
-.ui.red.buttons .active.button:active,
-.ui.red.active.button,
-.ui.red.button .active.button:active {
+.ui.error.buttons .active.button,
+.ui.error.buttons .active.button:active,
+.ui.error.active.button,
+.ui.error.button .active.button:active {
   background-color: #d41515;
   color: #FFFFFF;
   text-shadow: none;
@@ -3683,43 +3639,43 @@ input::selection {
 
 /*--- Teal ---*/
 
-.ui.teal.buttons .button,
-.ui.teal.button {
+.ui.info.buttons .button,
+.ui.info.button {
   background-color: #00B5AD;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
 
-.ui.teal.button {
+.ui.info.button {
   box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
-.ui.teal.buttons .button:hover,
-.ui.teal.button:hover {
+.ui.info.buttons .button:hover,
+.ui.info.button:hover {
   background-color: #009c95;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.teal.buttons .button:focus,
-.ui.teal.button:focus {
+.ui.info.buttons .button:focus,
+.ui.info.button:focus {
   background-color: #008c86;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.teal.buttons .button:active,
-.ui.teal.button:active {
+.ui.info.buttons .button:active,
+.ui.info.button:active {
   background-color: #00827c;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.teal.buttons .active.button,
-.ui.teal.buttons .active.button:active,
-.ui.teal.active.button,
-.ui.teal.button .active.button:active {
+.ui.info.buttons .active.button,
+.ui.info.buttons .active.button:active,
+.ui.info.active.button,
+.ui.info.button .active.button:active {
   background-color: #009c95;
   color: #FFFFFF;
   text-shadow: none;
@@ -4007,43 +3963,43 @@ input::selection {
 
 /*--- Yellow ---*/
 
-.ui.yellow.buttons .button,
-.ui.yellow.button {
+.ui.pending.buttons .button,
+.ui.pending.button {
   background-color: #FBBD08;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
 
-.ui.yellow.button {
+.ui.pending.button {
   box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
-.ui.yellow.buttons .button:hover,
-.ui.yellow.button:hover {
+.ui.pending.buttons .button:hover,
+.ui.pending.button:hover {
   background-color: #eaae00;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.yellow.buttons .button:focus,
-.ui.yellow.button:focus {
+.ui.pending.buttons .button:focus,
+.ui.pending.button:focus {
   background-color: #daa300;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.yellow.buttons .button:active,
-.ui.yellow.button:active {
+.ui.pending.buttons .button:active,
+.ui.pending.button:active {
   background-color: #cd9903;
   color: #FFFFFF;
   text-shadow: none;
 }
 
-.ui.yellow.buttons .active.button,
-.ui.yellow.buttons .active.button:active,
-.ui.yellow.active.button,
-.ui.yellow.button .active.button:active {
+.ui.pending.buttons .active.button,
+.ui.pending.buttons .active.button:active,
+.ui.pending.active.button,
+.ui.pending.button .active.button:active {
   background-color: #eaae00;
   color: #FFFFFF;
   text-shadow: none;
@@ -11036,7 +10992,7 @@ img.ui.bordered.image {
   padding: 0.5833em 0.833em;
   color: rgba(0, 0, 0, 0.6);
   text-transform: none;
-  font-weight: bold;
+  font-weight: 500;
   border: 0px solid transparent;
   border-radius: 0.28571429rem;
   -webkit-transition: background 0.1s ease;
