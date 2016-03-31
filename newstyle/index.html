@@ -15,43 +15,11 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/iframe.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
     
     <!-- Custom -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
-
-  <style type="text/css">
-    body > .ui.container {
-      margin-top: 3em;
-    }
-    iframe {
-      border: none;
-      width: calc(100% + 2em);
-      margin: 0em -1em;
-      height: 300px;
-    }
-    iframe html {
-      overflow: hidden;
-    }
-    iframe body {
-      padding: 0em;
-    }
-
-    .ui.container > h1 {
-      font-size: 3em;
-      text-align: center;
-      font-weight: normal;
-    }
-    .ui.container > h2.dividing.header {
-      font-size: 2em;
-      font-weight: normal;
-      margin: 4em 0em 3em;
-    }
-
-
-    .ui.table {
-      table-layout: fixed;
-    }
-  </style>
 </head>
 <body>
     <div class="navbar">
@@ -63,22 +31,23 @@
             <img src="img/tri.svg">
             <img src="img/round.svg">
         </div>
-        <ul class="leftMenu">
+        <ul class="leftMenu menu">
             <li class="item">
-                <a class="links" href="#">About</a>
+                <a class="links" href="components/about.html"  target="component">About</a>
             </li>
             <li class="item active">
-                Structure
+                <a class="links" href="components/grid.html"  target="component">Structure</a>
             </li>
             <li class="item">
-                <a class="links" href="#">Color</a>
+                <a class="links" href="components/color.html"  target="component">Color</a>
             </li>
             <li class="item">
-                <a class="links" href="#">Fonts</a>
+                <a class="links" href="components/font.html"  target="component">Fonts</a>
             </li>
             <li class="item">
-                <a class="links" href="#">Components</a>
+                <a class="links" href="components/components.html"  target="component">Components</a>
             </li>
+            
         </ul>
        
     </div>
@@ -86,7 +55,9 @@
         <div class="showComponent">
             <div class="ui header">#grids</div>
             <img src="img/wave.svg">
-            <iframe src="components/grid.html" width="100%" scrolling="no"></iframe>
+            <div id="changeContent">
+                <iframe src="components/grid.html" width="100%" scrolling="no"  name="component"></iframe>
+            </div>    
         </div>
     </div>
     

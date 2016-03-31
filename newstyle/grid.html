@@ -1,58 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Design Standards is a carefully crafted design developed by Hoiio UX Team.">
+    <meta name="keywords" content="Hoiio Standars Design Marcus">
+    <meta name="generator" content="Marcus">
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>Grid</title>
+    <!-- Site Properties -->
+    <title>Hoiio Design Standards</title>
+    <link rel="stylesheet" type="text/css" href="../dist/semantic.css">
 
-  <link rel="stylesheet" type="text/css" href="../../dist/semantic.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
     
-  <!-- Custom -->
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
-  
-  <!--- Example Libs -->
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/iframe-content.js"></script>
-  <script src="../js/show-examples.js"></script>
-  
-  <!--- Component JS -->
-  <script type="text/javascript" src="../../dist/semantic.min.js"></script>
+    <!-- Custom -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <!--- Example CSS -->
-  <style>
-  body {
-    padding: 1em;
-  }
-  .spaced > .button {
-    margin-bottom: 1em;
-  }
-  </style>
-
-  <!--- Example Javascript -->
-  <script>
-  $(document)
-    .ready(function() {
-      $('.ui.dropdown').dropdown();
-
-      $('.ui.buttons .dropdown.button').dropdown({
-        action: 'combo'
-      });
-    })
-  ;
-  </script>
-</head>
-
-<body>
-
-    <div class="showGrid">
-        <div class="ui text container first">
-    <h3>A Container</h3>
-    <p>A container is a fixed width element that wraps your site's content. It remains a constant size and uses <b>margin</b> to center. Containers are the simplest way to center page content inside a grid.</p>
-</div>
-        <div class="ui container">
-    <div class="ui grid">
+<body class="gridPage">
+    
+    <div class="navbar">
+       
+    </div>
+    <div class="showExample">
+        <div class="showComponent">
+            <div class="ui header">#grids</div>
+            <img src="img/wave.svg">
+            <div class="ui text container first">
+                <h3>A Container</h3>
+                <p>A container is a fixed width element that wraps your site's content. It remains a constant size and uses <b>margin</b> to center. Containers are the simplest way to center page content inside a grid.</p>
+            </div>
+            <div class="ui container">
+                <div class="ui grid">
         <div class="column"></div>
         <div class="column"></div>
         <div class="column"></div>
@@ -70,8 +52,8 @@
         <div class="column"></div>
         <div class="column"></div>
     </div>
-</div>
-        <div class="ui text container">
+            </div>
+            <div class="ui text container">
                 <h1>Grid Content</h1>
                 <p>A grid does not necessarily need to specify rows. If you include <code>columns</code> as direct child of <code>ui grid</code> content will automatically flow to the next row when all the grid columns are taken in the current row.</p>
 
@@ -332,8 +314,10 @@
                   <div class="column">column</div>
                 </div>
               </div>
-                </div>    
+                </div>  
+        </div>
     </div>
+
 
 </body>
 </html>
