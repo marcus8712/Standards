@@ -54,32 +54,50 @@ h5 {
 }
 h1 {
   min-height: 1rem;
-  font-size: 2rem;
+  font-size: 3.571rem;
+}
+h1.light {
+  font-size: 3.571rem;
+  font-weight: 300;
 }
 h2 {
-  font-size: 1.714rem;
+  font-size: 4rem;
+}
+h2.light {
+  font-size: 4rem;
+  font-weight: 300;
 }
 h3 {
-  font-size: 1.28rem;
+  font-size: 2.571rem;
 }
 h4 {
-  font-size: 1.071rem;
+  font-size: 2.143rem;
 }
 h5 {
-  font-size: 1rem;
+  font-size: 1.786rem;
+}
+h6 {
+  font-size: 1.071rem;
+}
+h6.uppercase {
+  font-size: 1.071rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 h1:first-child,
 h2:first-child,
 h3:first-child,
 h4:first-child,
-h5:first-child {
+h5:first-child,
+h6:first-child {
   margin-top: 0em;
 }
 h1:last-child,
 h2:last-child,
 h3:last-child,
 h4:last-child,
-h5:last-child {
+h5:last-child,
+h6:last-child {
   margin-bottom: 0em;
 }
 
@@ -104,11 +122,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #2C83C5;
   text-decoration: none;
 }
 a:hover {
-  color: #1e70bf;
+  color: #23679b;
   text-decoration: none;
 }
 

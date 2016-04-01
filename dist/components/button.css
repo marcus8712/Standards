@@ -925,13 +925,13 @@
 .ui.toggle.buttons .active.button,
 .ui.buttons .button.toggle.active,
 .ui.button.toggle.active {
-  background-color: #21BA45 !important;
+  background-color: #19B37B !important;
   box-shadow: none !important;
   text-shadow: none;
   color: #FFFFFF !important;
 }
 .ui.button.toggle.active:hover {
-  background-color: #16ab39 !important;
+  background-color: #0fa36d !important;
   text-shadow: none;
   color: #FFFFFF !important;
 }
@@ -1656,31 +1656,31 @@
 /* Basic */
 .ui.basic.blue.buttons .button,
 .ui.basic.blue.button {
-  box-shadow: 0px 0px 0px 1px #2185D0 inset !important;
-  color: #2185D0 !important;
+  box-shadow: 0px 0px 0px 1px #008BD9 inset !important;
+  color: #008BD9 !important;
 }
 .ui.basic.blue.buttons .button:hover,
 .ui.basic.blue.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1678c2 inset !important;
-  color: #1678c2 !important;
+  box-shadow: 0px 0px 0px 1px #007bc0 inset !important;
+  color: #007bc0 !important;
 }
 .ui.basic.blue.buttons .button:focus,
 .ui.basic.blue.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0d71bb inset !important;
-  color: #1678c2 !important;
+  box-shadow: 0px 0px 0px 1px #0071b0 inset !important;
+  color: #007bc0 !important;
 }
 .ui.basic.blue.buttons .active.button,
 .ui.basic.blue.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1279c6 inset !important;
-  color: #1a69a4 !important;
+  box-shadow: 0px 0px 0px 1px #007bc0 inset !important;
+  color: #006aa6 !important;
 }
 .ui.basic.blue.buttons .button:active,
 .ui.basic.blue.button:active {
-  box-shadow: 0px 0px 0px 1px #1a69a4 inset !important;
-  color: #1a69a4 !important;
+  box-shadow: 0px 0px 0px 1px #006aa6 inset !important;
+  color: #006aa6 !important;
 }
 .ui.buttons:not(.vertical) > .basic.blue.button:not(:first-child) {
   margin-left: -1px;
@@ -1758,7 +1758,7 @@
 
 .ui.success.buttons .button,
 .ui.success.button {
-  background-color: #21BA45;
+  background-color: #19B37B;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -1768,19 +1768,19 @@
 }
 .ui.success.buttons .button:hover,
 .ui.success.button:hover {
-  background-color: #16ab39;
+  background-color: #0fa36d;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.success.buttons .button:focus,
 .ui.success.button:focus {
-  background-color: #0ea432;
+  background-color: #089c66;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.success.buttons .button:active,
 .ui.success.button:active {
-  background-color: #198f35;
+  background-color: #13865c;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -1788,7 +1788,7 @@
 .ui.success.buttons .active.button:active,
 .ui.success.active.button,
 .ui.success.button .active.button:active {
-  background-color: #13ae38;
+  background-color: #0ca76e;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -1796,31 +1796,31 @@
 /* Basic */
 .ui.basic.green.buttons .button,
 .ui.basic.green.button {
-  box-shadow: 0px 0px 0px 1px #21BA45 inset !important;
-  color: #21BA45 !important;
+  box-shadow: 0px 0px 0px 1px #19B37B inset !important;
+  color: #19B37B !important;
 }
 .ui.basic.green.buttons .button:hover,
 .ui.basic.green.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #16ab39 inset !important;
-  color: #16ab39 !important;
+  box-shadow: 0px 0px 0px 1px #0fa36d inset !important;
+  color: #0fa36d !important;
 }
 .ui.basic.green.buttons .button:focus,
 .ui.basic.green.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0ea432 inset !important;
-  color: #16ab39 !important;
+  box-shadow: 0px 0px 0px 1px #089c66 inset !important;
+  color: #0fa36d !important;
 }
 .ui.basic.green.buttons .active.button,
 .ui.basic.green.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #13ae38 inset !important;
-  color: #198f35 !important;
+  box-shadow: 0px 0px 0px 1px #0ca76e inset !important;
+  color: #13865c !important;
 }
 .ui.basic.green.buttons .button:active,
 .ui.basic.green.button:active {
-  box-shadow: 0px 0px 0px 1px #198f35 inset !important;
-  color: #198f35 !important;
+  box-shadow: 0px 0px 0px 1px #13865c inset !important;
+  color: #13865c !important;
 }
 .ui.buttons:not(.vertical) > .basic.green.button:not(:first-child) {
   margin-left: -1px;
@@ -1898,7 +1898,7 @@
 
 .ui.warning.buttons .button,
 .ui.warning.button {
-  background-color: #F2711C;
+  background-color: #E5791A;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -1908,19 +1908,19 @@
 }
 .ui.warning.buttons .button:hover,
 .ui.warning.button:hover {
-  background-color: #f26202;
+  background-color: #d76c0e;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.warning.buttons .button:focus,
 .ui.warning.button:focus {
-  background-color: #e55b00;
+  background-color: #d16505;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.warning.buttons .button:active,
 .ui.warning.button:active {
-  background-color: #cf590c;
+  background-color: #b76115;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -1928,7 +1928,7 @@
 .ui.warning.buttons .active.button:active,
 .ui.warning.active.button,
 .ui.warning.button .active.button:active {
-  background-color: #f56100;
+  background-color: #dc6c0a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -1936,31 +1936,31 @@
 /* Basic */
 .ui.basic.orange.buttons .button,
 .ui.basic.orange.button {
-  box-shadow: 0px 0px 0px 1px #F2711C inset !important;
-  color: #F2711C !important;
+  box-shadow: 0px 0px 0px 1px #E5791A inset !important;
+  color: #E5791A !important;
 }
 .ui.basic.orange.buttons .button:hover,
 .ui.basic.orange.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #f26202 inset !important;
-  color: #f26202 !important;
+  box-shadow: 0px 0px 0px 1px #d76c0e inset !important;
+  color: #d76c0e !important;
 }
 .ui.basic.orange.buttons .button:focus,
 .ui.basic.orange.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #e55b00 inset !important;
-  color: #f26202 !important;
+  box-shadow: 0px 0px 0px 1px #d16505 inset !important;
+  color: #d76c0e !important;
 }
 .ui.basic.orange.buttons .active.button,
 .ui.basic.orange.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #f56100 inset !important;
-  color: #cf590c !important;
+  box-shadow: 0px 0px 0px 1px #dc6c0a inset !important;
+  color: #b76115 !important;
 }
 .ui.basic.orange.buttons .button:active,
 .ui.basic.orange.button:active {
-  box-shadow: 0px 0px 0px 1px #cf590c inset !important;
-  color: #cf590c !important;
+  box-shadow: 0px 0px 0px 1px #b76115 inset !important;
+  color: #b76115 !important;
 }
 .ui.buttons:not(.vertical) > .basic.orange.button:not(:first-child) {
   margin-left: -1px;
@@ -2458,7 +2458,7 @@
 
 .ui.error.buttons .button,
 .ui.error.button {
-  background-color: #DB2828;
+  background-color: #E64333;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2468,19 +2468,19 @@
 }
 .ui.error.buttons .button:hover,
 .ui.error.button:hover {
-  background-color: #d01919;
+  background-color: #ed2612;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.error.buttons .button:focus,
 .ui.error.button:focus {
-  background-color: #ca1010;
+  background-color: #e91c07;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.error.buttons .button:active,
 .ui.error.button:active {
-  background-color: #b21e1e;
+  background-color: #cd2919;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2488,7 +2488,7 @@
 .ui.error.buttons .active.button:active,
 .ui.error.active.button,
 .ui.error.button .active.button:active {
-  background-color: #d41515;
+  background-color: #f2220d;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2496,31 +2496,31 @@
 /* Basic */
 .ui.basic.red.buttons .button,
 .ui.basic.red.button {
-  box-shadow: 0px 0px 0px 1px #DB2828 inset !important;
-  color: #DB2828 !important;
+  box-shadow: 0px 0px 0px 1px #E64333 inset !important;
+  color: #E64333 !important;
 }
 .ui.basic.red.buttons .button:hover,
 .ui.basic.red.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d01919 inset !important;
-  color: #d01919 !important;
+  box-shadow: 0px 0px 0px 1px #ed2612 inset !important;
+  color: #ed2612 !important;
 }
 .ui.basic.red.buttons .button:focus,
 .ui.basic.red.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ca1010 inset !important;
-  color: #d01919 !important;
+  box-shadow: 0px 0px 0px 1px #e91c07 inset !important;
+  color: #ed2612 !important;
 }
 .ui.basic.red.buttons .active.button,
 .ui.basic.red.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d41515 inset !important;
-  color: #b21e1e !important;
+  box-shadow: 0px 0px 0px 1px #f2220d inset !important;
+  color: #cd2919 !important;
 }
 .ui.basic.red.buttons .button:active,
 .ui.basic.red.button:active {
-  box-shadow: 0px 0px 0px 1px #b21e1e inset !important;
-  color: #b21e1e !important;
+  box-shadow: 0px 0px 0px 1px #cd2919 inset !important;
+  color: #cd2919 !important;
 }
 .ui.buttons:not(.vertical) > .basic.red.button:not(:first-child) {
   margin-left: -1px;
@@ -2598,7 +2598,7 @@
 
 .ui.info.buttons .button,
 .ui.info.button {
-  background-color: #00B5AD;
+  background-color: #2BADD4;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2608,19 +2608,19 @@
 }
 .ui.info.buttons .button:hover,
 .ui.info.button:hover {
-  background-color: #009c95;
+  background-color: #1fa0c6;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.info.buttons .button:focus,
 .ui.info.button:focus {
-  background-color: #008c86;
+  background-color: #1699c0;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.info.buttons .button:active,
 .ui.info.button:active {
-  background-color: #00827c;
+  background-color: #228aaa;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2628,7 +2628,7 @@
 .ui.info.buttons .active.button:active,
 .ui.info.active.button,
 .ui.info.button .active.button:active {
-  background-color: #009c95;
+  background-color: #1ba2ca;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2636,31 +2636,31 @@
 /* Basic */
 .ui.basic.teal.buttons .button,
 .ui.basic.teal.button {
-  box-shadow: 0px 0px 0px 1px #00B5AD inset !important;
-  color: #00B5AD !important;
+  box-shadow: 0px 0px 0px 1px #2BADD4 inset !important;
+  color: #2BADD4 !important;
 }
 .ui.basic.teal.buttons .button:hover,
 .ui.basic.teal.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #009c95 inset !important;
-  color: #009c95 !important;
+  box-shadow: 0px 0px 0px 1px #1fa0c6 inset !important;
+  color: #1fa0c6 !important;
 }
 .ui.basic.teal.buttons .button:focus,
 .ui.basic.teal.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #008c86 inset !important;
-  color: #009c95 !important;
+  box-shadow: 0px 0px 0px 1px #1699c0 inset !important;
+  color: #1fa0c6 !important;
 }
 .ui.basic.teal.buttons .active.button,
 .ui.basic.teal.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #009c95 inset !important;
-  color: #00827c !important;
+  box-shadow: 0px 0px 0px 1px #1ba2ca inset !important;
+  color: #228aaa !important;
 }
 .ui.basic.teal.buttons .button:active,
 .ui.basic.teal.button:active {
-  box-shadow: 0px 0px 0px 1px #00827c inset !important;
-  color: #00827c !important;
+  box-shadow: 0px 0px 0px 1px #228aaa inset !important;
+  color: #228aaa !important;
 }
 .ui.buttons:not(.vertical) > .basic.teal.button:not(:first-child) {
   margin-left: -1px;
@@ -3020,7 +3020,7 @@
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #2185D0;
+  background-color: #008BD9;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3030,25 +3030,25 @@
 }
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #1678c2;
+  background-color: #007bc0;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #0d71bb;
+  background-color: #0071b0;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #1a69a4;
+  background-color: #006aa6;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.primary.buttons .active.button,
 .ui.primary.active.button {
-  background-color: #1279c6;
+  background-color: #007bc0;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3098,7 +3098,7 @@
 
 .ui.positive.buttons .button,
 .ui.positive.button {
-  background-color: #21BA45 !important;
+  background-color: #19B37B !important;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3108,26 +3108,26 @@
 }
 .ui.positive.buttons .button:hover,
 .ui.positive.button:hover {
-  background-color: #16ab39 !important;
+  background-color: #0fa36d !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.positive.buttons .button:focus,
 .ui.positive.button:focus {
-  background-color: #0ea432 !important;
+  background-color: #089c66 !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.positive.buttons .button:active,
 .ui.positive.button:active {
-  background-color: #198f35 !important;
+  background-color: #13865c !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.positive.buttons .active.button,
 .ui.positive.active.button,
 .ui.positive.buttons .active.button:active {
-  background-color: #13ae38;
+  background-color: #0ca76e;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3138,7 +3138,7 @@
 
 .ui.negative.buttons .button,
 .ui.negative.button {
-  background-color: #DB2828 !important;
+  background-color: #E64333 !important;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3148,26 +3148,26 @@
 }
 .ui.negative.buttons .button:hover,
 .ui.negative.button:hover {
-  background-color: #d01919 !important;
+  background-color: #ed2612 !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.negative.buttons .button:focus,
 .ui.negative.button:focus {
-  background-color: #ca1010 !important;
+  background-color: #e91c07 !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.negative.buttons .button:active,
 .ui.negative.button:active {
-  background-color: #b21e1e !important;
+  background-color: #cd2919 !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 .ui.negative.buttons .active.button,
 .ui.negative.active.button,
 .ui.negative.buttons .active.button:active {
-  background-color: #d41515;
+  background-color: #f2220d;
   color: #FFFFFF;
   text-shadow: none;
 }

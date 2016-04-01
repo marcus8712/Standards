@@ -85,7 +85,7 @@
 /* Set max height on unusual input */
 .ui.form ::-webkit-datetime-edit,
 .ui.form ::-webkit-inner-spin-button {
-  height: 1.2142em;
+  height: 1.4em;
 }
 .ui.form input:not([type]),
 .ui.form input[type="date"],
@@ -103,8 +103,8 @@
   outline: none;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  line-height: 1.2142em;
-  padding: 0.67861429em 1em;
+  line-height: 1.4em;
+  padding: 0.58571429em 1em;
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -362,14 +362,14 @@
 .ui.form input[type="text"]:focus,
 .ui.form input[type="url"]:focus {
   color: rgba(0, 0, 0, 0.95);
-  border-color: #85B7D9;
+  border-color: #008BD9;
   border-radius: 0.28571429rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
 }
 .ui.form textarea:focus {
   color: rgba(0, 0, 0, 0.95);
-  border-color: #85B7D9;
+  border-color: #008BD9;
   border-radius: 0.28571429rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
@@ -659,7 +659,7 @@
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #DB2828;
+  color: #E64333;
 }
 .ui.form .required.fields:not(.grouped) > .field > label:after,
 .ui.form .required.fields.grouped > label:after,
@@ -1058,3 +1058,18 @@
          Theme Overrides
 *******************************/
 
+.ui.login.form > .segment {
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.ui.login.form .field > label {
+  font-weight: 600 !important;
+  font-size: 1em !important;
+  color: #999 !important;
+  margin-bottom: 0.285714em !important;
+}
+.ui.login.form + .info {
+  margin-top: 20px;
+}

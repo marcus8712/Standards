@@ -21,32 +21,26 @@ code {
     font-size: 14px;
 }
 
-.line{
-    margin: 30px 0;
-    height: 20px;
-    background: #414141;
-    display: block;
-    width: 1px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1,
-h3{
-  margin-top: 10em;
-}
-
-h1 {
+  
+.showExample > .showComponent > h1 {
+    font-size: 2rem !important;
+    margin-top: 3em;
     color: rgb(102, 179, 19);
 }
 
-h3{
+.showExample > .showComponent > .container > h3{
+    font-size: 1.28rem !important;
     margin-bottom: 2em;
 }
 
-h1 + p{
-  margin-top: 5em;
+.showExample > h1 + p{
+    margin-top: 2em !important;
 }
+
+p + .grid{
+    margin-top: 1em !important;
+}
+
 
 img {
   display: block;
@@ -57,16 +51,7 @@ img {
 .grid {
   position: relative;
 }
-.grid:before {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
- background-color: #F0F0F0;
-  content: '';
-  width: calc(100% - 2rem);
-  height: calc(100% - 2rem);
-/*  box-shadow: 0px 0px 0px 1px #DDDDDD inset;*/
-}
+
 .ui.divided.grid:before,
 .celled.grid:before {
   display: none;
@@ -74,13 +59,7 @@ img {
 .ui.aligned .column:after {
   display: none !important;
 }
-.grid .column:not(.row):not(.grid):after {
-  background-color: #ffc266;
-  box-shadow: 0px 0px 0px 1px rgba(86, 61, 124, 0.2) inset;
-  content: "";
-  display: block;
-  min-height: 50px;
-}
+
 @media only screen and (max-width: 768px) {
   .stackable.grid:before {
     width: 100%;
@@ -90,12 +69,9 @@ img {
 
 /***********************
 
-    EXAMPLE
+    NAVBAR
 
 ************************/
-
-
-/* Navbar */
 
 .navbar{
     display: block;
@@ -169,6 +145,23 @@ img {
     cursor: default;
 }
 
+/***********************
+
+    FOOTER
+
+************************/
+
+.footer{
+    display: block;
+    margin-top: 5em;
+    height: 70px;  
+}
+
+/***********************
+
+    GENERAL SHOW PAGES
+
+************************/
 
 .showExample{
     margin: 0 auto;
@@ -179,15 +172,39 @@ img {
      text-align: center;
 }
 
-.showComponent> .header{
+.showExample > .showComponent> .header{
     margin-left: auto!important;
     margin-right: auto!important;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #2C83C5;
+    font-size: 1.28rem;
 }
-.showComponent> img.wave{
+.showExample > .showComponent> img.wave{
     width: 100%;
+}
+
+.showExample > .showComponent{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container.first {
+    padding-top: 0 !important;
+}
+
+.showExample > .showComponent > .container {
+    padding: 3em 0em 5em;
+}
+
+.showExample > .showComponent > .first{
+    padding-bottom: 1em !important;
+}
+
+.showExample > .showComponent .ui.text.container > p{
+    margin: 0 auto;
+    width:500px;
+    margin-bottom: 1em
 }
 
 @media only screen and (max-width: 1200px) {
@@ -199,6 +216,14 @@ img {
     }
 }
 
+@media only screen and (max-width: 560px) {
+    .showExample > .showComponent p{
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 1em
+    }
+}
+
 
 /***********************
 
@@ -206,19 +231,26 @@ img {
 
 ************************/
 
-.showComponent{
-    margin: 0 auto;
-    text-align: center;
+
+
+.showGrid .grid:before {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+ background-color: #F0F0F0;
+  content: '';
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+/*  box-shadow: 0px 0px 0px 1px #DDDDDD inset;*/
 }
 
-.container.first {
-    padding-top: 0 !important;
+.showGrid .grid .column:not(.row):not(.grid):after {
+  background-color: #ffc266;
+  box-shadow: 0px 0px 0px 1px rgba(86, 61, 124, 0.2) inset;
+  content: "";
+  display: block;
+  min-height: 50px;
 }
-
-.showComponent > .container {
-    padding: 3em 0em 5em;
-}
-
 
 
 /***********************
@@ -227,16 +259,205 @@ img {
 
 ************************/
 
+.showColor .colorItem{
+    
+}
+.showColor .colorItem > .colorName{
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.showColor .colorItem > .colorBox {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.showColor .colorItem > .colorCode {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.colorInfo { background-color: #2BADD4; }
+.colorInfoH { background-color: #40b5d8; }
+.colorInfoA { background-color: #279cbf; }
+
+.colorS { background-color: #19b37b; }
+.colorSH { background-color: #1cc98a; }
+.colorSA { background-color: #169d6c; }
+
+.colorW { background-color:#E5791A; }
+.colorWH { background-color:#E88631; }
+.colorWA { background-color:#CE6D17; }
+
+.colorE { background-color:#E64333; }
+.colorEH { background-color:#E95849; }
+.colorEA { background-color:#E32E1C; }
+
+.colorP { background-color:#E6DB19; }
+.colorPH { background-color:#EBE247; }
+.colorPA { background-color:#CFC517; }
+
+/***********************
+
+    COLOR
+
+************************/
+
+.showFont .identifier {
+    font-size: 11px;
+    color: #777;
+    display: block;
+}
+
+.showFont .styles{
+    margin-top: 3em;
+}
+
+.showFont .fontitem{
+    margin-bottom: 20px;
+}
+
+.showFont .Poppins-normal-300 {
+    font-style: normal;
+    font-weight: 300;
+}
+
+.showFont .Poppins-normal-400 {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.showFont .Poppins-normal-500 {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.showFont .Poppins-normal-600 {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.showFont .Poppins-normal-700 {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.showFont .headingOne{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.showFont .headingOneVariation{
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.showFont .headingTwo{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.showFont .headingTwoVariation{
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.showFont .headingThree{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.showFont .headingFour{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.showFont .headingFive{
+    font-size: 22px;
+    font-weight: 600;
+}
+.showFont .headingSix{
+    font-size: 15px;
+    font-weight: 600;
+}
+.showFont .headingSixUppercase{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/***********************
+
+    ICONS
+
+************************/
+
+.iconList{
+    
+}
+
+.iconList i.icon{
+    display: block;
+    margin: 0;
+    text-align: center;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.iconList span{
+    font-size: 12px;
+    line-height: 11px;
+   
+}
+
+/***********************
+
+    TOOLTIP
+
+************************/
+
+.showTooltip{
+    text-align: left;
+}
+
+
+/***********************
+
+    LABEL
+
+************************/
+
+
+.showLabel .ui.label + .label{
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
 
 
+/***********************
+
+    AUTHENTICAION
+
+************************/
+
+.signIn{
+    width: 500px !important;
+    border: 1px solid #ccc;
+    padding: 50px !important; 
+}
 
 
+p.more.info{
+    text-align: center
+}
 
-
-
-
-
-
-
-
+.ui.input input{
+    height: 40px;
+    line-height: normal !important;
+}
