@@ -18016,8 +18016,8 @@ ol.ui.horizontal.list li:before,
   margin-bottom: 0.285714em !important;
 }
 
-.ui.login.form .checkbox {
-  margin: 8px 0 !important;
+.ui.login.form + .info {
+  margin-top: 15px;
 }
 /*!
  * # Semantic UI 2.1.8 - Grid

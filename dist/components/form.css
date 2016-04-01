@@ -1070,6 +1070,6 @@
   color: #999 !important;
   margin-bottom: 0.285714em !important;
 }
-.ui.login.form .checkbox {
-  margin: 8px 0 !important;
+.ui.login.form + .info {
+  margin-top: 15px;
 }
