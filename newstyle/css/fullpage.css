@@ -1,0 +1,42 @@
+
+.ui.header.segment{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    width: 100%;
+    background: #F7F7F7;
+    border:0;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ui.information.grid {
+    margin: 0px -1rem !important;
+}
+
+.ui.information.grid .input{
+    min-width:300px
+}
+
+/* Rectangle 190 Copy: */
+
+/* Line: */
+border: 1px solid #DDDDDD;
+/* Rectangle 80: */
+background: #008BD9;
+border-radius: 4px;
+/* Invite members: */
+font-family: Poppins-Regular;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 22px;
+/* Icon: */
+background: #F9F9F9;
+/* MEMBERS: */
+font-family: Poppins;
+font-size: 20px;
+color: #414141;
+line-height: 28px;

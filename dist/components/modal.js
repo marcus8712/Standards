@@ -870,8 +870,8 @@ $.fn.modal.settings = {
 
   selector    : {
     close    : '> .close',
-    approve  : '.actions .positive, .actions .approve, .actions .ok',
-    deny     : '.actions .negative, .actions .deny, .actions .cancel',
+    approve  : '.actions .approve, .actions .ok',
+    deny     : '.actions .deny, .actions .cancel',
     modal    : '.ui.modal'
   },
   error : {

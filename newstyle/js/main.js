@@ -1,5 +1,4 @@
-$(document).ready(function() {
-    
+
     $('li.active').click(function(){
         return false;
     });
@@ -9,9 +8,7 @@ $(document).ready(function() {
     var hoiio="";
    
     hoiio += "    <div class=\"logo\">";
-    hoiio += "        <img src=\"img\/square.svg\">";
-    hoiio += "        <img src=\"img\/tri.svg\">";
-    hoiio += "        <img src=\"img\/round.svg\">";
+    hoiio += "        <img src=\"img\/direction.svg\">";
     hoiio += "    <\/div>";
     hoiio += "    <ul class=\"leftMenu menu\">";
     hoiio += "        <li class=\"item\">";
@@ -32,14 +29,4 @@ $(document).ready(function() {
     hoiio += "    <\/ul>";
    
     $(".navbar").append(hoiio);
-    
-    var x = window.location.href.match(/.*\/(.*)$/)[1];
-    
-    if(x){
-        $('a[href$='+x+']').parent().addClass("active");
-    }
-    else{
-        $('a[href$=introduction').addClass("active");
-    }
- 
-});
+   

@@ -21,12 +21,12 @@
   top: 50%;
   left: 50%;
   text-align: left;
-  background: #FFFFFF;
+  background: #ffffff;
   border: none;
   box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: 50% 25%;
           transform-origin: 50% 25%;
-  border-radius: 0.28571429rem;
+  border-radius: 0.30769231rem;
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
@@ -35,12 +35,12 @@
 }
 .ui.modal > :first-child:not(.icon),
 .ui.modal > .icon:first-child + * {
-  border-top-left-radius: 0.28571429rem;
-  border-top-right-radius: 0.28571429rem;
+  border-top-left-radius: 0.30769231rem;
+  border-top-right-radius: 0.30769231rem;
 }
 .ui.modal > :last-child {
-  border-bottom-left-radius: 0.28571429rem;
-  border-bottom-right-radius: 0.28571429rem;
+  border-bottom-left-radius: 0.30769231rem;
+  border-bottom-right-radius: 0.30769231rem;
 }
 
 
@@ -56,12 +56,11 @@
 .ui.modal > .close {
   cursor: pointer;
   position: absolute;
-  top: -2.5rem;
-  right: -2.5rem;
+  top: 0.95rem;
+  right: 1rem;
   z-index: 1;
   opacity: 0.8;
   font-size: 1.25em;
-  color: #FFFFFF;
   width: 2.25rem;
   height: 2.25rem;
   padding: 0.625rem 0rem 0rem 0rem;
@@ -77,16 +76,16 @@
 .ui.modal > .header {
   display: block;
   font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #FFFFFF;
+  background: #ffffff;
   margin: 0em;
   padding: 1.25rem 1.5rem;
   box-shadow: none;
   color: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid #cccccc;
 }
 .ui.modal > .header:not(.ui) {
-  font-size: 1.42857143rem;
-  line-height: 1.2857em;
+  font-size: 1.46153846rem;
+  line-height: 1.4em;
   font-weight: bold;
 }
 
@@ -178,9 +177,9 @@
 ---------------*/
 
 .ui.modal > .actions {
-  background: #F9FAFB;
-  padding: 1rem 1rem;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  background: #F9F9F9;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid #cccccc;
   text-align: right;
 }
 .ui.modal .actions > .button {
@@ -230,7 +229,7 @@
     padding-right: 2.25rem;
   }
   .ui.modal > .close {
-    top: 1.425rem;
+    top: 1.411rem;
     right: 1rem;
     color: #414141;
   }
@@ -306,7 +305,7 @@
   border: none;
   border-radius: 0em;
   box-shadow: none !important;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .ui.basic.modal > .header,
 .ui.basic.modal > .content,
@@ -314,7 +313,7 @@
   background-color: transparent;
 }
 .ui.basic.modal > .header {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .ui.basic.modal > .close {
   top: 1rem;
@@ -330,7 +329,7 @@
 /* Tablet and Mobile */
 @media only screen and (max-width: 991px) {
   .ui.basic.modal > .close {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -411,7 +410,7 @@
   padding-right: 2.25rem;
 }
 .ui.fullscreen.modal > .close {
-  top: 1.425rem;
+  top: 1.411rem;
   right: 1rem;
   color: #414141;
 }

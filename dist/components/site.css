@@ -20,7 +20,7 @@ body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 13px;
 }
 body {
   margin: 0px;
@@ -29,8 +29,8 @@ body {
   min-width: 320px;
   background: #FFFFFF;
   font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.8em;
+  font-size: 13px;
+  line-height: 1.786;
   color: #414141;
   font-smoothing: antialiased;
   font-weight: normal;
@@ -47,40 +47,40 @@ h3,
 h4,
 h5 {
   font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  line-height: 1.2857em;
-  margin: calc(2rem -  0.14285em ) 0em 1rem;
-  font-weight: bold;
+  line-height: 1.4em;
+  margin: calc(2rem -  0.2em ) 0em 1rem;
+  font-weight: 600;
   padding: 0em;
 }
 h1 {
   min-height: 1rem;
-  font-size: 3.571rem;
+  font-size: 3.23076923rem;
 }
 h1.light {
-  font-size: 3.571rem;
+  font-size: 3.23076923rem;
   font-weight: 300;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 2.92307692rem;
 }
 h2.light {
-  font-size: 4rem;
+  font-size: 2.92307692rem;
   font-weight: 300;
 }
 h3 {
-  font-size: 2.571rem;
+  font-size: 2.46153846rem;
 }
 h4 {
-  font-size: 2.143rem;
+  font-size: 2.15384615rem;
 }
 h5 {
-  font-size: 1.786rem;
+  font-size: 1.69230769rem;
 }
 h6 {
-  font-size: 1.071rem;
+  font-size: 1.15384615rem;
 }
 h6.uppercase {
-  font-size: 1.071rem;
+  font-size: 1.15384615rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -108,7 +108,7 @@ h6:last-child {
 
 p {
   margin: 0em 0em 1em;
-  line-height: 1.8em;
+  line-height: 1.786;
 }
 p:first-child {
   margin-top: 0em;
@@ -122,12 +122,19 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #2C83C5;
+  color: #008bd9;
   text-decoration: none;
 }
 a:hover {
-  color: #23679b;
+  color: #006aa6;
   text-decoration: none;
+}
+.right.aligned.field {
+  text-align: right;
+}
+.underlined,
+a.underlined:hover {
+  text-decoration: underline;
 }
 
 

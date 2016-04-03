@@ -28,6 +28,12 @@ code {
     color: rgb(102, 179, 19);
 }
 
+.showExample > .showComponent > h1:first-child{
+    margin-top: 0;
+}
+
+
+
 
 
 .showExample > .showComponent > .container > h3{
@@ -98,8 +104,8 @@ img {
 }
 
 .navbar > .logo > img {
-    width: 16px;
-    margin:5px;
+    width: 40px;
+    margin:-5px;
     display:inline-block;
 }
 
@@ -207,6 +213,11 @@ img {
     margin: 0 auto;
     width:500px;
     margin-bottom: 1em
+}
+
+.show.grid{
+    width: 60%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -415,6 +426,16 @@ img {
     font-size: 12px;
     line-height: 11px;
    
+}
+
+/***********************
+
+    DROPDOWN
+
+************************/
+
+.ui.dropdown:not(.item){
+    margin:0 20px 20px 0;
 }
 
 /***********************
