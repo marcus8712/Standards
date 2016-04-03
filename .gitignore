@@ -5,7 +5,6 @@ src/
 notgitpush/
 examples/
 minimal/
-samples/
 component/
 bower.json
 composer.json
