@@ -7,7 +7,7 @@
     // Generate
     var hoiio="";
     hoiio += "    <ul class=\"leftMenu menu\">";
-    hoiio += "        <li class=\"item active\">";
+    hoiio += "        <li class=\"item\">";
     hoiio += "            <a class=\"links\" href=\"\/standards\/connected\/intro\">Intro<\/a>";
     hoiio += "        <\/li>";
     hoiio += "        <li class=\"item\">";
