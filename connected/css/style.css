@@ -105,17 +105,17 @@ img {
     text-decoration: none;
 }
 
-.navbar > .navbar-content > .menu > .item > .links{
+.navbar > .navbar-content > .menu > .item > a{
     color: rgba(0,0,0,.75);
 }
  
-.navbar > .navbar-content > .menu > .item > .links:hover{
+.navbar > .navbar-content > .menu > .item > a:hover{
     color: rgba(0,0,0,1);
     border-bottom: 1px solid #000;
 }
 
-.navbar > .navbar-content > .menu > .item  > .links.active,
-.navbar > .navbar-content > .menu > .item  > .links.active:hover{
+.navbar > .navbar-content > .menu > .item  > a.active,
+.navbar > .navbar-content > .menu > .item  > a.active:hover{
     color: rgba(0,0,0,.3);
     text-decoration: none !important;
     border-bottom:none;
