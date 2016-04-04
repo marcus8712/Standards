@@ -87,8 +87,6 @@ $(document).ready(function() {
         TABLE
     ----------------------*/ 
     
-    $('.special.table').tablesort();
-    
     
     /*--------------------
         MODAL
