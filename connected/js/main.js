@@ -1,5 +1,5 @@
 
-    $('li.active').click(function(){
+    $('a.active').click(function(){
         return false;
     });
     

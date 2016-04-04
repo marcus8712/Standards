@@ -221,10 +221,10 @@ $(document).ready(function() {
     var x = window.location.href.match(/.*\/(.*)$/)[1];
     
     if(x){
-        $('.navbar-content a[href$='+x+']').parent().addClass("active");
+        $('.navbar-content a[href$='+x+']').addClass("active");
     }
     else{
-        $('.navbar-content a[href$=intro]').parent().addClass("active");
+        $('a[href$=intro]').addClass("active");
     } 
     
  
