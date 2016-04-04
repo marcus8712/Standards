@@ -1,11 +1,11 @@
 # Standards
-gulpfile.js
-tasks/
-src/
+component/
 notgitpush/
+src/
+tasks/
 examples/
 minimal/
-component/
+gulpfile.js
 bower.json
 composer.json
 package.json
