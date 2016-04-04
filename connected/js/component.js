@@ -221,7 +221,7 @@ $(document).ready(function() {
     var x = window.location.href.match(/.*\/(.*)$/)[1];
     
     if(x){
-        $('.navbar-content a[href$='+x+']').addClass("active");
+        $('a[href$='+x+']').addClass("active");
     }
     else{
         $('a[href$=intro]').addClass("active");
