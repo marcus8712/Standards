@@ -219,10 +219,10 @@ $(document).ready(function() {
     var x = window.location.href.match(/.*\/(.*)$/)[1];
     
     if(x){
-        $('a[href$='+x+']').addClass("active").attr('href', '');
+        $('a[href$='+x+']').addClass("active").attr('href', '').css({'cursor': 'pointer', 'pointer-events' : 'none'});
     }
     else{
-        $('a[href$=intro]').addClass("active").attr('href', '');
+        $('a[href$=intro]').addClass("active").attr('href', '').css({'cursor': 'pointer', 'pointer-events' : 'none'});
     } 
     
  
