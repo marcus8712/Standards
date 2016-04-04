@@ -5970,13 +5970,13 @@ i.icon.google.play:before {
 
 /* '' */
 
-i.icon.google + .with.circle:before {
+i.icon.google.with.circle:before {
   content: '\e899';
 }
 
 /* '' */
 
-i.icon.google + :before {
+i.icon.google:before {
   content: '\e89a';
 }
 
