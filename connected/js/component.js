@@ -223,7 +223,7 @@ $(document).ready(function() {
         $('a[href$='+x+']').parent().addClass("active");
     }
     else{
-        $('a[href$=introduction').addClass("active");
+        $('a[href$=intro').addClass("active");
     }
  
 });
