@@ -212,19 +212,21 @@ $(document).ready(function() {
     
     */
    
+    
     // Set Active
     function capitalise(string) {
         return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
     }
-  
+    
     var x = window.location.href.match(/.*\/(.*)$/)[1];
     
     if(x){
-        $('a[href$='+x+']').parent().addClass("active");
+        $('.navbar-content a[href$='+x+']').parent().addClass("active");
     }
     else{
-        $('a[href$=intro').addClass("active");
-    }
+        $('.navbar-content a[href$=intro]').parent().addClass("active");
+    } 
+    
  
 });
 
