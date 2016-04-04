@@ -114,8 +114,8 @@ img {
     border-bottom: 1px solid #000;
 }
 
-.navbar > .navbar-content > .menu > .links.active,
-.navbar > .navbar-content > .menu > .links.active:hover{
+.navbar > .navbar-content > .menu > .item  > .links.active,
+.navbar > .navbar-content > .menu > .item  > .links.active:hover{
     color: rgba(0,0,0,.3);
     text-decoration: none !important;
     border-bottom:none;
