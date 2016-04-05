@@ -1,7 +1,7 @@
 d3.csv("/standards/connected/data/staff.csv", function(error, data) {
     data.forEach(function(d) {
         d3.select("table tbody").append("tr").attr("id", d.id);
-        
+        d3.select("#" + d.id).append("td");
         
     });
 });
