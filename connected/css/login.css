@@ -8,9 +8,12 @@
 
 .hoiio.loading{
     background: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
-.icon {
+.showloading {
 	z-index: 9999;
     position: fixed;
     top: 50%;
@@ -20,7 +23,7 @@
     
 }
 
-.icon .path {
+.showloading .path {
   stroke-dasharray: 500;
   stroke-dashoffset: 1000;
   animation: dash 1s linear infinite;
@@ -32,7 +35,7 @@
   }
 }
 
-.icon .svg{
+.showloading .svg{
   position:absolute;
   width:84px;
   margin-left:-2px;
@@ -43,7 +46,6 @@
   animation-duration: 1s;
   animation-direction: alternate;
 }
-
 
 @keyframes hoiioFadeInOut {
   0% {
