@@ -13,14 +13,24 @@
     padding-right: 40px;
 }
 
+.ui.header.segment .ui.button{
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+}
+
 .ui.information.grid {
     margin: 0px -1rem !important;
 }
 
-.ui.information.grid .input{
-    min-width:300px
+.ui.information.grid .ui.input{
+    min-width:350px;
 }
 
+.ui.information.grid .input > input{
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    height: 37px !important;
+}
 
 .ui.content.segments,
 .ui.content.segment{
@@ -65,23 +75,3 @@
 .ui.pagination.menu .active.item{
     background-color: rgba(238,238,238,1)
 }
-
-/* Rectangle 190 Copy: */
-
-/* Line: */
-border: 1px solid #DDDDDD;
-/* Rectangle 80: */
-background: #008BD9;
-border-radius: 4px;
-/* Invite members: */
-font-family: Poppins-Regular;
-font-size: 14px;
-color: #FFFFFF;
-line-height: 22px;
-/* Icon: */
-background: #F9F9F9;
-/* MEMBERS: */
-font-family: Poppins;
-font-size: 20px;
-color: #414141;
-line-height: 28px;
