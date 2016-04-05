@@ -1,3 +1,65 @@
+
+/*------------------
+    Loading
+---------------------*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.hoiio.loading{
+    background: white;
+}
+
+.icon {
+	z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.icon .path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 1000;
+  animation: dash 1s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 300;
+  }
+}
+
+.icon .svg{
+  position:absolute;
+  width:84px;
+  margin-left:-2px;
+  margin-top:-2px;
+  animation-name: hoiioFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+
+@keyframes hoiioFadeInOut {
+  0% {
+  opacity:1;
+}
+  50%{
+    opacity:1
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+
+
 /***********************
 
     SETUP
