@@ -3,7 +3,9 @@ d3.csv("/standards/connected/data/staff.csv", function(error, data) {
         var dataset = [d.avatar,d.phone,d.role_portal,d.subscriptions,d.last_access_portal];
         d3.select("table tbody").append("tr").attr("id", 'staff' + d.id);
         d3.select("#staff" + d.id)
-            .append("td").text(d.first_name);
+            .append("td").text(d.first_name)
+            .enter()
+            .append("td").text(d.last_name);
         
         
         
