@@ -3,15 +3,7 @@ d3.csv("/standards/connected/data/staff.csv", function(error, data) {
    
     
     data.forEach(function(d) {
-       var diventer = d3.select("table tbody tr")
-       .append("div")
-        .attr("id", d.first_name);
-
-    diventer.append("p")
-        .text(d.last_name);
-
-    diventer.append("img")
-        .attr("src", d.phone);
+       d3.select("table tbody").append("tr").attr("id", 'staff' + d.id);
         
         
     });
