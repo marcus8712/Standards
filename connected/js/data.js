@@ -2,10 +2,7 @@ d3.csv("/standards/connected/data/staff.csv", function(error, data) {
     data.forEach(function(d) {
         var dataset = [d.avatar,d.phone,d.role_portal,d.subscriptions,d.last_access_portal];
         d3.select("table tbody").append("tr").attr("id", 'staff' + d.id);
-        d3.select("#staff" + d.id)
-                 .data(dataset)
-                 .enter()
-                 .append("td");
+        d3.select("#staff" + d.id).data(dataset).enter().append("td");
         
         
         
