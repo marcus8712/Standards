@@ -97,7 +97,7 @@ body{
     background-repeat: repeat;
     background-size:50%;
     background-position: top;
-    opacity:0.03;
+    opacity:0.025;
 }
 
 
@@ -137,7 +137,7 @@ body{
 #form-content{
     width: 380px;
     position: absolute;
-    right:40px;
+    left:40px;
     top:0;
     padding: 40px;
     z-index: 2;
@@ -157,12 +157,14 @@ body{
 #create-new-card {
     left:0;
     text-align: left;
+    display: none;  
+    width:40%;
 }
 
 /* Header */
 #create-new-card .ui.header{
     margin-top:30px;
-    margin-bottom: 0;
+    margin-bottom: 35px;
     font-size: 20px;
     font-weight: 500 !important;
     color: white;
@@ -181,9 +183,9 @@ body{
 #login-card{
     text-align: left;
     float: right;
-    display: none;  
+    
      width:40%;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 /* Header */
@@ -213,7 +215,7 @@ body{
 -------------------------------*/
 
 #create-new{
-    display: none;
+   
 }
 
 /* Header */
@@ -223,25 +225,30 @@ body{
     text-align: center !important;
      font-size: 24px;
    font-weight: 500 !important;
+    
 }
 
 /* Buttons */
-#create-new .ui.buttons {
+#login .ui.buttons {
     width: 100%;
    
 }
-#create-new .ui.buttons .button{
+#login .ui.buttons .button{
     padding:15px;
     
 }
 
-#create-new .ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
+#login .ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
     vertical-align: middle;
 }
 
 /*-----------------------------
     Sign In Content
 -------------------------------*/
+
+#login{
+    display: none;
+}
 
 /* Header */
 #login .ui.header{
@@ -298,7 +305,7 @@ body{
 
 /* Forgot Pass */
 
-#login p { 
+#create-new p { 
     padding: 0 8px !important;
     margin-top: 20px;
     text-align: center !important;

@@ -6,8 +6,7 @@
      
     $("#create-new-btn").click(function() {
         $(this).each(function(){
-            $('#form-content').removeClass();				
-            $('#form-content').addClass("slideLeft");
+            $('#form-content').removeClass();			$('#form-content').addClass("slideLeft");
             $('#create-new').show();
             $('#login').hide();
             $('#create-new-card').hide(); 
@@ -18,8 +17,7 @@
 
     $("#login-btn").click(function() {
         $(this).each(function(){
-            $('#form-content').removeClass();				
-            $('#form-content').addClass("slideRight");
+            $('#form-content').removeClass();			$('#form-content').addClass("slideRight");
             $('#create-new').hide();
             $('#login').show();
             $('#create-new-card').show(); 
