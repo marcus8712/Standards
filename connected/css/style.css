@@ -472,7 +472,8 @@ img {
     margin: 0 10px 0px 0;
 }
 
-.component.element .column > .ui.input{
+.component.element .column > .ui.input,
+.component.element .column > .ui.selection{
     margin: 0 10px 0px 0;
 }
 

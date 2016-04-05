@@ -1881,8 +1881,8 @@ Floated Menu / Item
   border: none;
   border-radius: 0;
   height: 60px;
-  padding-left: 30px  !important;
-  padding-right: 30px !important;
+  padding-left: 36px  !important;
+  padding-right: 40px !important;
 }
 .ui.app.menu .item {
   color: #ffffff;
@@ -1913,7 +1913,7 @@ Floated Menu / Item
 }
 .ui.app.menu > .menu.item > .ui.icon.button > .icon {
   opacity: 1 !important;
-  margin-top: 10px;
+  margin-top: -2px;
 }
 
 /* Header */
