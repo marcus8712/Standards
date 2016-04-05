@@ -77,7 +77,7 @@ input.radio {
   transition: border 0.05s ease, opacity 0.05s ease, box-shadow 0.05s ease, -webkit-transform 0.05s ease;
   transition: border 0.05s ease, opacity 0.05s ease, transform 0.05s ease, box-shadow 0.05s ease;
   transition: border 0.05s ease, opacity 0.05s ease, transform 0.05s ease, box-shadow 0.05s ease, -webkit-transform 0.05s ease;
-  content: '\e993';
+  content: '\e967';
   /*
   content: '';
 
@@ -313,7 +313,7 @@ input.radio {
 /* Box */
 .ui.radio.checkbox .box:before,
 .ui.radio.checkbox label:before {
-  content: '\e995';
+  content: '\e969';
   top: -1px;
   left: 0px;
   font-size: 20px;
@@ -598,13 +598,13 @@ input.radio {
 /* Checked */
 .ui.checkbox input:checked ~ .box:after,
 .ui.checkbox input:checked ~ label:after {
-  content: '\e992';
+  content: '\e966';
 }
 
 /* Radio Checked */
 .ui.radio.checkbox input:checked ~ .box:after,
 .ui.radio.checkbox input:checked ~ label:after {
-  content: '\e994';
+  content: '\e968';
 }
 /* Indeterminate 
 .ui.checkbox input:indeterminate ~ .box:after,

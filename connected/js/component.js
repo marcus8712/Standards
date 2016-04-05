@@ -224,11 +224,16 @@ $(document).ready(function() {
     else{
         $('a[href$=intro]').addClass("active").attr('href', '').css({'cursor': 'pointer', 'pointer-events' : 'none'});
     } 
-    
+   
  
 });
 
 
 
+$(window).load(function() {
+    // Animate loader off screen
+    $(".hoiio.loading").fadeOut("slow");
+
+});
 
  

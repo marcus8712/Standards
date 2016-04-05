@@ -4,19 +4,18 @@ d3.csv("/standards/connected/data/staff.csv", function(error, data) {
     
     data.forEach(function(d) {
        var diventer = d3.select("table tbody tr")
-        .data(d)
-      .enter().append("div")
-        .attr("id", function(e) { return e.first_name; });
+       .append("div")
+        .attr("id", d.first_name);
 
     diventer.append("p")
-        .text(function(e) { return e.last_name; });
+        .text(d.last_name);
 
     diventer.append("img")
-        .attr("src", function(e) { return e.phone; });
+        .attr("src", d.phone);
         
         
     });
-});
+})
 /*
 
 var dataset = [d.avatar,d.phone,d.role_portal,d.subscriptions,d.last_access_portal];

@@ -1,0 +1,350 @@
+
+/*------------------
+    Loading
+---------------------*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.hoiio.loading {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/loading.svg) center no-repeat #fff;
+}
+
+
+/******************************
+
+    BACKGROUND
+    
+*******************************/
+
+
+.noise{
+    position: fixed;
+    top:0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/noise.png');
+    
+    background-position: top;
+    background-repeat: repeat;
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    z-index: -1;
+    opacity: 1;
+}
+
+.dots{
+    z-index: -2;
+    min-width: 1000px;
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/dots.svg');
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    opacity: 1
+    
+}
+
+
+.topBackground{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/.svg');
+    background-size:100%;
+    background-position:top;
+    background-repeat: repeat-x;
+    opacity: .08;
+}
+
+/******************************
+
+    GENERAL SETUP
+    
+*******************************/
+
+
+.ui.container{
+    z-index: 1;
+    
+}
+
+body{
+    
+}
+
+.ui.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    text-rendering: optimizeLegibility;
+}
+
+/*
+.ui.container:after {
+    content: '';
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #333;
+}
+*/
+
+.triangle-pattern {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/hexagon2a.png');
+    background-repeat: repeat;
+    background-size:50%;
+    background-position: top;
+    opacity:0.025;
+}
+
+
+/******************************
+
+    CARDS
+    
+*******************************/
+
+.fullpage.column {
+    margin-top: 100px;
+    width: 760px !important;
+}
+
+#form-card {
+    width:100%;
+    height: 360px;
+    position: absolute;
+    left: 0;
+    top:0;
+    margin-top: 43px;
+    padding: 40px 50px;
+    z-index: 1;
+    color: white; 
+    
+    background: #008bd9;
+    border-radius: 8px;
+   
+}
+
+#form-content .field > button{
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+#form-content{
+    width: 380px;
+    position: absolute;
+    right:40px;
+    top:0;
+    padding: 40px;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.23);
+}
+
+
+/*-----------------------------
+    Create New Account Card
+-------------------------------*/
+
+#create-new-card {
+    left:0;
+    text-align: left;
+}
+
+/* Header */
+#create-new-card .ui.header{
+    margin-top:30px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500 !important;
+    color: white;
+}
+
+/* Description */
+#create-new-card p {
+    margin: 5px 0 40px 0;
+}
+
+
+/*-----------------------------
+    Sign In Card
+-------------------------------*/
+
+#login-card{
+    text-align: left;
+    float: right;
+    display: none;  
+     width:40%;
+    padding-left: 30px;
+}
+
+/* Header */
+#login-card .ui.header{
+    margin-top:30px;
+    margin-bottom: 0;
+    color: white; 
+    font-size: 20px;
+    font-weight:500;
+    
+}
+
+/* Description */
+#login-card  p {
+    margin: 5px 0 40px 0;
+}
+
+/******************************
+
+    CONTENT
+    
+*******************************/
+
+
+/*-----------------------------
+    Create New Account Content
+-------------------------------*/
+
+#create-new{
+    display: none;
+}
+
+/* Header */
+#create-new .ui.header{
+    margin-bottom:35px;
+    padding: 0 8px !important;
+    text-align: center !important;
+     font-size: 24px;
+   font-weight: 500 !important;
+}
+
+/* Buttons */
+#create-new .ui.buttons {
+    width: 100%;
+   
+}
+#create-new .ui.buttons .button{
+    padding:15px;
+    
+}
+
+#create-new .ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
+    vertical-align: middle;
+}
+
+/*-----------------------------
+    Sign In Content
+-------------------------------*/
+
+/* Header */
+#login .ui.header{
+    margin-bottom:35px;
+    padding: 0 8px !important;
+    text-align: center !important;
+    font-size: 24px;
+    font-weight: 500 !important;
+}
+
+/* Segment */
+.ui.segment{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Lable Input */
+.field > label{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #999 !important;
+    margin-bottom: 4px !important;
+    
+}
+
+/* Input */
+.field .ui.input input{
+    /*border-radius: 20px;
+    padding:.78571429em 20px !important;
+    letter-spacing: 0px;*/
+}
+
+.field .ui.input input:focus{
+    
+}
+
+.ui.checkbox .box:before, .ui.checkbox label:before,
+.ui.checkbox .box:after, .ui.checkbox label:after{
+    top: -1px;
+}
+
+/* Button */
+
+
+.ui.inverted.button{
+    border-width: 1px;
+}
+
+#continue{
+    margin-top: 30px;
+}
+
+/* Forgot Pass */
+
+#login p { 
+    padding: 0 8px !important;
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+.show {
+  display:block;
+}
+
+
+
+/******************************
+
+    MOBILE
+    
+*******************************/
+
+
+/*-----------------------------
+    Sign In Content
+-------------------------------*/
+
+
+
