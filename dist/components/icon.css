@@ -1098,7 +1098,7 @@ i.icon.icloud:before {
 }
 
 /* '' */
-i.icon.image.inverted:before {
+i.icon.image.invert:before {
   content: '\e895';
 }
 
@@ -2053,7 +2053,8 @@ i.icon.mute:before {
 }
 
 /* '' */
-i.icon.close:before {
+i.icon.close:before,
+i.icon.remove:before {
   content: '\e954';
 }
 
