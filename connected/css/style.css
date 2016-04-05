@@ -191,7 +191,8 @@ img {
 
 /* A Container */
 
-#content > .component > h1 {
+#content > .component > h1,
+#content > .component > .container > h1{
     font-size: 2rem !important;
     margin-top: 3em;
     color: rgb(102, 179, 19);
@@ -215,6 +216,13 @@ img {
     margin: 0 auto;
     width:500px;
     margin-bottom: 1em
+}
+
+#content > .component > .ui.container > p{
+    margin: 0 auto;
+    width:500px;
+    margin-bottom: 0;
+        padding: 3em 0em 2em;
 }
 
 #content > .component > .container > h3{
@@ -451,6 +459,32 @@ img {
 .component.font i.icon.google + :before{
     display: none;
 }
+
+/***********************
+
+    ELEMENTS
+
+************************/
+
+
+.component.element .column > .ui.button,
+.component.element .column > .ui.buttons{
+    margin: 0 10px 0px 0;
+}
+
+.component.element .column > .ui.input{
+    margin: 0 10px 0px 0;
+}
+
+.component.element .container{
+    width: 960px;
+}
+
+.component.element .container .ui.divider:not(.vertical):not(.horizontal){
+    margin: 1.5rem 0;
+    border-top: 1px solid #ddd;
+}
+
 
 /***********************
 

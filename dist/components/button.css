@@ -18,12 +18,12 @@
   cursor: pointer;
   display: inline-block;
   /*height: @componentHeight;*/
-  line-height: 1rem;
+  line-height: 1.25rem;
   outline: none;
   color: #555555;
   font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0em;
-  padding: 0.78571429rem 1.14285714rem;
+  padding: 0.71428571rem 1.14285714rem;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 0.15px;
@@ -217,15 +217,15 @@
 
 .ui.compact.buttons .button,
 .ui.compact.button {
-  padding: 0.58928571rem 0.85714286rem 0.58928571rem;
+  padding: 0.53571429rem 0.85714286rem 0.53571429rem;
 }
 .ui.compact.icon.buttons .button,
 .ui.compact.icon.button {
-  padding: 0.58928571rem 0.58928571rem 0.58928571rem;
+  padding: 0.53571429rem 0.53571429rem 0.53571429rem;
 }
 .ui.compact.labeled.icon.buttons .button,
 .ui.compact.labeled.icon.button {
-  padding: 0.58928571rem 3.42857143rem 0.58928571rem;
+  padding: 0.53571429rem 3.28571429rem 0.53571429rem;
 }
 
 /*-------------------
@@ -280,7 +280,7 @@
 .ui.labeled.icon.buttons .button,
 .ui.labeled.icon.button {
   position: relative;
-  padding-left: 3.71428571rem !important;
+  padding-left: 3.57142857rem !important;
   padding-right: 1.14285714rem !important;
 }
 
@@ -295,7 +295,7 @@
   border-bottom-left-radius: inherit;
   text-align: center;
   margin: 0em;
-  width: 2.57142857em;
+  width: 2.42857143em;
   background-color: rgba(0, 0, 0, 0.1);
   color: '';
 }
@@ -309,7 +309,7 @@
 
 /* Right Labeled */
 .ui[class*="right labeled"].icon.button {
-  padding-right: 3.71428571rem !important;
+  padding-right: 3.57142857rem !important;
   padding-left: 1.14285714rem !important;
 }
 .ui[class*="right labeled"].icon.button > .icon {
@@ -651,7 +651,7 @@
   top: 50%;
   left: auto;
   right: -100%;
-  margin-top: -0.5rem;
+  margin-top: -0.625rem;
 }
 .ui.animated.button:focus .visible.content,
 .ui.animated.button:hover .visible.content {
@@ -934,7 +934,7 @@
 
 .ui.icon.buttons .button,
 .ui.icon.button {
-  padding: 0.78571429rem 0.78571429rem 0.78571429rem;
+  padding: 0.71428571rem 0.8214286rem 0.71428571rem;
 }
 .ui.icon.buttons .button > .icon,
 .ui.icon.button > .icon {

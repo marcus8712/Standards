@@ -32,41 +32,226 @@
     
     <!-- Content -->
     <div id="content">
-        <div class="component" id="layout">
+        <div class="component element">
             <div class="ui header">#component
             </div>
             <img src="../img/wave.svg">
-            <div class="ui text container">
-                <p>We are currently updating this page.</p>
-            </div>
-            <!--<div class="ui container">
-                <div class="ui show grid">
-                    <div class="left aligned column">
-                        <div class="ui top attached app menu">
-                            <div class="menu item">
-                                <button class="ui icon button">
-                                 <i class="icon menu"></i>
-                                </button>
+            <div class="ui container" style="margin:0 auto;">
+                <h1>Buttons</h1>
+                <p>Buttons provides our users a simple way to trigger an event, like searching for a query at a search engine, or to interact with dialog boxes, like confirming an action.</p>
+                <div class="ui left aligned  two column stackable grid">
+                    <div class="column">
+                        <button class="ui button">Default button</button>
+                        <button class="ui disabled button">Disabled button</button>
+                        <div class="ui divider"></div>
+                        <button class="ui button"><i class="user icon"></i> Follow</button>
+                        <button class="ui loading button">Loading</button>
+                        <button class="ui icon button">
+                            <i class="cloud icon"></i>
+                        </button>
+                        <button class="ui round icon button">
+                            <i class="icon cloud download"></i>
+                        </button>
+                        <div class="ui divider"></div>
+                        <div class="ui labeled button">
+                               <div class="ui button"><i class="heart icon"></i> Like </div>
+                               <a class="ui basic label"> 2,048 </a>
                             </div>
-                            <div class="header item">App Name</div>
-                            <div class="active item">Page 1</div>
-                            <a class="item">Page 2</a>
-                            <a class="item">Page 3</a>
+                            
+                            <div class="ui left labeled button">
+                            <a class="ui basic right pointing label"> 2,048 </a>
+                            <div class="ui button"><i class="heart icon"></i> Like </div>
                         </div>
-                        <div class="ui attached app segment" style="border-bottom: 1px solid #ccc;">
-                            Page Name
+                    
+                  
+                            <div class="ui left labeled button">
+                            <a class="ui basic label"> 1,048 </a>
+                            <div class="ui icon button"><i class="bug icon"></i></div>
+                     
+                            </div>
+                        <div class="ui divider"></div>
+                        <div class="ui buttons">
+                          <button class="ui button">One</button>
+                          <button class="ui button">Two</button>
+                          <button class="ui button">Three</button>
                         </div>
-                        <div class="ui attached app segment" style="border-bottom: 1px solid #ccc; min-height:100px">
-                            Content Page
+                        
+                        <div class="ui buttons primary">
+                          <button class="ui button">One</button>
+                          <button class="ui button">Two</button>
+                          <button class="ui button">Three</button>
+                        </div> 
+                        <div class="ui divider"></div>
+                        <div class="ui icon buttons">
+                          <button class="ui button"><i class="align left icon"></i></button>
+                          <button class="ui button"><i class="align center icon"></i></button>
+                          <button class="ui button"><i class="align right icon"></i></button>
+                          <button class="ui button"><i class="align justify icon"></i></button>
                         </div>
-                        <div class="ui bottom attached app segment">
-                            Bottom
-                        </div>
+                        <div class="ui icon buttons ">
+                          <button class="ui button"><i class="bold icon"></i></button>
+                          <button class="ui button"><i class="font icon"></i></button>
+                          <button class="ui button"><i class="italic icon"></i></button>
+                        </div>                            
+                          
+                           
                     
                     </div>
+                    <div class="column">
+                        <button class="ui primary basic button">Primary button</button>
+                        <button class="ui info basic button">Info button</button>
+                        <button class="ui success basic button">Success button</button>
+                        <div class="ui divider"></div>
+                        <button class="ui warning basic button">Warning button</button>
+                        <button class="ui error basic button">Error button</button>
+                        <div class="ui divider"></div>
+                        <button class="ui primary button">Primary button</button>
+                        <button class="ui info button">Info button</button>
+                        <button class="ui success button">Success button</button>
+                        <div class="ui divider"></div>
+                        <button class="ui warning button">Warning button</button>
+                        <button class="ui error button">Error button</button>
+                        <button class="ui secondary button">Secondary button</button>
+                        <div class="ui divider"></div>
+                        
+                              <!-- Left to Right -->                         
+                        <div class="ui animated button">
+                          <div class="visible content">Next</div>
+                          <div class="hidden content">
+                            <i class="thin right arrow icon"></i>
+                          </div>
+                        </div>
+
+                        <!-- Vertical -->                         
+                        <div class="ui vertical animated button">
+                          <div class="hidden content">Shop</div>
+                          <div class="visible content">
+                            <i class="cart icon"></i>
+                          </div>
+                        </div>
+
+                        <!-- Fade -->                           
+                        <div class="ui fade animated button">
+                          <div class="visible content">Sign-up for a Pro account</div>
+                          <div class="hidden content">
+                            $12.99 a month
+                          </div>
+                        </div>
+                 
+                    
+                   
+                    
+                  
                     
                 </div>
-            </div>-->
+                </div>
+                
+                <h1>Input</h1>
+                <p>Input fields are used to gather short information from a user. An input field can be used to gather numerical data or text responses.</p>
+                <div class="ui left aligned two column stackable grid">
+                    <div class="column">
+
+                <div class="ui action left icon input">
+                  <i class="search icon"></i>
+                  <input type="text" placeholder="Search...">
+                  <div class="ui teal button">Search</div>
+                </div>
+
+                <div class="ui divider"></div>
+                <div class="ui input error">
+                  <input placeholder="Search..." type="text">
+                </div>
+                <div class="ui divider"></div>
+
+                <div class="ui right labeled input">
+                  <input placeholder="Placeholder" type="text">
+                  <div class="ui dropdown label" tabindex="0">
+                    <div class="text">Dropdown</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu transition hidden" tabindex="-1">
+                      <div class="item">Choice 1</div>
+                      <div class="item">Choice 2</div>
+                      <div class="item">Choice 3</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui divider"></div>
+
+                <div class="ui transparent icon input">
+                  <input placeholder="Search..." type="text">
+                  <i class="search icon"></i>
+                </div>
+                <div class="ui transparent left icon input">
+                  <input placeholder="Search..." type="text">
+                  <i class="search icon"></i>
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui left icon input loading">
+                  <input placeholder="Loading..." type="text">
+                  <i class="search icon"></i>
+                </div>
+
+                <div class="ui icon input loading">
+                  <input placeholder="Loading..." type="text">
+                  <i class="search icon"></i>
+                </div>
+                        <div class="ui divider"></div>
+                        <div class="ui action input">
+  <input type="text" placeholder="Enter number">
+  <button class="ui primary button">Search</button>
+</div>  
+              </div>
+                    <div class="column">
+                <div class="ui right labeled left icon input">
+                  <i class="tag icon"></i>
+                  <input placeholder="Enter tags" type="text">
+                  <a class="ui tag label">
+                    Add Tag
+                  </a>
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui labeled input">
+                  <a class="ui label">
+                    Label
+                  </a>
+                  <input type="text" placeholder="Placeholder...">
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui right labeled input">
+                  <input type="text" placeholder="Placeholder...">
+                  <a class="ui label">
+                    Label
+                  </a>
+                </div>
+                <div class="ui divider"></div>
+                <div class="ui labeled icon input">
+                  <div class="ui label">
+                    http://
+                  </div>
+                  <input type="text" placeholder="domain.com">
+                  <i class="add circle link icon"></i>
+                </div>
+                        <div class="ui divider"></div>
+                <div class="ui right action input">
+                  <input type="text" placeholder="domain.com">
+                  <div class="ui teal button">
+                    <i class="circle plus icon"></i>
+                    Add
+                  </div>
+                </div>
+                        <div class="ui divider"></div>
+                <div class="ui left action input">
+  <button class="ui button info labeled icon">
+    <i class="cart icon"></i> Checkout
+  </button>
+  <input type="text" value="$52.03">
+</div> 
+
+              </div>
+                </div>
+            
+            </div>
+            
         </div>
     </div>
     
