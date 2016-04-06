@@ -1,0 +1,32 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+.ui.login.form{
+   
+}
+
+.ui.login.form > .segment{
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui.login.form  .field>label{
+    font-weight: 600 !important;
+    font-size: 1em !important;
+    color: #999 !important;
+    margin-bottom: 0.285714em !important;
+}
+
+.ui.login.form .checkbox{
+    
+}
+
+.ui.login.form + .info{
+    margin-top:15px;
+}
+
+

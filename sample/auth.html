@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hoiio Design Standards 2016">
+    <meta name="keywords" content="design, ux, standard, hoiio, framework, html, css, interface, component, semantic">
+    <meta name="author" content="Marcus">
+    <link rel="icon" href="source/favicon.ico">
+
+    <title>Log in | Hoiio Design Standards</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/semantic.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <!-- Custom -->
+    <link rel="icon" type="image/png" href="../img/connected.png">
+ 
+</head>
+<body>
+
+    <div class="hexagon background"></div>
+    <div class="ui center aligned auth grid container">
+       <div class="left aligned column">
+           <div class="card">
+                <div class="signin">
+                   <img class="svg-image" width="80px" alt="Hoiio" src="../img/hoiioWhite.svg" />
+                   <h4 class="ui header">You already connect with Hoiio?</h4>
+                   <button class="ui inverted button">Sign in now</button>
+               </div>
+                <div class="signup">
+                   <img class="svg-image" alt="Hoiio" src="../img/hoiioWhite.svg" />
+                   <div class="ui header">Don't have an account?</div>
+                   <p>Sign up now! It's free!</p>
+                   <button class="ui inverted button">Create new account</button>
+               </div>
+           </div>
+           <div class="content web">
+                <div class="signup">
+                   <div class="ui header">Create New Account</div>
+                   <form class="ui form">
+                       <div class="field">
+                               <label>Phone Number</label>
+                               <div class="ui input">
+                                   <input type="text" value="+84 " name="phone">
+                                </div>
+                           </div>
+                       <div class="field">
+                           <label>Confirm Your Identity</label>
+                           <div class="ui icon buttons">
+                              <button class="ui button"><i class="mobile icon"></i> Text Me</button>
+                              <button class="ui button"><i class="phone icon"></i> Call Me</button>
+                            </div>
+
+                        </div>
+                       <div class="field">
+                            <label>One-Time Password</label>
+                           <div class="ui input">
+                               <input type="password" name="password" placeholder="">
+                           </div>
+                        </div>
+                       <div class="field">
+                            <button class="ui fluid primary action button" id="continue">Continue</button>
+                        </div>    
+                   </form>
+               </div>
+                <div class="signin">
+                   <div class="ui header">Sign in</div>
+                   <form class="ui form">
+                        <div class="field">
+                           <label>Phone Number</label>
+                           <input type="text" value="+84 " name="phone">
+                        </div>
+                        <div class="field">
+                           <label>Password</label>
+                           <input type="password" name="password" placeholder="Minimum of 6 characters">
+                        </div>
+                        <div class="field">
+                            <div class="ui checkbox">
+                                <input type="checkbox" id="checks" class="hidden">
+                                <label for="checks">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="ui error message">
+                        <ul class="list">
+                            <li>Wrong Password</li>
+                            <li>Password required at least 6 characters</li>
+                          </ul>
+                        </div>
+                        <div class="field">
+                            <button class="ui fluid primary action button">Sign in</button>
+                        </div>    
+                   </form>
+                   <p><a href="#">Forgot Password?</a></p>
+
+               </div>
+           </div>
+           <div class="content mobile">
+                <div class="signin">
+                    <div class="logo"><img src="http://hoiio-assets.s3.amazonaws.com/libs/img/logo_hoiio_blue.svg"></div>
+                    <div class="ui header">Sign in</div>
+                    <form class="ui form">
+
+                        <div class="field">
+                           <label>Phone Number</label>
+                           <input type="text" value="+84 " name="phone">
+                        </div>
+                        <div class="field">
+                           <label>Password</label>
+                           <div class="ui input">
+                               <input type="password" name="password" placeholder="Minimum of 6 characters">
+                           </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui checkbox">
+                                <input type="checkbox" id="checks" class="hidden">
+                                <label for="checks">Remember me</label>
+                            </div>
+                        </div>
+                       <div class="field">
+                            <button class="ui fluid primary action button">Sign in</button>
+                        </div>    
+                    </form>
+                    <p><a href="#">Forgot password?</a></p>
+                </div>
+           </div>
+       </div>
+    </div>
+    
+  
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../dist/semantic.min.js"></script>
+    <script>
+        
+    $(".card .signup button").click(function() {
+        $(this).each(function(){
+            $('.content').removeClass("slideLeft");			
+            $('.content').addClass("slideRight");
+            $('.content .signup').show();
+            $('.content .signin').hide();
+            $('.card .signup').hide(); 
+            $('.card .signin').show();
+
+        });
+    });
+    
+    $(".card .signin button").click(function() {
+        $(this).each(function(){
+            $('.content').removeClass("slideRight");			
+            $('.content').addClass("slideLeft");
+            $('.content .signin').show();
+            $('.content .signup').hide();
+            $('.card .signin').hide(); 
+            $('.card .signup').show();
+
+        });
+    }); 
+    </script>
+  
+   
+</body>
+</html>
