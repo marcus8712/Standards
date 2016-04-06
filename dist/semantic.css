@@ -15128,7 +15128,21 @@ ol.ui.horizontal.list li:before,
 
 .ui.auth.grid > .column > .mobile.content .ui.header {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 23px;
+  font-size: 26px;
+}
+
+.ui.auth.grid > .column > .mobile.content > .signup .ui.buttons {
+  width: 100%;
+}
+
+.ui.auth.grid > .column > .mobile.content > .signup .ui.buttons .button {
+  padding: 15px;
+}
+
+.ui.auth.grid > .column > .mobile.content > .signup .action.button {
+  margin-top: 30px;
 }
 
 .ui.auth.grid > .column > .mobile.content form + p {

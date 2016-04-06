@@ -153,6 +153,7 @@
                             <button class="ui fluid primary action button" id="continue">Continue</button>
                         </div>    
                    </form>
+                    <p>Already have an account? <a class="signin" href="#">Sign in now!</a></p>
                 </div>
            </div>
        </div>
@@ -192,8 +193,15 @@
       
     $(".mobile .signin a.signup").click(function() {
         $(this).each(function(){
-            $('.mobile .signup').show();
-            $('.mobile .signin').hide();
+            $('.mobile > .signup').show();
+            $('.mobile > .signin').hide();
+        });
+    });
+        
+    $(".mobile .signup a.signin").click(function() {
+        $(this).each(function(){
+            $('.mobile > .signup').hide();
+            $('.mobile > .signin').show();
         });
     });
    
