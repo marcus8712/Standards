@@ -218,6 +218,7 @@ body{
    
 }
 
+
 /* Header */
 #create-new .ui.header{
     margin-bottom:35px;
@@ -307,7 +308,7 @@ body{
 
 #create-new p { 
     padding: 0 8px !important;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center !important;
 }
 
@@ -315,18 +316,21 @@ body{
   display:block;
 }
 
+#create-new .action.button{
+    margin-top: 30px;
+}
 
+#create-new{
+    min-height: 360px;
+}
 
-/******************************
-
-    MOBILE
-    
-*******************************/
-
-
-/*-----------------------------
-    Sign In Content
--------------------------------*/
-
+#create-new .email-info{
+    text-align: left !important;
+    margin-bottom: 40px;
+}
+#create-new .email-info img{
+    margin:5px 10px 50px 0;
+    width: 80px;
+}
 
 
