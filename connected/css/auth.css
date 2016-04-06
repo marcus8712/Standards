@@ -3,52 +3,6 @@
     Loading
 ---------------------*/
 
-
-/******************************
-
-    BACKGROUND
-    
-*******************************/
-
-
-.noise{
-    position: fixed;
-    top:0%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url('../img/noise.png');
-    
-    background-position: top;
-    background-repeat: repeat;
-    color: #fff;
-    text-align: center;
-    text-rendering: optimizeLegibility;
-    z-index: -1;
-    opacity: 1;
-}
-
-.dots{
-    z-index: -2;
-    min-width: 1000px;
-    position: fixed;
-    top:0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url('../img/dots.svg');
-    background-size:100%;
-    background-position:center;
-    background-repeat: no-repeat;
-    color: #fff;
-    text-align: center;
-    text-rendering: optimizeLegibility;
-    opacity: 1
-    
-}
-
-
-
 /******************************
 
     GENERAL SETUP
@@ -63,41 +17,6 @@
 
 body{
     
-}
-
-.ui.container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: white;
-    text-rendering: optimizeLegibility;
-}
-
-/*
-.ui.container:after {
-    content: '';
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-    border: 1px solid #333;
-}
-*/
-
-.triangle-pattern {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url('../img/hexagon3.png');
-    background-repeat: repeat;
-    background-size:50%;
-    background-position: top;
-    opacity:0.02;
 }
 
 
@@ -265,16 +184,6 @@ body{
     border: none;
     margin: 0;
     padding: 0;
-}
-
-
-/* Lable Input */
-.field > label{
-    font-weight: 600 !important;
-    font-size: 14px !important;
-    color: #999 !important;
-    margin-bottom: 4px !important;
-    
 }
 
 /* Input */

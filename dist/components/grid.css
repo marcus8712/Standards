@@ -1965,3 +1965,79 @@
          Theme Overrides
 *******************************/
 
+.ui.auth.grid > .column {
+  margin-top: 98px;
+  width: 760px !important;
+}
+.ui.auth.grid > .column > .card {
+  width: 760px;
+  height: 360px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 43px;
+  padding: 40px 50px;
+  z-index: 1;
+  color: #ffffff;
+  background: #008bd9;
+  border-radius: 0.57142857rem;
+}
+.ui.auth.grid > .column > .card > .signin {
+  left: 0;
+  text-align: left;
+  display: none;
+  width: 40%;
+}
+.ui.auth.grid > .column > .card > .signup {
+  text-align: left;
+  float: right;
+  width: 40%;
+  padding-left: 20px;
+}
+.ui.auth.grid > .column > .card img {
+  width: 80px;
+}
+.ui.auth.grid > .column > .card .header {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ui.auth.grid > .column > .card p {
+  margin: 5px 0 40px 0;
+}
+.ui.auth.grid > .column > .card .ui.inverted.button {
+  border-width: 1px;
+}
+.ui.auth.grid > .column > .content {
+  width: 380px;
+  min-height: 450px;
+  position: absolute;
+  left: 40px;
+  top: 0;
+  padding: 40px;
+  z-index: 2;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 0.57142857rem;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.23);
+}
+.ui.auth.grid > .column > .content .header {
+  margin-bottom: 28px;
+  text-align: center !important;
+  font-size: 26px;
+  font-weight: 500 !important;
+}
+.ui.auth.grid > .column > .content > .signup {
+  display: none;
+}
+.ui.auth.grid > .column > .content > .signup .ui.buttons {
+  width: 100%;
+}
+.ui.auth.grid > .column > .content > .signup .ui.buttons .button {
+  padding: 15px;
+}
+.ui.auth.grid > .column > .content form + p {
+  margin-top: 30px;
+  text-align: center !important;
+}

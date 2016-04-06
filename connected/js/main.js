@@ -2,31 +2,9 @@
     $('a.active').click(function(){
         return false;
     });
-    
+         
      
-    $("#create-new-btn").click(function() {
-        $(this).each(function(){
-            $('#form-content').removeClass();			$('#form-content').addClass("slideLeft");
-            $('#create-new').show();
-            $('#login').hide();
-            $('#create-new-card').hide(); 
-            $('#login-card').show();
-
-        });
-    });
-
-    $("#login-btn").click(function() {
-        $(this).each(function(){
-            $('#form-content').removeClass();			$('#form-content').addClass("slideRight");
-            $('#create-new').hide();
-            $('#login').show();
-            $('#create-new-card').show(); 
-            $('#login-card').hide();
-
-        });
-    });
-    
-    
+   
     // Generate
     var hoiio="";
     hoiio += "    <ul class=\"leftMenu menu\">";

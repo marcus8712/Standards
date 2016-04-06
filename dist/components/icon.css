@@ -16,8 +16,8 @@
 
 @font-face {
   font-family: 'Icons';
-  src: url("../themes/hoiio/assets/fonts/hoiioicons.eot");
-  src: url("../themes/hoiio/assets/fonts/hoiioicons.eot?#iefix") format('embedded-opentype'), url("../themes/hoiio/assets/fonts/hoiioicons.woff2") format('woff2'), url("../themes/hoiio/assets/fonts/hoiioicons.woff") format('woff'), url("../themes/hoiio/assets/fonts/hoiioicons.ttf") format('truetype'), url("../themes/hoiio/assets/fonts/hoiioicons.svg#hoiioicons") format('svg');
+  src: url("fonts/hoiioicons.eot");
+  src: url("fonts/hoiioicons.eot?#iefix") format('embedded-opentype'), url("fonts/hoiioicons.woff2") format('woff2'), url("fonts/hoiioicons.woff") format('woff'), url("fonts/hoiioicons.ttf") format('truetype'), url("fonts/hoiioicons.svg#hoiioicons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

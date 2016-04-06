@@ -1419,33 +1419,33 @@ select.ui.dropdown {
   width: auto;
 }
 .ui.dropdown > .dropdown.icon:before {
-  content: '\e97f';
+  content: '\e97d';
 }
 
 /* Sub Menu */
 .ui.dropdown .menu .item .dropdown.icon:before {
-  content: '\e982' /*rtl:'\e981'*/;
+  content: '\e980' /*rtl:'\e97f'*/;
 }
 .ui.dropdown .item .left.dropdown.icon:before,
 .ui.dropdown .left.menu .item .dropdown.icon:before {
-  content: "\e981" /*rtl:"\e982"*/;
+  content: "\e97f" /*rtl:"\e980"*/;
 }
 
 /* Vertical Menu Dropdown */
 .ui.vertical.menu .dropdown.item > .dropdown.icon:before {
-  content: "\e982" /*rtl:"\e981"*/;
+  content: "\e980" /*rtl:"\e97f"*/;
 }
 /* Icons for Reference
 .dropdown.down.icon {
-  content: "\e97f";
+  content: "\e97d";
 }
 .dropdown.up.icon {
-  content: "\e980";
+  content: "\e97e";
 }
 .dropdown.left.icon {
-  content: "\e981";
+  content: "\e97f";
 }
 .dropdown.right.icon {
-  content: "\e982";
+  content: "\e980";
 }
 */
