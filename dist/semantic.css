@@ -15040,10 +15040,17 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.auth.grid > .column > .card .header {
-  margin-bottom: 40px;
   color: white;
   font-size: 20px;
   font-weight: 500;
+}
+
+.ui.auth.grid > .column > .card > .signup .header {
+  margin-bottom: 0px;
+}
+
+.ui.auth.grid > .column > .card > .signin .header {
+  margin-bottom: 30px;
 }
 
 .ui.auth.grid > .column > .card p {
