@@ -1,6 +1,6 @@
 # Standards
 dist/components/
-!notgitpush/
+anotgitpush/
 src/
 tasks/
 gulpfile.js
