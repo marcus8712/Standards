@@ -699,11 +699,17 @@ input::selection {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("http://hoiio-assets.s3.amazonaws.com/libs/img/bg_hexagon.png");
+  background-image: url("http://d2hlei1umhw6cd.cloudfront.net/libs/img/bg_hexagon.png");
   background-repeat: repeat;
   background-size: 50%;
   background-position: top;
   opacity: 0.02;
+}
+
+@media only screen and (max-width: 800px) {
+  .background.hexagon {
+    display: none;
+  }
 }
 /*!
  * # Semantic UI 2.1.8 - Button
@@ -3437,8 +3443,8 @@ a.ui.warning.header:hover {
 
 @font-face {
   font-family: 'Icons';
-  src: url("http://hoiio-assets.s3.amazonaws.com/libs/fonts/hoiioicons.eot");
-  src: url("http://hoiio-assets.s3.amazonaws.com/libs/fonts/hoiioicons.eot?#iefix") format('embedded-opentype'), url("http://hoiio-assets.s3.amazonaws.com/libs/fonts/hoiioicons.woff2") format('woff2'), url("http://hoiio-assets.s3.amazonaws.com/libs/fonts/hoiioicons.woff") format('woff'), url("http://hoiio-assets.s3.amazonaws.com/libs/fonts/hoiioicons.ttf") format('truetype'), url("http://hoiio-assets.s3.amazonaws.com/libs/fonts/hoiioicons.svg#hoiioicons") format('svg');
+  src: url("http://d2hlei1umhw6cd.cloudfront.net/libs/fonts/hoiioicons.eot");
+  src: url("http://d2hlei1umhw6cd.cloudfront.net/libs/fonts/hoiioicons.eot?#iefix") format('embedded-opentype'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/fonts/hoiioicons.woff2") format('woff2'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/fonts/hoiioicons.woff") format('woff'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/fonts/hoiioicons.ttf") format('truetype'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/fonts/hoiioicons.svg#hoiioicons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -15115,13 +15121,41 @@ ol.ui.horizontal.list li:before,
   display: none;
 }
 
+.ui.auth.grid > .column > .mobile.content .logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.ui.auth.grid > .column > .mobile.content .ui.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ui.auth.grid > .column > .mobile.content form + p {
+  margin-top: 30px;
+  text-align: center !important;
+}
+
 @media only screen and (max-width: 800px) {
-  .ui.auth.grid > .column > .content.web {
+  .ui.auth.grid > .column {
+    margin-top: 30px;
+  }
+
+  .ui.auth.grid > .column > .content.web,
+  .ui.auth.grid > .column > .card {
     display: none;
   }
 
   .ui.auth.grid > .column > .mobile.content {
     display: block;
+  }
+
+  .ui.auth.grid > .column > .mobile.content > .signin {
+    display: block;
+  }
+
+  .ui.auth.grid > .column > .mobile.content > .signup {
+    display: none;
   }
 }
 /*

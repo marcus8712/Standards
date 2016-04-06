@@ -4,19 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hoiio Design Standards 2016">
+    <meta name="description" content="Authentication Hoiio Page">
     <meta name="keywords" content="design, ux, standard, hoiio, framework, html, css, interface, component, semantic">
     <meta name="author" content="Marcus">
-    <link rel="icon" href="source/favicon.ico">
-
-    <title>Log in | Hoiio Design Standards</title>
-    <link rel="stylesheet" type="text/css" href="../../dist/semantic.css">
-
+    
+    <title>Log in</title>
+    <link rel="icon" type="image/png" href="http://d2hlei1umhw6cd.cloudfront.net/libs/img/logo_hoiio.png">
+    
+    <!-- Semantic CSS -->
+    <link rel="stylesheet" type="text/css" href="../dist/semantic.min.css">
+    
+    <!-- Library JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <!-- Custom -->
-    <link rel="icon" type="image/png" href="../img/connected.png">
- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    
 </head>
 <body>
 
@@ -25,12 +26,12 @@
        <div class="left aligned column">
            <div class="card">
                 <div class="signin">
-                   <img class="svg-image" width="80px" alt="Hoiio" src="../img/hoiioWhite.svg" />
+                   <img class="svg-image" width="80px" alt="Hoiio" src="http://d2hlei1umhw6cd.cloudfront.net/libs/img/logo_hoiio_white.svg" />
                    <h4 class="ui header">You already connect with Hoiio?</h4>
                    <button class="ui inverted button">Sign in now</button>
                </div>
                 <div class="signup">
-                   <img class="svg-image" alt="Hoiio" src="../img/hoiioWhite.svg" />
+                   <img class="svg-image" alt="Hoiio" src="http://d2hlei1umhw6cd.cloudfront.net/libs/img/logo_hoiio_white.svg" />
                    <div class="ui header">Don't have an account?</div>
                    <p>Sign up now! It's free!</p>
                    <button class="ui inverted button">Create new account</button>
@@ -97,8 +98,8 @@
                </div>
            </div>
            <div class="content mobile">
+                <div class="logo"><img src="http://hoiio-assets.s3.amazonaws.com/libs/img/logo_hoiio_blue.svg"></div>
                 <div class="signin">
-                    <div class="logo"><img src="http://hoiio-assets.s3.amazonaws.com/libs/img/logo_hoiio_blue.svg"></div>
                     <div class="ui header">Sign in</div>
                     <form class="ui form">
 
@@ -117,28 +118,60 @@
                                 <input type="checkbox" id="checks" class="hidden">
                                 <label for="checks">Remember me</label>
                             </div>
+                            <span style="float:right"><a href="#">Forgot password?</a></span>
                         </div>
                        <div class="field">
                             <button class="ui fluid primary action button">Sign in</button>
                         </div>    
                     </form>
-                    <p><a href="#">Forgot password?</a></p>
+                    <p>Don't have an account? <a class="signup" href="#">Sign up now!</a></p>
+                </div>
+                <div class="signup">
+                    <div class="ui header">Create New Account</div>
+                    <form class="ui form">
+                       <div class="field">
+                               <label>Phone Number</label>
+                               <div class="ui input">
+                                   <input type="text" value="+84 " name="phone">
+                                </div>
+                           </div>
+                       <div class="field">
+                           <label>Confirm Your Identity</label>
+                           <div class="ui icon buttons">
+                              <button class="ui button"><i class="mobile icon"></i> Text Me</button>
+                              <button class="ui button"><i class="phone icon"></i> Call Me</button>
+                            </div>
+
+                        </div>
+                       <div class="field">
+                            <label>One-Time Password</label>
+                           <div class="ui input">
+                               <input type="password" name="password" placeholder="">
+                           </div>
+                        </div>
+                       <div class="field">
+                            <button class="ui fluid primary action button" id="continue">Continue</button>
+                        </div>    
+                   </form>
                 </div>
            </div>
        </div>
     </div>
     
-  
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="../../dist/semantic.min.js"></script>
+    <!-- Semantic Script -->
+    <script src="../dist/semantic.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="../source/js/main.js"></script>
+    <script src="../source/js/component.js"></script>
     <script>
         
     $(".card .signup button").click(function() {
         $(this).each(function(){
-            $('.content').removeClass("slideLeft");			
-            $('.content').addClass("slideRight");
-            $('.content .signup').show();
-            $('.content .signin').hide();
+            $('.web').removeClass("slideLeft");			
+            $('.web').addClass("slideRight");
+            $('.web .signup').show();
+            $('.web .signin').hide();
             $('.card .signup').hide(); 
             $('.card .signin').show();
 
@@ -156,8 +189,15 @@
 
         });
     }); 
-    </script>
-  
+      
+    $(".mobile .signin a.signup").click(function() {
+        $(this).each(function(){
+            $('.mobile .signup').show();
+            $('.mobile .signin').hide();
+        });
+    });
    
+    </script>
+
 </body>
 </html>
