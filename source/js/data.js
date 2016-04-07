@@ -2,7 +2,7 @@ d3.csv("/standards/source/data/staff.csv", function(error, data) {
     
    
     data.forEach(function(d) {
-        var diventer = d3.select("table tbody").append("tr").attr("id", 'stafff' + d.id);
+        var diventer = d3.select("table tbody").append("tr").attr("id", 'staff' + d.id);
         
         diventer.append("td");
         d3.select('#staff' + d.id + 'td').append("img").attr('class', 'ui avatar image').attr('src','http://marcus8712.github.io/standards/source/img/square-image.jpg');
