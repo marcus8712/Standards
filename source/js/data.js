@@ -5,8 +5,8 @@ d3.csv("/standards/source/data/staff.csv", function(error, data) {
         var diventer = d3.select("table tbody").append("tr").attr("id", 'stafff' + d.id);
         
         diventer.append("td");
-        d3.select("#staff" + d.id).select("td").append("img").attr('class', 'ui avatar image').attr('src','http://marcus8712.github.io/standards/source/img/square-image.jpg');
-        d3.select("#staff" + d.id).select("td").append("span").text(d.first_name + ' ' + d.last_name);
+        d3.select('#staff' + d.id + 'td').append("img").attr('class', 'ui avatar image').attr('src','http://marcus8712.github.io/standards/source/img/square-image.jpg');
+        d3.select('#staff' + d.id + 'td').append("span").text(d.first_name + ' ' + d.last_name);
         diventer.append("td").text(d.phone);
         diventer.append("td").text(d.role_portal);
         diventer.append("td").text(d.subscriptons);
