@@ -24785,8 +24785,8 @@ select.ui.dropdown {
 .ui.modal > .close {
   cursor: pointer;
   position: absolute;
-  top: 0.95rem;
-  right: 1rem;
+  top: 1.64285714rem;
+  right: 1.64285714rem;
   z-index: 1;
   opacity: 0.8;
   font-size: 1.25em;
@@ -24808,7 +24808,7 @@ select.ui.dropdown {
   font-family: 'Poppins', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #ffffff;
   margin: 0em;
-  padding: 1.25rem 1.5rem;
+  padding: 2.14285714rem 2.85714286rem;
   box-shadow: none;
   color: rgba(0, 0, 0, 0.85);
   border-bottom: 1px solid #cccccc;
@@ -24829,7 +24829,7 @@ select.ui.dropdown {
   width: 100%;
   font-size: 1em;
   line-height: 1.4;
-  padding: 1.5rem;
+  padding: 2.14285714rem 2.85714286rem;
   background: #FFFFFF;
 }
 
@@ -24918,7 +24918,7 @@ select.ui.dropdown {
 
 .ui.modal > .actions {
   background: #F9F9F9;
-  padding: 1.25rem 1.5rem;
+  padding: 2.14285714rem 2.85714286rem;
   border-top: 1px solid #cccccc;
   text-align: right;
 }
@@ -24949,22 +24949,22 @@ select.ui.dropdown {
 
 @media only screen and (min-width: 992px) {
   .ui.modal {
-    width: 850px;
-    margin: 0em 0em 0em -425px;
+    width: 700px;
+    margin: 0em 0em 0em -350px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .ui.modal {
-    width: 900px;
-    margin: 0em 0em 0em -450px;
+    width: 800px;
+    margin: 0em 0em 0em -400px;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.modal {
-    width: 950px;
-    margin: 0em 0em 0em -475px;
+    width: 850px;
+    margin: 0em 0em 0em -425px;
   }
 }
 
@@ -24976,8 +24976,8 @@ select.ui.dropdown {
   }
 
   .ui.modal > .close {
-    top: 1.411rem;
-    right: 1rem;
+    top: 1.64285714rem;
+    right: 1.64285714rem;
     color: #414141;
   }
 }
@@ -25181,8 +25181,8 @@ select.ui.dropdown {
 }
 
 .ui.fullscreen.modal > .close {
-  top: 1.411rem;
-  right: 1rem;
+  top: 1.64285714rem;
+  right: 1.64285714rem;
   color: #414141;
 }
 
@@ -25218,22 +25218,22 @@ select.ui.dropdown {
 
 @media only screen and (min-width: 992px) {
   .ui.small.modal {
-    width: 680px;
-    margin: 0em 0em 0em -340px;
+    width: 560px;
+    margin: 0em 0em 0em -280px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .ui.small.modal {
-    width: 720px;
-    margin: 0em 0em 0em -360px;
+    width: 640px;
+    margin: 0em 0em 0em -320px;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.small.modal {
-    width: 760px;
-    margin: 0em 0em 0em -380px;
+    width: 680px;
+    margin: 0em 0em 0em -340px;
   }
 }
 
@@ -25259,28 +25259,72 @@ select.ui.dropdown {
 
 @media only screen and (min-width: 992px) {
   .ui.large.modal {
-    width: 1020px;
-    margin: 0em 0em 0em -510px;
+    width: 840px;
+    margin: 0em 0em 0em -420px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .ui.large.modal {
-    width: 1080px;
-    margin: 0em 0em 0em -540px;
+    width: 960px;
+    margin: 0em 0em 0em -480px;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.large.modal {
-    width: 1140px;
-    margin: 0em 0em 0em -570px;
+    width: 1020px;
+    margin: 0em 0em 0em -510px;
   }
 }
 
 /*******************************
          Theme Overrides
 *******************************/
+
+@media only screen and (min-width: 768px) {
+  .ui.hoiio.modal {
+    width: 500px;
+    margin: 0em 0em 0em -250px;
+  }
+}
+
+.ui.hoiio.modal > :first-child {
+  border-top-left-radius: 0.71428571rem;
+  border-top-right-radius: 0.71428571rem;
+}
+
+.ui.hoiio.modal > :last-child {
+  border-bottom-left-radius: 0.71428571rem;
+  border-bottom-right-radius: 0.71428571rem;
+}
+
+.ui.hoiio.modal > .header {
+  border: none;
+  padding: 2.14285714rem 2.85714286rem 1.07142857rem;
+}
+
+.ui.hoiio.modal > .content {
+  padding: 1.07142857rem 2.85714286rem 1.07142857rem;
+}
+
+.ui.hoiio.modal > .actions {
+  background: none;
+  border: none;
+  padding-bottom: 2.85714286rem;
+}
+
+.ui.hoiio.modal .deny.button {
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ui.hoiio.modal .deny.button:hover {
+  background: none;
+  border: none;
+  color: #008bd9;
+}
 /*!
  * # Semantic UI 2.1.8 - Nag
  * http://github.com/semantic-org/semantic-ui/
