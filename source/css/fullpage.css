@@ -112,7 +112,8 @@
 }
 
 .detail.sidebar .header.segment .icon{
-   font-size: 14px;
+       font-size: 20px;
+    margin-top: -5px;
 }
 
 .staff.segments{
