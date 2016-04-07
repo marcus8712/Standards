@@ -472,6 +472,7 @@ img {
 }
 
 .component.element .column > .ui.input,
+.component.element .column > .ui.checkbox,
 .component.element .column > .ui.selection{
     margin: 0 10px 0px 0;
 }
@@ -517,6 +518,11 @@ img {
     margin-top: 10px;
 }
 
+/***********************
+
+    CHECKBOX
+
+************************/
 
 
 /***********************
