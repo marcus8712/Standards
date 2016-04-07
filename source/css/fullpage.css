@@ -106,17 +106,27 @@
 
 .detail.sidebar .header.segment{
     padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .detail.sidebar .header.segment .icon{
    font-size: 14px;
 }
 
-.staff.segments,
+.staff.segments{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    
+    padding-top: 30px !important;
+    padding-bottom: 30px  !important;
+}
 .subscription.segment{
     padding-left: 40px !important;
     padding-right: 40px !important;
-    padding-top: 20px !important;
+    
+    padding-top: 35px !important;
     padding-bottom: 20px  !important;
 }
 
@@ -137,6 +147,22 @@
 
 .staff.horizontal.segments{
      border-bottom: 1px solid #ddd !important;
+}
+
+.staff.horizontal.segments .segment .name{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.staff.horizontal.segments .segment .label{
+    margin: 0;
+    padding: 1px 10px 0;
+}
+
+.staff.horizontal.segments .segment .avatar{
+    width: 70px;
+    height: 70px;
 }
 
 .icon.close {
@@ -163,7 +189,7 @@
 }
 
 .subscription.segment > .header{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -175,6 +201,7 @@
 .subscription.segment > .list > .item > .content .header{
     margin-bottom: 0;
     font-weight: 500;
+    
 }
 
 .subscription.segment > .list > .item > .app{

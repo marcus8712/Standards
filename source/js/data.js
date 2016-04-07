@@ -20,6 +20,37 @@ d3.csv("/standards/source/data/staff.csv", function(error, data) {
 })
 
 
+d3.csv("/standards/source/data/plan.csv", function(error, data) {
+    var count;
+    count = 0;
+   
+    data.forEach(function(d) {
+        var main = d3.select(".subscription .list").append("div").attr("class", "plan item");
+        
+        var content = main.append("div").attr("class", "content");
+        var app = main.append("div").attr("class", "app");
+        
+        
+        content.append("div").attr("class", "header").text(d.name);
+        if(d.link1) { 
+            app.append("img").attr("class", "ui avatar image").attr("src",d.link1); 
+        }
+        
+        if(d.link2) { 
+            app.append("img").attr("class", "ui avatar image").attr("src",d.link2); 
+        }
+        
+        if(d.link3) { 
+            app.append("img").attr("class", "ui avatar image").attr("src",d.link3); 
+        }
+       
+        count = count + 1;
+        
+        if (count == 6) throw count;
+    });
+})
+
+
 /*
 <img class="ui avatar image" src="../img/square-image.jpg">
                                             <span>Username</span>
