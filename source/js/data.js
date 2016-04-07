@@ -33,15 +33,15 @@ d3.csv("/standards/source/data/plan.csv", function(error, data) {
         
         content.append("div").attr("class", "header").text(d.name);
         if(d.link1) { 
-            app.append("img").attr("class", "ui image").attr("src",d.link1); 
+            app.append("img").attr("class", "ui avatar image").attr("src",d.link1); 
         }
         
         if(d.link2) { 
-            app.append("img").attr("class", "ui image").attr("src",d.link2); 
+            app.append("img").attr("class", "ui avatar image").attr("src",d.link2); 
         }
         
         if(d.link3) { 
-            app.append("img").attr("class", "ui image").attr("src",d.link3); 
+            app.append("img").attr("class", "ui avatar image").attr("src",d.link3); 
         }
        
         count = count + 1;
