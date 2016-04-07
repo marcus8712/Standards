@@ -25289,14 +25289,19 @@ select.ui.dropdown {
   }
 }
 
-.ui.hoiio.modal > :first-child {
-  border-top-left-radius: 0.71428571rem;
-  border-top-right-radius: 0.71428571rem;
+.ui.hoiio.modal {
+  border-radius: 0.71428571rem !important;
+}
+
+.ui.hoiio.modal > .icon:first-child + *,
+.ui.hoiio.modal > :first-child:not(.icon) {
+  border-top-left-radius: 0.71428571rem !important;
+  border-top-right-radius: 0.71428571rem !important;
 }
 
 .ui.hoiio.modal > :last-child {
-  border-bottom-left-radius: 0.71428571rem;
-  border-bottom-right-radius: 0.71428571rem;
+  border-bottom-left-radius: 0.71428571rem !important;
+  border-bottom-right-radius: 0.71428571rem !important;
 }
 
 .ui.hoiio.modal > .header {
@@ -25314,16 +25319,45 @@ select.ui.dropdown {
   padding-bottom: 2.85714286rem;
 }
 
+.ui.hoiio.modal > .actions > .approve.button {
+  padding-left: 1.42857143rem !important;
+  padding-right: 1.42857143rem !important;
+}
+
 .ui.hoiio.modal .deny.button {
   border: none;
   padding-left: 5px;
   padding-right: 5px;
+  color: #414141;
 }
 
 .ui.hoiio.modal .deny.button:hover {
   background: none;
   border: none;
   color: #008bd9;
+}
+
+/* Two FA */
+
+.twofa .email-info {
+  text-align: left !important;
+  margin-bottom: 40px;
+}
+
+.twofa .email-info img {
+  margin: 5px 10px 50px 0;
+  width: 80px;
+}
+
+.twofa > .actions {
+  display: table;
+  width: 100%;
+}
+
+.twofa > .actions > p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
 }
 /*!
  * # Semantic UI 2.1.8 - Nag
