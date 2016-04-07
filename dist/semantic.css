@@ -15031,24 +15031,6 @@ ol.ui.horizontal.list li:before,
   border-radius: 0.57142857rem;
 }
 
-/* Sign in card */
-
-.ui.auth.grid > .column > .card > .signin {
-  left: 0;
-  text-align: left;
-  display: none;
-  width: 40%;
-}
-
-/* Sign up card */
-
-.ui.auth.grid > .column > .card > .signup {
-  text-align: left;
-  float: right;
-  width: 40%;
-  padding-left: 20px;
-}
-
 .ui.auth.grid > .column > .card img {
   width: 80px;
 }
@@ -15075,15 +15057,33 @@ ol.ui.horizontal.list li:before,
   border-width: 1px;
 }
 
+/* Sign in card */
+
+.ui.auth.grid > .column > .card > .signin {
+  left: 0;
+  text-align: left;
+  display: none;
+  width: 40%;
+}
+
+/* Sign up card */
+
+.ui.auth.grid > .column > .card > .signup {
+  text-align: left;
+  float: right;
+  width: 40%;
+  padding-left: 20px;
+}
+
 /*---------------------- 
     Web Content
 ------------------------*/
 
-.ui.auth.grid > .column > .web.content {
+.ui.auth.grid > .column > .web.content,
+.ui.auth.grid > .column > .special.content {
   width: 380px;
   min-height: 450px;
   position: absolute;
-  left: 40px;
   top: 0;
   padding: 40px;
   z-index: 2;
@@ -15091,6 +15091,10 @@ ol.ui.horizontal.list li:before,
   border: 1px solid #cccccc;
   border-radius: 0.57142857rem;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+.ui.auth.grid > .column > .web.content {
+  left: 40px;
 }
 
 .ui.auth.grid > .column > .web.content a {
@@ -15111,7 +15115,9 @@ ol.ui.horizontal.list li:before,
 
 /* Sign up web content */
 
-.ui.auth.grid > .column > .web.content > .signup {
+.ui.auth.grid > .column > .web.content > .signup,
+.ui.auth.grid > .column > .web.content > .enterinfo,
+.ui.auth.grid > .column > .web.content > .twofa {
   display: none;
 }
 
@@ -15123,25 +15129,11 @@ ol.ui.horizontal.list li:before,
   padding: 15px;
 }
 
-.ui.auth.grid > .column > .web.content > .signup > .form > .field > .action.button {
-  margin-top: 30px;
-}
-
-/* Sign up enter info web content */
-
-.ui.auth.grid > .column > .web.content > .enterinfo {
-  display: none;
-}
-
-.ui.auth.grid > .column > .web.content > .enterinfo > .form > .field > .action.button {
+.ui.auth.grid > .column > .web.content .action.button {
   margin-top: 30px;
 }
 
 /* Sign in two FA web content */
-
-.ui.auth.grid > .column > .web.content > .twofa {
-  display: none;
-}
 
 .ui.auth.grid > .column > .web.content > .twofa .email-info {
   text-align: left !important;
@@ -15151,10 +15143,6 @@ ol.ui.horizontal.list li:before,
 .ui.auth.grid > .column > .web.content > .twofa .email-info img {
   margin: 5px 10px 50px 0;
   width: 80px;
-}
-
-.ui.auth.grid > .column > .web.content > .twofa > .form > .field > .action.button {
-  margin-top: 30px;
 }
 
 /*---------------------- 
@@ -15188,37 +15176,26 @@ ol.ui.horizontal.list li:before,
 
 /* Sign up mobile content */
 
-.ui.auth.grid > .column > .mobile.content > .signup {
+.ui.auth.grid > .column > .mobile.content > .signup,
+.ui.auth.grid > .column > .mobile.content > .enterinfo,
+.ui.auth.grid > .column > .mobile.content > .forgotpass,
+.ui.auth.grid > .column > .mobile.content > .twofa {
   display: none;
 }
 
-.ui.auth.grid > .column > .mobile.content > .signup > .form > .field > .ui.buttons {
+.ui.auth.grid > .column > .mobile.content .ui.buttons {
   width: 100%;
 }
 
-.ui.auth.grid > .column > .mobile.content > .signup > .form > .field > .ui.buttons .button {
+.ui.auth.grid > .column > .mobile.content .ui.buttons .button {
   padding: 15px;
 }
 
-.ui.auth.grid > .column > .mobile.content > .signup > .form > .field > .action.button {
-  margin-top: 30px;
-}
-
-/* Sign up enter info mobile content */
-
-.ui.auth.grid > .column > .mobile.content > .enterinfo {
-  display: none;
-}
-
-.ui.auth.grid > .column > .mobile.content > .enterinfo > .form > .field > .action.button {
+.ui.auth.grid > .column > .mobile.content .action.button {
   margin-top: 30px;
 }
 
 /* Sign in two fa mobile content */
-
-.ui.auth.grid > .column > .mobile.content > .twofa {
-  display: none;
-}
 
 .ui.auth.grid > .column > .mobile.content > .twofa .email-info {
   text-align: left !important;
@@ -15230,21 +15207,9 @@ ol.ui.horizontal.list li:before,
   width: 80px;
 }
 
-.ui.auth.grid > .column > .mobile.content > .twofa > .form > .field > .action.button {
-  margin-top: 30px;
-}
-
 /* Forgot pass mobile content */
 
-.ui.auth.grid > .column > .mobile.content > .forgotpass {
-  display: none;
-}
-
-.ui.auth.grid > .column > .mobile.content > .forgotpass > .form > .field > .ui.buttons {
-  width: 100%;
-}
-
-.ui.auth.grid > .column > .mobile.content > .forgotpass > .form > .field > .ui.buttons .button > .icon {
+.ui.auth.grid > .column > .mobile.content > .forgotpass .ui.buttons .button > .icon {
   margin-bottom: 8px;
 }
 
@@ -15253,17 +15218,7 @@ ol.ui.horizontal.list li:before,
 ------------------------*/
 
 .ui.auth.grid > .column > .special.content {
-  width: 380px;
-  min-height: 450px;
-  position: absolute;
   left: 190px;
-  top: 0;
-  padding: 40px;
-  z-index: 2;
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  border-radius: 0.57142857rem;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.23);
 }
 
 .ui.auth.grid > .column > .special.content {
@@ -17400,8 +17355,8 @@ Floated Menu / Item
   border: none;
   border-radius: 0;
   height: 60px;
-  padding-left: 36px  !important;
-  padding-right: 40px !important;
+  padding-left: 26px  !important;
+  padding-right: 30px !important;
 }
 
 .ui.app.menu .item {

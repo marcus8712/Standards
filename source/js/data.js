@@ -1,6 +1,6 @@
-d3.csv("/standards/connected/data/staff.csv", function(error, data) {
+d3.csv("/standards/source/data/staff.csv", function(error, data) {
     
-   
+   var count = 1;
     
     data.forEach(function(d) {
         var diventer = d3.select("table tbody").append("tr").attr("id", 'stafff' + d.id);
@@ -10,7 +10,9 @@ d3.csv("/standards/connected/data/staff.csv", function(error, data) {
         diventer.append("td").text(d.role_portal);
         diventer.append("td").text(d.subscriptons);
         diventer.append("td").text(d.last_access_portal);
-
+        
+        count = count + 1;
+        if(count == 6) break;
  
     });
 })
