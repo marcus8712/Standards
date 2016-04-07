@@ -7160,7 +7160,7 @@ img.ui.bordered.image {
   vertical-align: baseline;
   margin: 0rem 0.14285714em;
   background-color: #e8e8e8;
-  padding: 0.4rem 0.833rem;
+  padding: 0.2rem 0.833rem;
   color: #626262;
   text-transform: none;
   font-weight: normal;
@@ -7265,7 +7265,7 @@ a.ui.label:hover {
 --------------------*/
 
 .ui.header > .ui.label {
-  margin-top: -0.2rem;
+  margin-top: -0.1rem;
 }
 
 /* Remove border radius on attached segment */
@@ -7311,7 +7311,7 @@ a.ui.label:hover {
   vertical-align: baseline;
   text-transform: none;
   background: #e8e8e8;
-  padding: 0.4rem 0.833rem 0.4rem 0.5rem;
+  padding: 0.2rem 0.833rem 0.2rem 0.5rem;
   border-radius: 0.28571429rem;
   border-width: 0px !important;
 }
@@ -7320,14 +7320,14 @@ a.ui.label:hover {
   display: inline-block;
   vertical-align: top;
   height: 30px;
-  margin: -0.4rem 0.5rem -0.4rem -0.5rem;
+  margin: -0.2rem 0.5rem -0.2rem -0.5rem;
   border-radius: 0.28571429rem 0em 0em 0.28571429rem;
 }
 
 .ui.image.label .detail {
   background: rgba(0, 0, 0, 0.1);
-  margin: -0.4rem -0.833rem -0.4rem 0.5rem;
-  padding: 0.4rem 0.833rem;
+  margin: -0.2rem -0.833rem -0.2rem 0.5rem;
+  padding: 0.2rem 0.833rem;
   border-radius: 0em 0.28571429rem 0.28571429rem 0em;
 }
 
@@ -7356,8 +7356,8 @@ a.ui.label:hover {
   right: 100%;
   content: '';
   background-color: inherit;
-  width: 1.56rem;
-  height: 1.56rem;
+  width: 1.2rem;
+  height: 1.2rem;
   -webkit-transition: none;
   transition: none;
 }
@@ -8197,6 +8197,10 @@ a.ui.basic.label:hover {
 /*******************************
          Theme Overrides
 *******************************/
+
+.ui.round.label {
+  border-radius: 500rem !important;
+}
 /*!
  * # Semantic UI 2.1.8 - List
  * http://github.com/semantic-org/semantic-ui/

@@ -1,5 +1,6 @@
 d3.csv("/standards/source/data/staff.csv", function(error, data) {
-    
+    var count;
+    count = 0;
    
     data.forEach(function(d) {
         var diventer = d3.select("table tbody").append("tr").attr("id", 'staff' + d.id);
@@ -12,8 +13,13 @@ d3.csv("/standards/source/data/staff.csv", function(error, data) {
         diventer.append("td").text(d.subscriptons);
         diventer.append("td").text(d.last_access_portal);
        
+        count = count + 1;
+        
+        if (count == 5) throw false;
     });
 })
+
+alert(perfectSquare);
 /*
 <img class="ui avatar image" src="../img/square-image.jpg">
                                             <span>Username</span>

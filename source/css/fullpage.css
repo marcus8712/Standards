@@ -68,9 +68,7 @@
 }
 
 .ui.pagination.menu{
-    min-height: 38px;
-    
-    
+    min-height: 38px;   
 }
 
 .ui.pagination.menu .item{
@@ -86,3 +84,105 @@
 .ui.pagination.menu .active.item{
     background-color: rgba(238,238,238,1)
 }
+
+
+
+.ui.bottom.visible.sidebar, .ui.left.visible.sidebar, .ui.right.visible.sidebar, .ui.top.visible.sidebar{
+    box-shadow: none;
+}
+
+
+.detail.sidebar{
+    background: #fff;
+    min-width: 400px;
+   
+}
+
+.detail.sidebar .segments,
+.detail.sidebar .segments .segment,
+.detail.sidebar .segment{
+    border:none;
+}
+
+.detail.sidebar .header.segment{
+    padding: 20px 40px;
+}
+
+.detail.sidebar .header.segment .icon{
+   font-size: 14px;
+}
+
+.staff.segments,
+.subscription.segment{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px  !important;
+}
+
+.subscription.segment{
+    
+}
+
+
+
+.staff.segments > .segment{
+    padding: 0;
+}
+
+.staff.segments > .segment:last-child > img{
+    float: right;
+}
+
+
+.staff.horizontal.segments{
+     border-bottom: 1px solid #ddd !important;
+}
+
+.icon.close {
+    cursor: pointer;
+    position: absolute;
+    top: 1.64285714rem;
+    right: 1.64285714rem;
+    z-index: 1;
+    opacity: .8;
+    font-size: 1.25em;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: .625rem 0 0;
+}
+
+.subscription.segment > .list > .item {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.subscription.segment > .list > .item: hover{
+    background: none !important;
+    
+}
+
+.subscription.segment > .header{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.subscription.segment > .list > .item > .content{
+    display: inline-block
+}
+
+.subscription.segment > .list > .item > .content .header{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.subscription.segment > .list > .item > .app{
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+

@@ -7,6 +7,13 @@ $(document).ready(function() {
     // Standard
     $('.ui.dropdown').dropdown();
     
+    $('.ui.sidebar')
+        .sidebar('setting', 'transition', 'overlay')
+        .sidebar('toggle')
+    ;
+    
+    
+    
     
     /*--------------------
         PROGRESS
