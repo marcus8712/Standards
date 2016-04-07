@@ -15,11 +15,11 @@ d3.csv("/standards/source/data/staff.csv", function(error, data) {
        
         count = count + 1;
         
-        if (count == 5) throw false;
+        if (count == 5) throw count;
     });
 })
 
-alert(perfectSquare);
+
 /*
 <img class="ui avatar image" src="../img/square-image.jpg">
                                             <span>Username</span>
