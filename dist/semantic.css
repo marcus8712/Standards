@@ -15005,15 +15005,17 @@ ol.ui.horizontal.list li:before,
 }
 
 /*******************************
-         Theme Overrides
+         AUTHENTICATION
 *******************************/
 
 .ui.auth.grid > .column {
   margin-top: 98px;
-  width: 760px !important;
+  width: 760px;
 }
 
-/* Card */
+/*---------------------- 
+    Card 
+------------------------*/
 
 .ui.auth.grid > .column > .card {
   width: 760px;
@@ -15073,7 +15075,9 @@ ol.ui.horizontal.list li:before,
   border-width: 1px;
 }
 
-/* Web Content */
+/*---------------------- 
+    Web Content
+------------------------*/
 
 .ui.auth.grid > .column > .web.content {
   width: 380px;
@@ -15087,6 +15091,10 @@ ol.ui.horizontal.list li:before,
   border: 1px solid #cccccc;
   border-radius: 0.57142857rem;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+.ui.auth.grid > .column > .web.content a {
+  cursor: pointer;
 }
 
 .ui.auth.grid > .column > .web.content .header {
@@ -15107,15 +15115,51 @@ ol.ui.horizontal.list li:before,
   display: none;
 }
 
-.ui.auth.grid > .column > .web.content > .signup .ui.buttons {
+.ui.auth.grid > .column > .web.content > .signup > .form > .field > .ui.buttons {
   width: 100%;
 }
 
-.ui.auth.grid > .column > .web.content > .signup .ui.buttons .button {
+.ui.auth.grid > .column > .web.content > .signup > .form > .field > .ui.buttons > .button {
   padding: 15px;
 }
 
-/* Mobile Content */
+.ui.auth.grid > .column > .web.content > .signup > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+/* Sign up enter info web content */
+
+.ui.auth.grid > .column > .web.content > .enterinfo {
+  display: none;
+}
+
+.ui.auth.grid > .column > .web.content > .enterinfo > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+/* Sign in two FA web content */
+
+.ui.auth.grid > .column > .web.content > .twofa {
+  display: none;
+}
+
+.ui.auth.grid > .column > .web.content > .twofa .email-info {
+  text-align: left !important;
+  margin-bottom: 40px;
+}
+
+.ui.auth.grid > .column > .web.content > .twofa .email-info img {
+  margin: 5px 10px 50px 0;
+  width: 80px;
+}
+
+.ui.auth.grid > .column > .web.content > .twofa > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+/*---------------------- 
+    Mobile Content
+------------------------*/
 
 .ui.auth.grid > .column > .mobile.content {
   display: none;
@@ -15133,21 +15177,116 @@ ol.ui.horizontal.list li:before,
   font-size: 26px;
 }
 
-.ui.auth.grid > .column > .mobile.content > .signup .ui.buttons {
-  width: 100%;
-}
-
-.ui.auth.grid > .column > .mobile.content > .signup .ui.buttons .button {
-  padding: 15px;
-}
-
-.ui.auth.grid > .column > .mobile.content > .signup .action.button {
-  margin-top: 30px;
+.ui.auth.grid > .column > .mobile.content a {
+  cursor: pointer;
 }
 
 .ui.auth.grid > .column > .mobile.content form + p {
   margin-top: 30px;
   text-align: center !important;
+}
+
+/* Sign up mobile content */
+
+.ui.auth.grid > .column > .mobile.content > .signup {
+  display: none;
+}
+
+.ui.auth.grid > .column > .mobile.content > .signup > .form > .field > .ui.buttons {
+  width: 100%;
+}
+
+.ui.auth.grid > .column > .mobile.content > .signup > .form > .field > .ui.buttons .button {
+  padding: 15px;
+}
+
+.ui.auth.grid > .column > .mobile.content > .signup > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+/* Sign up enter info mobile content */
+
+.ui.auth.grid > .column > .mobile.content > .enterinfo {
+  display: none;
+}
+
+.ui.auth.grid > .column > .mobile.content > .enterinfo > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+/* Sign in two fa mobile content */
+
+.ui.auth.grid > .column > .mobile.content > .twofa {
+  display: none;
+}
+
+.ui.auth.grid > .column > .mobile.content > .twofa .email-info {
+  text-align: left !important;
+  margin-bottom: 40px;
+}
+
+.ui.auth.grid > .column > .mobile.content > .twofa .email-info img {
+  margin: 5px 10px 50px 0;
+  width: 80px;
+}
+
+.ui.auth.grid > .column > .mobile.content > .twofa > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+/* Forgot pass mobile content */
+
+.ui.auth.grid > .column > .mobile.content > .forgotpass {
+  display: none;
+}
+
+.ui.auth.grid > .column > .mobile.content > .forgotpass > .form > .field > .ui.buttons {
+  width: 100%;
+}
+
+.ui.auth.grid > .column > .mobile.content > .forgotpass > .form > .field > .ui.buttons .button > .icon {
+  margin-bottom: 8px;
+}
+
+/*---------------------- 
+    Forgot pass web content
+------------------------*/
+
+.ui.auth.grid > .column > .special.content {
+  width: 380px;
+  min-height: 450px;
+  position: absolute;
+  left: 190px;
+  top: 0;
+  padding: 40px;
+  z-index: 2;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 0.57142857rem;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.23);
+}
+
+.ui.auth.grid > .column > .special.content {
+  display: none;
+}
+
+.ui.auth.grid > .column > .special.content > .forgotpass > .form > .field > .ui.buttons {
+  width: 100%;
+}
+
+.ui.auth.grid > .column > .special.content > .forgotpass > .form > .field > .ui.buttons .button > .icon {
+  margin-bottom: 8px;
+}
+
+.ui.auth.grid > .column > .special.content > .forgotpass > .form > .field > .action.button {
+  margin-top: 30px;
+}
+
+.ui.auth.grid > .column > .special.content .header {
+  margin-bottom: 28px;
+  text-align: center !important;
+  font-size: 26px;
+  font-weight: 500 !important;
 }
 
 @media only screen and (max-width: 800px) {
@@ -15166,10 +15305,6 @@ ol.ui.horizontal.list li:before,
 
   .ui.auth.grid > .column > .mobile.content > .signin {
     display: block;
-  }
-
-  .ui.auth.grid > .column > .mobile.content > .signup {
-    display: none;
   }
 }
 /*

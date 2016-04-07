@@ -62,33 +62,7 @@
                            </div>
                         </div>
                        <div class="field">
-                            <div class="ui fluid primary action button">Continue</div>
-                        </div>    
-                   </form>
-                </div>
-                <div class="enterinfo">
-                   <div class="ui header">Enter Information</div>
-                   <form class="ui form">
-                        <div class="two fields">
-                            <div class="field">
-                               <label>First Name</label>
-                               <input type="text" placeholder="First name" name="firstname">
-                            </div>
-                            <div class="field">
-                               <label>Last Name</label>
-                               <input type="text" placeholder="Last name" name="lastname">
-                            </div>
-                        </div>
-                        <div class="field">
-                           <label>Email</label>
-                           <input type="email" name="email" placeholder="name@company.com">
-                        </div>
-                        <div class="field">
-                           <label>Password</label>
-                           <input type="password" name="password" placeholder="Minimum of 6 characters">
-                        </div>
-                        <div class="field">
-                            <div class="ui fluid primary action button">Create account</div>
+                            <button class="ui fluid primary action button" id="continue">Continue</button>
                         </div>    
                    </form>
                 </div>
@@ -140,100 +114,39 @@
                        </form>
                       <p><a>Didn’t receive the message?</a></p> 
                 </div>
-                
-            </div>
-           <div class="content web special">
                 <div class="forgotpass">
-                   <div class="ui header">Reset Password</div>
+                   <div class="ui header">ForgotPass</div>
                    <form class="ui form">
                         <div class="field">
-                               <label>Phone Number</label>
-                               <div class="ui input">
-                                   <input type="text" value="+84 " name="phone">
-                                </div>
-                           </div>
-                       <div class="field">
-                           <label>Confirm Your Identity</label>
-                           <div class="ui icon buttons">
-                              <button class="ui button">
-                                  <i class="mobile icon"></i>
-                                  <br>Text Me
-                               </button>
-                              <button class="ui button"><i class="phone icon"></i><br>Call Me</button>
-                               <button class="ui button"><i class="mail icon"></i><br> Email Me</button>
-                            </div>
-
-                        </div>
-                       <div class="field">
-                            <label>One-Time Password</label>
-                           <div class="ui input">
-                               <input type="password" name="password" placeholder="">
-                           </div>
-                        </div>
-                       <div class="field">
-                            <div class="ui fluid primary action button">Continue</div>
-                        </div>          
-                   </form>
-                 </div> 
-            </div>
-           <div class="content mobile">
-                <div class="logo"><img src="http://hoiio-assets.s3.amazonaws.com/libs/img/logo_hoiio_blue.svg"></div>
-                
-                <div class="signup">
-                    <div class="ui header">Create New Account</div>
-                    <form class="ui form">
-                       <div class="field">
-                               <label>Phone Number</label>
-                               <div class="ui input">
-                                   <input type="text" value="+84 " name="phone">
-                                </div>
-                           </div>
-                       <div class="field">
-                           <label>Confirm Your Identity</label>
-                           <div class="ui icon buttons">
-                              <button class="ui button"><i class="mobile icon"></i> Text Me</button>
-                              <button class="ui button"><i class="phone icon"></i> Call Me</button>
-                            </div>
-
-                        </div>
-                       <div class="field">
-                            <label>One-Time Password</label>
-                           <div class="ui input">
-                               <input type="password" name="password" placeholder="">
-                           </div>
-                        </div>
-                       <div class="field">
-                            <div class="ui fluid primary action button">Continue</div>
-                        </div>    
-                   </form>
-                    <p>Already have an account? <a class="signin">Sign in now!</a></p>
-                </div>
-                <div class="enterinfo">
-                   <div class="ui header">Enter Information</div>
-                   <form class="ui form">
-                        <div class="two fields">
-                            <div class="field">
-                               <label>First Name</label>
-                               <input type="text" placeholder="First name" name="firstname">
-                            </div>
-                            <div class="field">
-                               <label>Last Name</label>
-                               <input type="text" placeholder="Last name" name="lastname">
-                            </div>
-                        </div>
-                        <div class="field">
-                           <label>Email</label>
-                           <input type="email" name="email" placeholder="name@company.com">
+                           <label>Phone Number</label>
+                           <input type="text" value="+84 " name="phone">
                         </div>
                         <div class="field">
                            <label>Password</label>
                            <input type="password" name="password" placeholder="Minimum of 6 characters">
                         </div>
                         <div class="field">
-                            <div class="ui fluid primary action button">Create account</div>
+                            <div class="ui checkbox">
+                                <input type="checkbox" id="checks" class="hidden">
+                                <label for="checks">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="ui error message">
+                        <ul class="list">
+                            <li>Wrong Password</li>
+                            <li>Password required at least 6 characters</li>
+                          </ul>
+                        </div>
+                        <div class="field">
+                            <button class="ui fluid primary action button">Sign in</button>
                         </div>    
                    </form>
-                 </div>
+                   <p><a href="#">Forgot Password?</a></p>
+
+               </div>
+           </div>
+           <div class="content mobile">
+                <div class="logo"><img src="http://hoiio-assets.s3.amazonaws.com/libs/img/logo_hoiio_blue.svg"></div>
                 <div class="signin">
                     <div class="ui header">Sign in</div>
                     <form class="ui form">
@@ -261,28 +174,10 @@
                     </form>
                     <p>Don't have an account? <a class="signup">Sign up now!</a></p>
                 </div>
-                <div class="twofa">
-                    <h2 class="ui header">2-Step Verification</h2>
-                        <p class="email-info">
-                            <img align="left" src="http://d2hlei1umhw6cd.cloudfront.net/libs/img/icon_email.png" />
-                            <span>An email message with your code has been sent to *****an@hoiio.com.</span>
-                       </p>
-                       <form class="ui form">
-                           <div class="field">
-                               <div class="ui input">
-                                   <input type="text" value="abc- " name="phone">
-                                </div>
-                            </div>
-                            <div class="field">
-                                <button class="ui fluid primary action button">verify</button>
-                            </div>    
-                       </form>
-                      <p><a>Didn’t receive the message?</a></p> 
-                </div>
-                <div class="forgotpass">
-                   <div class="ui header">Reset Password</div>
-                   <form class="ui form">
-                        <div class="field">
+                <div class="signup">
+                    <div class="ui header">Create New Account</div>
+                    <form class="ui form">
+                       <div class="field">
                                <label>Phone Number</label>
                                <div class="ui input">
                                    <input type="text" value="+84 " name="phone">
@@ -291,12 +186,8 @@
                        <div class="field">
                            <label>Confirm Your Identity</label>
                            <div class="ui icon buttons">
-                              <button class="ui button">
-                                  <i class="mobile icon"></i>
-                                  <br>Text Me
-                               </button>
-                              <button class="ui button"><i class="phone icon"></i><br>Call Me</button>
-                               <button class="ui button"><i class="mail icon"></i><br> Email Me</button>
+                              <button class="ui button"><i class="mobile icon"></i> Text Me</button>
+                              <button class="ui button"><i class="phone icon"></i> Call Me</button>
                             </div>
 
                         </div>
@@ -307,12 +198,12 @@
                            </div>
                         </div>
                        <div class="field">
-                            <div class="ui fluid primary action button">Continue</div>
-                        </div>          
+                            <button class="ui fluid primary action button" id="continue">Continue</button>
+                        </div>    
                    </form>
-                </div> 
+                    <p>Already have an account? <a class="signin">Sign in now!</a></p>
+                </div>
            </div>
-            
        </div>
     </div>
     
@@ -328,7 +219,6 @@
             $('.web').addClass("slideRight");
             $('.web .signup').show();
             $('.web .signin').hide();
-            $('.web .twofa').hide();
             $('.card .signup').hide(); 
             $('.card .signin').show();
 
@@ -341,7 +231,6 @@
             $('.content').addClass("slideLeft");
             $('.content .signin').show();
             $('.content .signup').hide();
-            $('.content .enterinfo').hide();
             $('.card .signin').hide(); 
             $('.card .signup').show();
 
@@ -353,23 +242,7 @@
             $('.web > .twofa').show();
             $('.web > .signin').hide();
         });
-    });   
-        
-   $(".web .signup .action.button").click(function() {
-        $(this).each(function(){
-            $('.web > .enterinfo').show();
-            $('.web > .signup').hide();
-        });
-    }); 
-        
-    $(".web .signin a.forgotpass").click(function() {
-        $(this).each(function(){
-            $('.card').hide(); 
-            $('.web').hide();
-            $('.special.content').show();
-            
-        });
-    });      
+    });    
       
     $(".mobile .signin a.signup").click(function() {
         $(this).each(function(){
@@ -384,30 +257,6 @@
             $('.mobile > .signin').show();
         });
     });
-    
-    $(".mobile .signin a.forgotpass").click(function() {
-        $(this).each(function(){
-            $('.mobile > .signin').hide();
-            $('.mobile > .forgotpass').show();
-            
-        });
-    });      
-        
-    $(".mobile .signin .action.button").click(function() {
-        $(this).each(function(){
-            $('.mobile > .twofa').show();
-            $('.mobile > .signin').hide();
-        });
-    });   
-        
-   $(".mobile .signup .action.button").click(function() {
-        $(this).each(function(){
-            $('.mobile > .enterinfo').show();
-            $('.mobile > .signup').hide();
-        });
-    });
-        
-        
    
     </script>
 
