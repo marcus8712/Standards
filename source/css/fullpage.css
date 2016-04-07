@@ -56,6 +56,16 @@
     padding-top: 2rem;
 }
 
+
+.ui.content.segments > .ui.segment > .ui.list.grid > .column .ui.table .tbody{
+    
+}
+
+.ui.content.segments > .ui.segment > .ui.list.grid > .column .ui.table tbody tr td:first-child img{
+    margin-right: 8px;
+    margin-top: -1px;
+}
+
 .ui.pagination.menu{
     min-height: 38px;
     
