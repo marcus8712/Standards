@@ -25307,6 +25307,7 @@ select.ui.dropdown {
 .ui.hoiio.modal > .header {
   border: none;
   padding: 2.14285714rem 2.85714286rem 1.07142857rem;
+  text-transform: uppercase;
 }
 
 .ui.hoiio.modal > .content {
