@@ -207,6 +207,7 @@
 .subscription.segment > .list > .item > .content .header{
     margin-bottom: 0;
     font-weight: 500;
+    margin-top: 3px;
     
 }
 
@@ -216,7 +217,7 @@
 }
 
 .subscription.segment > .list > .item > .app .ui.avatar.image{
-
+    margin-right: 7px;
     border-radius: 0;
 
 }
