@@ -699,7 +699,7 @@ input::selection {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("http://d2hlei1umhw6cd.cloudfront.net/libs/img/bg_hexagon.png");
+  background-image: url("https://d2hlei1umhw6cd.cloudfront.net/libs/img/bg_hexagon.png");
   background-repeat: repeat;
   background-size: 50%;
   background-position: top;
@@ -3444,8 +3444,8 @@ a.ui.warning.header:hover {
 
 @font-face {
   font-family: 'Icons';
-  src: url("http://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.eot");
-  src: url("http://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.eot?#iefix") format('embedded-opentype'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.woff2") format('woff2'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.woff") format('woff'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.ttf") format('truetype'), url("http://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.svg#hoiioicons") format('svg');
+  src: url("https://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.eot");
+  src: url("https://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.eot?#iefix") format('embedded-opentype'), url("https://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.woff2") format('woff2'), url("https://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.woff") format('woff'), url("https://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.ttf") format('truetype'), url("https://d2hlei1umhw6cd.cloudfront.net/libs/font/hoiioicons.svg#hoiioicons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
