@@ -25,12 +25,12 @@
 }
 
 .ui.content.segments > .ui.segment > .ui.list.grid > .column .ui.table tbody td{
-    padding:22px 0 !important;
+    padding:17px 0 !important;
 }
 
 .ui.content.segments > .ui.segment > .ui.list.grid > .column .ui.table thead th{
     padding-left: 0 !important;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-weight: 700;
     font-size: 12.5px;
     text-transform: uppercase;
