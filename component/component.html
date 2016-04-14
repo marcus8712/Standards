@@ -21,7 +21,7 @@
     <script src="../source/js/modernizr.js"></script>
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="../source/css/style.css">
+    <link rel="stylesheet" type="text/css" href="component.css">
     
 </head>
 <body>
@@ -35,13 +35,713 @@
     <!-- Content -->
     <div id="content">
         <div class="component element">
-            <div class="ui header">#component
-            </div>
+            <div class="ui header">#component</div>
             <img src="../source/img/wave.svg">
             <div class="ui container" style="margin:0 auto;">
-                <h1>Buttons</h1>
-                <p>Buttons provides our users a simple way to trigger an event, like searching for a query at a search engine, or to interact with dialog boxes, like confirming an action.</p>
-                <div class="ui left aligned  two column stackable grid">
+                
+                <section id="accordion">
+                    <h1>Accordion</h1>
+                    <p>The accordion plugin makes it easy to make collapsing divisions of the page.</p> 
+                    <div class="ui left aligned two column stackable grid">
+                    
+                    <div class="column">
+                        <div class="ui accordion">
+                          <div class="active title">
+                            <i class="dropdown icon"></i>
+                            The standard Lorem Ipsum
+                          </div>
+                          <div class="active content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          </div>
+                          <div class="title">
+                            <i class="dropdown icon"></i>
+                            Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+                          </div>
+                          <div class="content">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                          </div>
+                          <div class="title">
+                            <i class="dropdown icon"></i>
+                           1914 translation by H. Rackham
+                          </div>
+                          <div class="content">
+                            <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui styled accordion">
+  <div class="title">
+      <i class="dropdown icon"></i>
+    The standard Lorem Ipsum
+  </div>
+  <div class="content">
+    <p class="transition hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="title">
+      <i class="dropdown icon"></i>
+    Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+  </div>
+  <div class="content">
+    <p class="transition hidden">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+  </div>
+  <div class="title">
+      <i class="dropdown icon"></i>
+    1914 translation by H. Rackham
+  </div>
+  <div class="content">
+    <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+  </div>
+</div>
+                    
+                    </div>
+                    <div class="column">
+                        <div class="ui inverted segment">
+<div class="ui inverted accordion">
+  <div class="title">
+      <i class="dropdown icon"></i>
+    The standard Lorem Ipsum
+  </div>
+  <div class="content">
+    <p class="transition hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="title">
+      <i class="dropdown icon"></i>
+    Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+  </div>
+  <div class="content">
+    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+  </div>
+  <div class="title">
+      <i class="dropdown icon"></i>
+    1914 translation by H. Rackham
+  </div>
+  <div class="content">
+    <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+  </div>
+</div>
+                                </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui accordion vertical menu">
+  <div class="item">
+    <a class="title">
+      <i class="dropdown icon"></i>
+      Size
+    </a>
+    <div class="content">
+      <div class="ui form transition hidden">
+        <div class="grouped fields">
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="size" value="small">
+              <label>Small</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="size" value="medium">
+              <label>Medium</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="size" value="large">
+              <label>Large</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="size" value="x-large">
+              <label>X-Large</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item">
+    <a class="title">
+      <i class="dropdown icon"></i>
+      Colors
+    </a>
+    <div class="content">
+      <div class="ui form">
+        <div class="grouped fields">
+          <div class="field">
+            <div class="ui checkbox">
+              <input type="checkbox" name="small">
+              <label>Red</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui checkbox">
+              <input type="checkbox" name="medium">
+              <label>Orange</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui checkbox">
+              <input type="checkbox" name="large">
+              <label>Green</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui checkbox">
+              <input type="checkbox" name="x-large">
+              <label>Blue</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+                </div>
+                </section>
+                    
+                <!-- Breadcrumb -->
+                <section id="breadcrumb">
+                    <h1>Breadcrumb</h1>
+                    <p>Breadcrumbs are a great way to show hierarchy-based information for a website. They can indicate the current page's location within a navigational hierarchy.</p> 
+                    <div class="ui left aligned two column stackable grid">
+                <div class="column">
+                    <div class="ui breadcrumb">
+                      <a class="section">Company</a>
+                      <div class="divider"> / </div>
+                      <a class="section">Department</a>
+                      <div class="divider"> / </div>
+                      <div class="section">Staff</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui breadcrumb ">
+                        <a class="section">Company</a>
+                        <div class="divider"><i class="chevron right icon"></i></div>
+                        <a class="section">Department</a>
+                        <div class="divider"><i class="chevron right icon"></i></div>
+                        <div class="section">Staff</div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui breadcrumb">
+                      <a class="section">Department</a>
+                      <div class="divider"> / </div>
+                      <div class="section">Search for: <a href="#">Hoiio Employees</a></div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui breadcrumb">
+<a class="section">Company</a>
+<div class="divider"> / </div>
+<a class="section">Department</a>
+<div class="divider"> / </div>
+<div class="active section">Staff</div>
+</div>    
+                </div>
+            </div>
+                </section>
+                
+                <!-- Image -->
+                <section id="image">
+                    <h1>Image</h1>
+                    <p>A label provides additional information about something that is often used associate to a form.</p> 
+                    <div class="ui center aligned one column stackable grid compactGrid">
+                    <div class="column">
+                        <img class="ui avatar image" src="../source/img/square-image.jpg">
+                        <span>Username</span>
+                        
+                        <div class="ui divider"></div>
+                        <div style="margin:0 auto; width:170px">
+                            <img style="float:left;margin-right:10px" class="ui radius tiny image" src="../source/img/square-image.jpg" alt="image">  
+                            <img class="ui round tiny image" src="../source/img/square-image.jpg" alt="image">  
+                        </div>
+                         <div class="ui divider"></div>
+                        <h3 style="margin-bottom:8px">Group</h3>
+                        <div class="ui tiny images">
+                          <img class="ui image" src="../source/img/square-image.jpg">
+                          <img class="ui image" src="../source/img/square-image.jpg">
+                          <img class="ui image" src="../source/img/square-image.jpg">
+                          <img class="ui image" src="../source/img/square-image.jpg">
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+                </section>
+                    
+                <!-- Menu -->
+                <section id="menu">
+                    <h1>Menu</h1>
+                    <p>A label provides additional information about something that is often used associate to a form.</p> 
+                    <div class="ui one column stackable grid">
+                        <div class="left aligned column">
+                        <div class="ui two column grid">
+                            
+                            <div class="column">
+                                <div class="ui menu">
+                          <div class="item active">Editorials</div>
+                          <div class="item">Reviews</div>
+                          <div class="item">Upcoming Events</div>
+                        </div>
+                        <div class="ui vertical menu">
+                          <div class="item active">Editorials</div>
+                          <div class="item">Reviews</div>
+                          <div class="item">Upcoming Events</div>
+                        </div>
+                        <div class="ui menu">
+                          <a href="http://www.hoiio.com" class="item">
+                            Visit Hoiio
+                          </a>
+                          <div class="link item">
+                            Contact Us
+                          </div>
+                        </div>
+                        <div class="ui menu">
+                          <a class="item">Browse</a>
+                          <a class="item">Submit</a>
+                          <div class="right menu">
+                            <a class="item">Sign Up</a>
+                            <a class="item">Help</a>
+                          </div>
+                        </div>
+                            </div>
+                            <div class="column">
+                                <div class="ui vertical menu">
+  <div class="item">
+    Main item
+    <div class="menu">
+      <a class="active item">Search</a>
+      <a class="item">Add</a>
+      <a class="item">Remove</a>
+    </div>
+  </div>
+  <a class="item">
+    <i class="grid layout icon"></i> Browse
+  </a>
+  <a class="item">
+    Messages
+  </a>
+  <div class="ui dropdown item" tabindex="0">
+    More
+    <i class="dropdown icon"></i>
+    <div class="menu transition hidden" tabindex="-1">
+      <a class="item"><i class="edit icon"></i> Edit Profile</a>
+      <a class="item"><i class="globe icon"></i> Choose Language</a>
+      <a class="item"><i class="setting icon"></i> Account Settings</a>
+    </div>
+  </div>
+</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                        <div class="left aligned column">
+
+                        <div class="ui small menu">
+<a class="active item">
+Home
+</a>
+<a class="item">
+Messages
+</a>
+<div class="right menu">
+<div class="ui dropdown item">
+  Language <i class="dropdown icon"></i>
+  <div class="menu">
+    <a class="item">English</a>
+    <a class="item">Russian</a>
+    <a class="item">Spanish</a>
+  </div>
+</div>
+<div class="item">
+    <div class="ui primary button">Sign Up</div>
+</div>
+</div>
+</div>
+
+
+                        <div class="ui menu">
+                          <div class="header item">Brand</div>
+                          <a class="active item">Link</a>
+                          <a class="item">Link</a>
+                          <div class="ui dropdown item" tabindex="0">
+                            Dropdown
+                            <i class="dropdown icon"></i>
+                            <div class="menu transition hidden" tabindex="-1">
+                              <div class="item">Action</div>
+                              <div class="item">Another Action</div>
+                              <div class="item">Something else here</div>
+                              <div class="divider"></div>
+                              <div class="item">Separated Link</div>
+                              <div class="divider"></div>
+                              <div class="item">One more separated link</div>
+                            </div>
+                          </div>
+                          <div class="right menu">
+                            <div class="item">
+                              <div class="ui action left icon input">
+                                <i class="search icon"></i>
+                                <input type="text" placeholder="Search">
+                                <button class="ui button">Submit</button>
+                              </div>
+                            </div>
+                            <a class="item">Link</a>
+                          </div>
+                        </div>
+
+                        <div class="ui inverted menu">
+                          <div class="header item">Brand</div>
+                          <div class="active item">Link</div>
+                          <a class="item">Link</a>
+                          <div class="ui dropdown item" tabindex="0">
+                            Dropdown
+                            <i class="dropdown icon"></i>
+                            <div class="menu" tabindex="-1">
+                              <div class="item">Action</div>
+                              <div class="item">Another Action</div>
+                              <div class="item">Something else here</div>
+                              <div class="divider"></div>
+                              <div class="item">Separated Link</div>
+                              <div class="divider"></div>
+                              <div class="item">One more separated link</div>
+                            </div>
+                          </div>
+                          <div class="right menu">
+                            <div class="item">
+                              <div class="ui transparent inverted icon input">
+                                <i class="search icon"></i>
+                                <input type="text" placeholder="Search">
+                              </div>
+                            </div>
+                            <a class="item">Link</a>
+                          </div>
+                        </div>
+
+                        <div class="ui secondary menu">
+                          <div class="active item">Link</div>
+                          <a class="item">Link</a>
+                          <div class="ui dropdown item" tabindex="0">
+                            Dropdown
+                            <i class="dropdown icon"></i>
+                            <div class="menu" tabindex="-1">
+                              <div class="item">Action</div>
+                              <div class="item">Another Action</div>
+                              <div class="item">Something else here</div>
+                              <div class="divider"></div>
+                              <div class="item">Separated Link</div>
+                              <div class="divider"></div>
+                              <div class="item">One more separated link</div>
+                            </div>
+                          </div>
+                          <div class="right menu">
+                            <div class="item">
+                              <div class="ui action left icon input">
+                                <i class="search icon"></i>
+                                <input type="text" placeholder="Search">
+                                <button class="ui button">Submit</button>
+                              </div>
+                            </div>
+                            <a class="item">Link</a>
+                          </div>
+                        </div>
+
+                        <div class="ui three column doubling grid">
+<div class="column">
+<div class="ui secondary pointing menu">
+  <div class="active item">Link</div>
+  <a class="item">Link</a>
+  <a class="item">Link</a>
+</div>
+</div>
+
+<div class="column">
+<div class="ui tabular menu">
+  <div class="active item">Link</div>
+  <a class="item">Link</a>
+  <a class="item">Link</a>
+</div>
+</div>
+
+<div class="column">
+<div class="ui pointing menu">
+  <div class="active item">Link</div>
+  <a class="item">Link</a>
+  <div class="right item">
+    Right Text
+  </div>
+</div>
+</div>
+</div>
+                    </div>
+                    </div>    
+                </section>
+                    
+                <!-- Message -->
+                <section id="message">
+                <h1>Message</h1>
+                <p>A label provides additional information about something that is often used associate to a form.</p> 
+                <div class="ui two column stackable grid">
+                    <div class="left aligned column">
+                        <div class="ui message">
+                          <div class="header">New Site Features</div>
+                          <div class="ui ordered list">
+                            <div class="item">You can now have cover images on blog pages</div>
+                            <div class="item">Drafts will now auto-save while writing</div>
+                          </div>
+                        </div>
+                        
+                        <div class="ui icon message">
+  <i class="inbox icon"></i>
+  <div class="content">
+    <div class="header">Have you heard about our mailing list?</div>
+    <p>Get the best news in your e-mail every day.</p>
+  </div>
+</div>
+                        <div class="ui message">
+  <i class="remove icon"></i>
+  <div class="header">
+    Welcome back!
+  </div>
+  <p>This is a special notification which you can dismiss if you're bored with it.</p>
+</div>
+                        <div class="ui floating message">
+  <p>I'm flying and floating...! </p>
+</div>  
+                        <div class="ui small message">
+  This is a very small message.
+</div>
+                        <div class="ui large message">
+                          This is large
+                        </div>
+                        <div class="ui huge message">
+                          This is huge
+                        </div>
+                        <div class="ui massive message">
+  This is massive
+</div>
+                    
+                    </div>
+                    <div class="left aligned column">
+                        <div class="ui message">
+  <div class="header">New Site Features</div>
+  <div class="ui bulleted list">
+    <div class="item">You can now have cover images on blog pages</div>
+    <div class="item">Drafts will now auto-save while writing</div>
+  </div>
+</div>
+                        <div class="ui icon message">
+  <i class="clock icon"></i>
+  <div class="content">
+    <div class="header">
+      Just one second
+    </div>
+    <p>We're fetching that content for you.</p>
+  </div>
+</div>
+                        <div class="ui error message">
+    <i class="remove icon"></i>
+                            <div class="header">We're sorry we can't apply that discount</div>
+    <p>That offer has expired</p> 
+                        </div>
+                        <div class="ui compact message">
+    <p>Get compact message now!</p>
+</div> 
+                        <div class="ui info message">
+  <i class="remove icon"></i>
+    <p><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</p>
+</div>
+                        <div class="ui success message">
+                            <i class="remove icon"></i>
+  <p><strong>Well done!</strong> You successfully read this important alert message.</p>
+</div>
+                        
+                        <div class="ui warning message">
+  <i class="remove icon"></i>
+    <p><strong>Warning!</strong> Better check yourself, you're not looking too good.</p>
+</div>
+                        <div class="ui error message">
+                            <i class="remove icon"></i>
+  <p><strong>
+    We're sorry!</strong> That offer has expired.</p>
+</div>
+                    </div>
+                    <script>
+                    $('.message .remove')
+                      .on('click', function() {
+                        $(this)
+                          .closest('.message')
+                          .transition('fade')
+                        ;
+                      })
+                    ;
+                    </script>
+                </div>
+               
+                <div class="ui one column stackable grid showGrid">
+                    <div class="left aligned column">
+                        
+ 
+                    </div>
+                </div>
+                </section>
+                    
+                <!-- Statistic -->
+                <section id="statistic">
+                    <h1>Statistic</h1>
+                    <p>A statistic can display a value with a label above or below it.</p>
+                    <div class="ui left aligned two column stackable grid">
+                    <div class="column">
+                        <div class="ui statistic">
+                          <div class="value">
+                            5,550
+                          </div>
+                          <div class="label">
+                            Downloads
+                          </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui statistics">
+                          
+                          <div class="statistic">
+                            <div class="text value">
+                              Three<br>
+                              Thousand
+                            </div>
+                            <div class="label">
+                              Signups
+                            </div>
+                          </div>
+                          <div class="statistic">
+                            <div class="value">
+                              <i class="box icon"></i> 5
+                            </div>
+                            <div class="label">
+                              boxes
+                            </div>
+                          </div>
+                          <div class="statistic">
+                            <div class="value">
+                              <img src="http://semantic-ui.com/images/avatar/small/joe.jpg" class="ui round inline image">
+                              42
+                            </div>
+                            <div class="label">
+                              Team Members
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui statistics">
+  <div class="statistic">
+    <div class="value">
+      22
+    </div>
+    <div class="label">
+      Faves
+    </div>
+  </div>
+  <div class="statistic">
+    <div class="value">
+      31,200
+    </div>
+    <div class="label">
+      Views
+    </div>
+  </div>
+  <div class="statistic">
+    <div class="value">
+      22
+    </div>
+    <div class="label">
+      Members
+    </div>
+  </div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui statistics">
+                          <div class="error statistic">
+                            <div class="value">
+                              27
+                            </div>
+                            <div class="label">
+                              error
+                            </div>
+                          </div>
+                          <div class="warning statistic">
+                            <div class="value">
+                              8
+                            </div>
+                            <div class="label">
+                              warning
+                            </div>
+                          </div>
+                            <div class="pending statistic">
+                            <div class="value">
+                              14
+                            </div>
+                            <div class="label">
+                              pending
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui horizontal statistics">
+                          <div class="statistic">
+                            <div class="value">
+                              2,204
+                            </div>
+                            <div class="label">
+                              Views
+                            </div>
+                          </div>
+                          <div class="statistic">
+                            <div class="value">
+                              3,322
+                            </div>
+                            <div class="label">
+                              Downloads
+                            </div>
+                          </div>
+                          <div class="statistic">
+                            <div class="value">
+                              22
+                            </div>
+                            <div class="label">
+                              Tasks
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="page head">
+                        <div class="ui horizontal statistic">
+                            <div class="value">
+                              105
+                            </div>
+                            <div class="label">
+                              Total<br>Contacts
+                            </div>
+                        </div>
+                        <div class="ui pending horizontal statistic">
+                        <div class="value">
+                          22
+                        </div>
+                        <div class="label">
+                          Duplicate<br>Cases
+                        </div>
+                      </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                    
+                <!-- Button -->
+                <section id="button">
+                    <h1>Buttons</h1>
+                    <p>Buttons provides our users a simple way to trigger an event, like searching for a query at a search engine, or to interact with dialog boxes, like confirming an action.</p>
+                    <div class="ui left aligned  two column stackable grid">
                     <div class="column">
                         <button class="ui button">Default button</button>
                         <button class="ui disabled button">Disabled button</button>
@@ -149,11 +849,14 @@
                     
                 </div>
                 </div>
+                </section>
+                    
                 
                 <!-- Checkbox -->
-                <h1>Checkbox</h1>
-                <p>A checkbox are used when we want to let user select one or more options from a set of alternatives. If only one option is to be selected, we use radio buttons instead. A checkbox does not require Javascript to function; it works with an input with a label.</p> 
-                <div class="ui left aligned two column stackable grid">
+                <section id="checkbox">
+                    <h1>Checkbox</h1>
+                    <p>A checkbox are used when we want to let user select one or more options from a set of alternatives. If only one option is to be selected, we use radio buttons instead. A checkbox does not require Javascript to function; it works with an input with a label.</p> 
+                    <div class="ui left aligned two column stackable grid">
                     <div class="column">
                         <div class="ui checkbox">
                           <input type="checkbox" name="example">
@@ -206,15 +909,19 @@
 </div>
                     </div>
                 </div>
-                
-              
-                
-                
-                <h1>Input</h1>
-                <p>Input fields are used to gather short information from a user. An input field can be used to gather numerical data or text responses.</p>
-                <div class="ui left aligned two column stackable grid">
+                </section>
+                    
+                <!-- Input -->
+                <section id="input">
+                    <h1>Input</h1>
+                    <p>Input fields are used to gather short information from a user. An input field can be used to gather numerical data or text responses.</p>
+                    <div class="ui left aligned two column stackable grid">
                     <div class="column">
-
+                        <div class="ui icon input">
+      <input type="text" placeholder="Search...">
+      <i class="search icon"></i>
+    </div>
+<div class="ui divider"></div>
                 <div class="ui action left icon input">
                   <i class="search icon"></i>
                   <input type="text" placeholder="Search...">
@@ -264,6 +971,14 @@
   <input type="text" placeholder="Enter number">
   <button class="ui primary button">Search</button>
 </div>  
+                        <div class="ui divider"></div>
+                        
+
+<div class="ui action input">
+  <input type="text" placeholder="Search...">
+  <button class="ui button icon"><i class="search icon"></i></button>
+</div>
+
               </div>
                     <div class="column">
                 <div class="ui right labeled left icon input">
@@ -313,10 +1028,13 @@
 
               </div>
                 </div>
-            
-                <h1>Dropdown</h1>
-                <p>A dropdown is a toggleable menu that allows the user to choose one value from a predefined list.</p>
-                <div class="ui left aligned two column stackable grid">
+                </section>
+                    
+                <!-- Dropdown -->
+                <section id="dropdown">    
+                    <h1>Dropdown</h1>
+                    <p>A dropdown is a toggleable menu that allows the user to choose one value from a predefined list.</p>
+                    <div class="ui left aligned two column stackable grid">
                     <div class="column">
                         <div class="ui dropdown button">
                           Dropdown <i class="dropdown icon"></i>
@@ -1138,10 +1856,13 @@
                         
                     </div>
                 </div>
-                
-                <h1>Label</h1>
-                <p>A label provides additional information about something that is often used associate to a form.</p>
-                <div class="ui three column stackable grid">
+                </section>
+                    
+                <!-- Label -->
+                <section id="label">    
+                    <h1>Label</h1>
+                    <p>A label provides additional information about something that is often used associate to a form.</p>
+                    <div class="ui left aligned two column stackable grid">
                     <div class="column">
                         <a class="ui image label">
                           <img src="http://semantic-ui.com/images/avatar/small/joe.jpg">
@@ -1155,9 +1876,14 @@
                           <img src="http://semantic-ui.com/images/avatar/small/stevie.jpg">
                           Stevie
                         </a>
-                    </div>
+                        <div class="ui image label">
+                            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+                          Elliot
+                          <i class="close icon"></i>
+                        </div>
+                        <div class="ui divider"></div>
+                    
                 
-                    <div class="column">
                         <a class="ui success image label">
                           <img src="http://semantic-ui.com/images/avatar/small/joe.jpg">
                           Joe
@@ -1173,23 +1899,48 @@
                           Stevie
                             <div class="detail">Co-worker</div>
                         </a>
+                        
+                        
+                        <div class="ui divider"></div>
+                        <a class="ui tag label">New</a>
+                        <a class="ui error tag label">Upcoming</a>
+                        <a class="ui info tag label">Featured</a>
+                        <div class="ui divider"></div>
+                        <a class="ui primary label">Primary</a>
+                        <a class="ui info label">Info</a>
+                        <a class="ui success label">Success</a>
+                        <a class="ui error label">Error</a>
+                        <a class="ui warning label">Warning</a> 
+                        <div class="ui divider"></div>
+                        <a class="ui circular label">1</a>
+                        <a class="ui primary circular label">2</a>
+                        <a class="ui info circular label">3</a>
+                        <a class="ui success circular label">4</a>
+                        <a class="ui error circular label">5</a>
+                        <a class="ui warning circular label">6</a>  
+                        <div class="ui divider"></div>
+                        <a class="ui empty circular label"></a>
+                        <a class="ui primary empty circular label"></a>                      
+                        <a class="ui info empty circular label"></a>
+                        <a class="ui success empty circular label"></a>
+                        <a class="ui error empty circular label"></a>
+                        <a class="ui warning empty circular label"></a>  
+                        <div class="ui divider"></div>
+                        <div class="ui mini label"> Mini </div>
+                        <div class="ui tiny label"> Tiny </div>
+                        <div class="ui small label"> Small </div>
+                        <div class="ui label label"> Medium </div>
+                        <div class="ui large label"> Large </div>
+                        <div class="ui big label"> Big </div>
+                        <div class="ui huge label"> Huge </div>
+                        <div class="ui massive label"> Massive </div>
+                        
                     </div>
+                
+                
                 
                     <div class="column">
-                        <div class="ui image label">
-                            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
-                          Elliot
-                          <i class="close icon"></i>
-                        </div>
-
-                    </div>
-                </div>
-                
-                <h3>Tooltip</h3>
-                <div class="ui one column stackable internally celled grid showTooltip">
-                    <div class="row">
-                    <div class="eight wide column">
-                       <form class="ui fluid form">
+                        <form class="ui fluid form">
                           <div class="field">
                             <input type="text" placeholder="First name">
                             <div class="ui label pointing">
@@ -1197,9 +1948,7 @@
                             </div>
                           </div>
                         </form>
-                    </div>
-                
-                    <div class="eight wide column">
+                        <div class="ui divider"></div>
                         <form class="ui fluid form">
                           <div class="field">
                             <div class="ui label pointing below primary">
@@ -1208,10 +1957,7 @@
                             <input type="text" placeholder="Last Name">
                           </div>
                         </form>
-                    </div>
-                    </div>
-                    <div class="row">
-                    <div class="eight wide column">
+                        <div class="ui divider"></div>
                         <form class="ui fluid form">
                        <div class="field inline">
                         <input type="text" placeholder="Username">
@@ -1220,88 +1966,21 @@
                         </div>
                       </div>
                             </form>
-                    </div>
-                    
-                    <div class="eight wide column">
+                        <div class="ui divider"></div>
                         <form class="ui fluid form">
-                       <div class="field inline">
+                        <div class="field inline">
                         <div class="ui label right pointing error">
-                          Your password must be 6 characters or more
+                          Password must be 6 characters
                         </div>
                         <input type="password" placeholder="Password">
                       </div>
                             </form>
-                    </div>
-                    </div>
-                </div>
-                
-                <h3>Tag</h3>
-                <div class="ui grid">
-                    <div class="column">
-                        <a class="ui tag label">New</a>
-                        <a class="ui error tag label">Upcoming</a>
-                        <a class="ui info tag label">Featured</a>
-                    </div>    
-                </div>
-                
-                <h3>Colors</h3>
-                <div class="ui grid">
-                    <div class="column">
-                        <a class="ui primary label">Primary</a>
-                        <a class="ui info label">Info</a>
-                        <a class="ui success label">Success</a>
-                        <a class="ui error label">Error</a>
-                        <a class="ui warning label">Warning</a>  
-                    </div>    
-                </div>
-                
-                <h3>Circular</h3>
-                <div class="ui one column grid">
-                    <div class="column">
-                        <a class="ui circular label">1</a>
-                        <a class="ui primary circular label">2</a>
-                        <a class="ui info circular label">3</a>
-                        <a class="ui success circular label">4</a>
-                        <a class="ui error circular label">5</a>
-                        <a class="ui warning circular label">6</a>  
-                    </div>
-                    <div class="column">
-                        <a class="ui empty circular label"></a>
-                        <a class="ui primary empty circular label"></a>                      
-                        <a class="ui info empty circular label"></a>
-                        <a class="ui success empty circular label"></a>
-                        <a class="ui error empty circular label"></a>
-                        <a class="ui warning empty circular label"></a>  
-                    </div>    
-                </div>
-                
-                <h3>Pointing</h3>
-                <div class="ui grid">
-                    <div class="column">
+                        <div class="ui divider"></div>
                         <a class="ui basic label">Basic</a>
-<a class="ui pointing basic label">Pointing</a>
-<a class="ui pointing error basic label">Error Pointing</a>
-<a class="ui primary basic label">primary</a>
-                    </div>    
-                </div>
-                
-                <h3>Sizes</h3>
-                <div class="ui grid">
-                    <div class="column">
-                        <div class="ui mini label"> Mini </div>
-<div class="ui tiny label"> Tiny </div>
-<div class="ui small label"> Small </div>
-<div class="ui label label"> Medium </div>
-<div class="ui large label"> Large </div>
-<div class="ui big label"> Big </div>
-<div class="ui huge label"> Huge </div>
-<div class="ui massive label"> Massive </div>
-                    </div>    
-                </div>
-                
-                <h3>Labels</h3>
-                <div class="ui grid">
-                    <div class="column">
+                        <a class="ui pointing basic label">Pointing</a>
+                        <a class="ui pointing error basic label">Error Pointing</a>
+                        <a class="ui primary basic label">primary</a>
+                        <div class="ui divider"></div>
                         <div class="ui primary labels">
   <a class="ui label">
     Fun <i class="icon close"></i>
@@ -1320,13 +1999,7 @@
     Exciting
   </a>
 </div>
-                    </div>
-                    
-                </div>
-                
-                <h3>Tags</h3>
-                <div class="ui grid">
-                    <div class="column">
+                        <div class="ui divider"></div>
                         <div class="ui tag labels">
   <a class="ui label">
     $10.00
@@ -1340,28 +2013,947 @@
   <a class="ui label">
     $30.99
   </a>
-  <a class="ui label">
-    $10.25
-  </a>
+
 </div>
-                    </div>
-                    
-                </div>
-                
-                <h3>Round</h3>
-                <div class="ui grid">
-                    <div class="column">
+                        <div class="ui divider"></div>
                         <a class="ui primary round label">Primary</a>
                         <a class="ui info round label">Info</a>
                         <a class="ui success round label">Success</a>
                         <a class="ui error round label">Error</a>
                         <a class="ui warning round label">Warning</a>  
-                    </div>    
+                    </div>
+          
                 </div>
+                </section>
+                    
+                <!-- List -->
+                <section id="list">
+                    <h1>List</h1>
+                    <p>Lists are used to group items together in order to view and access easily. By default, a list is displayed without <b>list-style-type</b> property. You can use numbers or dots as the default list item marker with <b>ordered</b> or <b>bulleted</b>.</p>
+                    <div class="ui left aligned two column stackable grid showList">
+                        <div class="column">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                <div class="ui bulleted list">
+      <div class="item">Orange</div>
+      <div class="item">Green</div>
+      <div class="item">Blue</div>
+    </div>
+                            </div>
+                                <div class="column">
+                            <div class="ui ordered list">
+      <div class="item">View items</div>
+      <div class="item">Select an item</div>
+      <div class="item">Export the item</div>
+    </div>
+                            </div>
+                            </div>
+                            <div class="ui divider"></div>
+                            <div class="ui horizontal bulleted link list">
+      <a class="item">
+        Terms and Conditions
+      </a>
+      <a class="item">
+        Privacy Policy
+      </a>
+      <a class="item">
+        Contact Us
+      </a>
+    </div>
+                            <div class="ui divider"></div>
+                            <div class="ui list">
+      <div class="item">
+        <img class="ui avatar image" src="http://semantic-ui.com/images/avatar2/small/rachel.png">
+        <div class="content">
+          <a class="header">Rachel</a>
+          <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="ui avatar image" src="http://semantic-ui.com/images/avatar2/small/lindsay.png">
+        <div class="content">
+          <a class="header">Lindsay</a>
+          <div class="description">Last seen watching <a><b>Bob's Burgers</b></a> 10 hours ago.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="ui avatar image" src="http://semantic-ui.com/images/avatar2/small/matthew.png">
+        <div class="content">
+          <a class="header">Matthew</a>
+          <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>
+        </div>
+      </div>
+    </div>
+
+
+                             <div class="ui divider"></div>
+                             <div class="ui horizontal list">
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/daniel.jpg">
+            <div class="content">
+              <div class="header">Daniel Louise</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/stevie.jpg">
+            <div class="content">
+              <div class="header">Stevie Feliciano</div>
+
+            </div>
+          </div>
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+            <div class="content">
+              <div class="header">Elliot Fu</div>
+
+            </div>
+          </div>
+        </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <div class="ui list">
+          <div class="item">
+            <i class="location icon"></i>
+            <div class="content">
+               <div class="header">New York City</div>
+               <div class="description">A lovely city</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="location icon"></i>  
+            <div class="content">
+               <div class="header">Chicago</div>
+               <div class="description">Also quite a lovely city</div>
+            </div>        
+          </div>
+          <div class="item">
+            <i class="help icon"></i>
+            What a lovely city
+          </div>
+        </div>
+
+    </div>
+                                <div class="column">
+                                    <div class="ui list">
+          <div class="item">
+            <a class="header">New York City</a>
+            <div class="description">A lovely city</div>
+          </div>
+          <div class="item">
+            <a class="header">Chicago</a>
+            <div class="description">Also quite a lovely city</div>
+          </div>
+          <div class="item">
+            <a class="header">Los Angeles</a>
+            <div class="description">Sometimes can be a lovely city</div>
+          </div>
+          <div class="item">
+            <a class="header">San Francisco</a>
+            <div class="description">What a lovely city</div>
+          </div>
+        </div>
+    </div>
+                            </div>
+                            <div class="ui divider"></div>
+                            <div class="ui two column grid">
+                              <div class="column">
+                            <div class="ui middle aligned list">
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/daniel.jpg">
+            <div class="content">
+              <a class="header">Daniel Louise</a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/stevie.jpg">
+            <div class="content">
+              <a class="header">Stevie Feliciano</a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+            <div class="content">
+              <a class="header">Elliot Fu</a>
+            </div>
+          </div>
+         </div>
+                                  </div>  
+                                <div class="column">
+                             <div class="ui middle aligned selection list">
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/helen.jpg">
+            <div class="content">
+              <div class="header">Helen</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/christian.jpg">
+            <div class="content">
+              <div class="header">Christian</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/daniel.jpg">
+            <div class="content">
+              <div class="header">Daniel</div>
+            </div>
+          </div>
+        </div>
+                         </div> 
+                        </div>
+                            <div class="ui divider"></div>
+                            <div class="ui horizontal list">
+    <div class="item">
+    <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/tom.jpg">
+    <div class="content">
+      <div class="header">Tom</div>
+      Contributor
+    </div>
+    </div>
+    <div class="item">
+    <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/christian.jpg">
+    <div class="content">
+      <div class="header">Rocha</div>
+      Admin
+    </div>
+    </div>
+    <div class="item">
+    <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/matt.jpg">
+    <div class="content">
+      <div class="header">Matt</div>
+      User
+    </div>
+    </div>
+    </div>
+                        </div>
+
+
+
+                    </div>
+                </section>
+                    
+                <!-- Step -->
+                <section id="step">    
+                    <h1>Step</h1>
+                    <p>A step shows the completion status of an activity in a series of activities.</p>
+                    <div class="ui left aligned one column stackable grid">
+                    <div class="column">
+                        <div class="ui steps">
+                          <a class="step">
+                            <i class="paper plane icon"></i>
+                            <div class="content">
+                              <div class="title">Normal Step</div>
+                              <div class="description">Show description 1</div>
+                            </div>
+                          </a>
+                          <div class="active step">
+                            <i class="credit card icon"></i>
+                            <div class="content">
+                              <div class="title">Active Step</div>
+                              <div class="description">Show description 2</div>
+                            </div>
+                          </div>
+                          <div class="disabled step">
+                            <i class="info icon"></i>
+                            <div class="content">
+                              <div class="title">Disabled Step</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="column">
+                                <div class="ui ordered steps">
+  <a class="step">
+    <div class="content">
+      <div class="title">Ordered Step</div>
+      <div class="description">Show description 1</div>
+    </div>
+  </a>
+  <a class="step">
+    <div class="content">
+      <div class="title">Ordered Step</div>
+      <div class="description">Show description 2</div>
+    </div>
+  </a>
+  <div class="active step">
+    <div class="content">
+      <div class="title">Confirm Order</div>
+      <div class="description">Verify order details</div>
+    </div>
+  </div>
+</div>
+                            </div>
+                            
+                        <div class="ui divider"></div>
+                        <div class="ui ordered steps">
+  <a class="completed step">
+    <div class="content">
+      <div class="title">Completed Step</div>
+      <div class="description">Show description 1</div>
+    </div>
+  </a>
+  <a class="completed step">
+    <div class="content">
+      <div class="title">Completed Step</div>
+      <div class="description">Show description 2</div>
+      </div>
+   </a>
+  <div class="active step">
+    <div class="content">
+      <div class="title">Confirm Order</div>
+      <div class="description">Verify order details</div>
+    </div>
+  </div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui vertical steps">
+                          <div class="completed step">
+                            <i class="truck icon"></i>
+                            <div class="content">
+                              <div class="title">Shipping</div>
+                              <div class="description">Choose your shipping options</div>
+                            </div>
+                          </div>
+                          <div class="completed step">
+                            <i class="credit card icon"></i>
+                            <div class="content">
+                              <div class="title">Billing</div>
+                              <div class="description">Enter billing information</div>
+                            </div>
+                          </div>
+                          <div class="active step">
+                            <i class="info icon"></i>
+                            <div class="content">
+                              <div class="title">Confirm Order</div>
+                              <div class="description">Verify order details</div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                    
                 
+                </div>
+                </section>
+                    
+                <!-- Table -->
+                <section id="table">
+                    <h1>Table</h1>
+                    <p></p>
+                    <div class="ui two column stackable grid">
+                  <div class="column">
+                    <table class="ui right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Delmar</td>
+                          <td>36</td>
+                          <td>36g</td>
+                          <td>2g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Louise</td>
+                          <td>24</td>
+                          <td>24g</td>
+                          <td>29g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Terrell</td>
+                          <td>22</td>
+                          <td>11g</td>
+                          <td>9g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Marion</td>
+                          <td>7</td>
+                          <td>35g</td>
+                          <td>3g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Clayton</td>
+                          <td>7</td>
+                          <td>38g</td>
+                          <td>20g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui right aligned celled table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Drema</td>
+                          <td class="positive">15</td>
+                          <td class="negative">26g</td>
+                          <td class="warning">8g</td>
+                        </tr>
+                        <tr class="positive">
+                          <td class="left aligned">Nona</td>
+                          <td>11</td>
+                          <td>21g</td>
+                          <td>16g</td>
+                        </tr>
+                        <tr class="negative">
+                          <td class="left aligned">Isidra</td>
+                          <td>34</td>
+                          <td>43g</td>
+                          <td>11g</td>
+                        </tr>
+                        <tr class="warning">
+                          <td class="left aligned">Bart</td>
+                          <td>41</td>
+                          <td>40g</td>
+                          <td>30g</td>
+                        </tr>
+                        <tr class="selected">
+                          <td class="left aligned">Nguyet</td>
+                          <td>41</td>
+                          <td>44g</td>
+                          <td>28g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui basic right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Mirna</td>
+                          <td>1</td>
+                          <td>28g</td>
+                          <td>29g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Fernando</td>
+                          <td>38</td>
+                          <td>2g</td>
+                          <td>48g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Lisette</td>
+                          <td>18</td>
+                          <td>9g</td>
+                          <td>23g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Ahmad</td>
+                          <td>42</td>
+                          <td>26g</td>
+                          <td>49g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Laquanda</td>
+                          <td>27</td>
+                          <td>27g</td>
+                          <td>49g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui very basic right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Drema</td>
+                          <td>15</td>
+                          <td>26g</td>
+                          <td>8g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Nona</td>
+                          <td>11</td>
+                          <td>21g</td>
+                          <td>16g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Isidra</td>
+                          <td>34</td>
+                          <td>43g</td>
+                          <td>11g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Bart</td>
+                          <td>41</td>
+                          <td>40g</td>
+                          <td>30g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Nguyet</td>
+                          <td>41</td>
+                          <td>44g</td>
+                          <td>28g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui celled selectable right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Tasia</td>
+                          <td>12</td>
+                          <td>7g</td>
+                          <td>21g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Ronnie</td>
+                          <td>38</td>
+                          <td>37g</td>
+                          <td>38g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Gabriel</td>
+                          <td>30</td>
+                          <td>46g</td>
+                          <td>46g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Logan</td>
+                          <td>12</td>
+                          <td>21g</td>
+                          <td>39g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Clare</td>
+                          <td>39</td>
+                          <td>41g</td>
+                          <td>2g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui striped right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Rosaline</td>
+                          <td>5</td>
+                          <td>35g</td>
+                          <td>6g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Barrie</td>
+                          <td>27</td>
+                          <td>23g</td>
+                          <td>28g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Trinidad</td>
+                          <td>14</td>
+                          <td>50g</td>
+                          <td>7g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Jaqueline</td>
+                          <td>31</td>
+                          <td>30g</td>
+                          <td>50g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Tamala</td>
+                          <td>18</td>
+                          <td>6g</td>
+                          <td>13g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui padded celled right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Lianne</td>
+                          <td>23</td>
+                          <td>32g</td>
+                          <td>43g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Joette</td>
+                          <td>21</td>
+                          <td>13g</td>
+                          <td>31g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Le</td>
+                          <td>28</td>
+                          <td>39g</td>
+                          <td>23g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Sacha</td>
+                          <td>46</td>
+                          <td>43g</td>
+                          <td>13g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Bruna</td>
+                          <td>9</td>
+                          <td>47g</td>
+                          <td>12g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui definition celled right aligned table">
+                      <thead>
+                        <tr><th></th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Lianne</td>
+                          <td>23</td>
+                          <td>32g</td>
+                          <td>43g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Joette</td>
+                          <td>21</td>
+                          <td>13g</td>
+                          <td>31g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Le</td>
+                          <td>28</td>
+                          <td>39g</td>
+                          <td>23g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Sacha</td>
+                          <td>46</td>
+                          <td>43g</td>
+                          <td>13g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Bruna</td>
+                          <td>9</td>
+                          <td>47g</td>
+                          <td>12g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui inverted right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Lianne</td>
+                          <td>23</td>
+                          <td>32g</td>
+                          <td>43g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Joette</td>
+                          <td>21</td>
+                          <td>13g</td>
+                          <td>31g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Le</td>
+                          <td>28</td>
+                          <td>39g</td>
+                          <td>23g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Sacha</td>
+                          <td>46</td>
+                          <td>43g</td>
+                          <td>13g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Bruna</td>
+                          <td>9</td>
+                          <td>47g</td>
+                          <td>12g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="column">
+                    <table class="ui inverted blue selectable celled right aligned table">
+                      <thead>
+                        <tr><th class="left aligned">Person</th>
+                        <th>Calories</th>
+                        <th>Fat</th>
+                        <th>Protein</th>
+                      </tr></thead>
+                      <tbody>
+                        <tr>
+                          <td class="left aligned">Lianne</td>
+                          <td>23</td>
+                          <td>32g</td>
+                          <td>43g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Joette</td>
+                          <td>21</td>
+                          <td>13g</td>
+                          <td>31g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Le</td>
+                          <td>28</td>
+                          <td>39g</td>
+                          <td>23g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Sacha</td>
+                          <td>46</td>
+                          <td>43g</td>
+                          <td>13g</td>
+                        </tr>
+                        <tr>
+                          <td class="left aligned">Bruna</td>
+                          <td>9</td>
+                          <td>47g</td>
+                          <td>12g</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+
+                </div>
+                </section>
+                    
+                <!-- Form  -->
+                <section id="form">    
+                    <h1>Form</h1>
+                    <p></p>
+                    <div class="ui left aligned two column stackable grid">
+                    <div class="column">
+                        
+                        <div class="ui form">
+  <div class="inline field">
+    <label>Inline field</label>
+    <input type="text" placeholder="1">
+  </div>
+</div>
+                        
+                        <div class="ui divider"></div>
+                        <div class="ui form">
+  <div class="inline fields">
+    <label>Inline fields</label>
+    <div class="field">
+      <input type="text">
+    </div>
+    <div class="field">
+      <input type="text">
+    </div>
+
+  </div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui equal width form">
+  <div class="fields">
+    <div class="field">
+      <label>Equal field 1</label>
+      <input type="text">
+    </div>
+    <div class="field">
+      <label>Equal field 2</label>
+      <input type="text">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Equal field 1</label>
+      <input type="text">
+    </div>
+    <div class="field">
+      <label>Equal field 2</label>
+      <input type="text">
+    </div>
+    <div class="field">
+      <label>Equal field 3</label>
+      <input type="text">
+    </div>
+  </div>
+</div>
+                        <div class="ui divider"></div>
+                        
+                        <div class="ui form">
+  <div class="fields">
+    <div class="six wide field">
+      <label>Six wide field</label>
+      <input type="text" placeholder="6">
+    </div>
+    <div class="four wide field">
+      <label>Four wide field</label>
+      <input type="text" placeholder="4">
+    </div>
+    <div class="six wide field">
+      <label>Six wide field</label>
+      <input type="text" placeholder="6">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="two wide field">
+      <input type="text" placeholder="2">
+    </div>
+    <div class="twelve wide field">
+      <input type="text" placeholder="12">
+    </div>
+    <div class="two wide field">
+      <input type="text" placeholder="2">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="eight wide field">
+      <input type="text" placeholder="8">
+    </div>
+    <div class="six wide field">
+      <input type="text" placeholder="6">
+    </div>
+    <div class="two wide field">
+      <input type="text" placeholder="2">
+    </div>
+  </div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui form">
+  <div class="field">
+    <label>Text</label>
+    <textarea></textarea>
+  </div>
+  
+  <div class="field">
+    <label>Short Text</label>
+    <textarea rows="2"></textarea>
+  </div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui form">
+    <div class="required field">
+      <label>Required field</label>
+      <input type="text">
+    </div>
+    <div class="required inline field">
+      <div class="ui checkbox">
+        <input type="checkbox">
+        <label>Required checkbox</label>
+      </div>
+    </div>
+    
+</div>
+                    </div>
+                    <div class="column">
+                        <div class="ui form">
+  <div class="field">
+    <label>First Name</label>
+    <input type="text" name="first-name" placeholder="First Name">
+  </div>
+  <div class="field">
+    <label>Last Name</label>
+    <input type="text" name="last-name" placeholder="Last Name">
+  </div>
+  <div class="field">
+    <div class="ui checkbox">
+      <input type="checkbox" id="checks2" class="hidden">
+      <label for="checks2">I agree to the Terms and Conditions</label>
+    </div>
+  </div>
+  <button class="ui primary button" type="submit">Submit</button>
+</div>
+                        
+                        <div class="ui divider"></div>
+                        <div class="ui form success">
+  <div class="field">
+    <label>Success field</label>
+    <input type="email" placeholder="marcus@hoiio.com">
+  </div>
+  <div class="ui success message">
+      
+    <p>Success message</p>
+  </div>
+  <div class="ui button">Submit</div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui form error">
+  <div class="field">
+    <label>Error field</label>
+    <input type="email" placeholder="marcus@hoiio.com">
+  </div>
+  <div class="ui error message">
+    <div class="header">Error header</div>
+    <p>Error message</p>
+  </div>
+  <div class="ui submit button">Submit</div>
+</div>
+                        <div class="ui divider"></div>
+                        <div class="ui form warning">
+  <div class="field">
+    <label>Warning field</label>
+    <input type="email" placeholder="marcus@hoiio.com">
+  </div>
+  <div class="ui warning message">
+    <div class="header">Warning header</div>
+    <ul class="list">
+      <li>Warning message 1</li>
+        <li>Warning message 2</li>
+    </ul>
+  </div>
+  <div class="ui submit button">Submit</div>
+</div>
+                    </div>
+                </div>
+                </section>
                 
             </div>
-            
         </div>
     </div>
     

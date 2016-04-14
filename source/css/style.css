@@ -465,10 +465,14 @@ img {
 
 ************************/
 
+.ui.button{
+    height: 36px;
+}
 
 .component.element .column > .ui.button,
 .component.element .column > .ui.buttons{
     margin: 0 10px 0px 0;
+    
 }
 
 .component.element .column > .ui.input,
